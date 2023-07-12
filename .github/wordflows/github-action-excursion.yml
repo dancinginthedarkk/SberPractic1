@@ -2,23 +2,8 @@ name: CI/CD
 on:
   push:
     branches:
-      - frontend
       - backend
     jobs:
-      frontend:
-        runs-on: ubuntu-latest
-        steps:
-          - name: Checkout code
-          uses: actions/checkout@v3
-          - name: Setup Node.js
-          uses: actions/setup-node@v3
-          with:
-          node-version: 17.x
-          - name: Install dependencies
-          run: npm install
-          - name: Run tests
-          run: npm test
-          
       backend:
         runs-on: ubuntu-latest
         steps:
