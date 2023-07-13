@@ -1,18 +1,28 @@
 {
   "files": {
     "main.css": "/SberPractic1/static/css/main.e6c13ad2.css",
-    "main.js": "/SberPractic1/static/js/main.0fd38428.js",
+    "main.js": "/SberPractic1/static/js/main.8c266777.js",
     "static/media/content-office.svg": "/SberPractic1/static/media/content-office.c91d3aa4e0d5c078fed36a4c48525eac.svg",
     "static/media/content-office-job.svg": "/SberPractic1/static/media/content-office-job.512b7d8bee77346091859bf43fa09631.svg",
     "static/media/test-panorama.svg": "/SberPractic1/static/media/test-panorama.df5c9100d3d9c7205ef43f5e3a797d50.svg",
-    "static/media/loca-1.svg": "/SberPractic1/static/media/loca-1.772cc136e5c323c1c68054e35b10c6ac.svg",
+    "static/media/coworking.svg": "/SberPractic1/static/media/coworking.bd2b0308df5517f7aa048d268a41422b.svg",
+    "static/media/kitchen.svg": "/SberPractic1/static/media/kitchen.b098abf082f3fac3f04eb26cc9d3e440.svg",
+    "static/media/meeting.svg": "/SberPractic1/static/media/meeting.7d3b7c72fcdaedf0c2856f36a02851aa.svg",
+    "static/media/terassa.svg": "/SberPractic1/static/media/terassa.c892466e468df7da0c84bb3ea351d63e.svg",
+    "static/media/gaming.svg": "/SberPractic1/static/media/gaming.662eab8ed552b180b2db022d571b6eda.svg",
+    "static/media/hall.svg": "/SberPractic1/static/media/hall.772cc136e5c323c1c68054e35b10c6ac.svg",
+    "static/media/background-banner-main.svg": "/SberPractic1/static/media/background-banner-main.6d5ce8fce09bb2d9ab9407960337c413.svg",
     "static/media/header-logo.svg": "/SberPractic1/static/media/header-logo.d1c4e0f437c623cd3d8656feb0b6066e.svg",
+    "static/media/background-banner.svg": "/SberPractic1/static/media/background-banner.0c5f0cd726fdb8c1ad3854c4ea328e60.svg",
+    "static/media/algae-1.svg": "/SberPractic1/static/media/algae-1.e06f4dce964fdb1eee0070d4232a770e.svg",
+    "static/media/algae-2.svg": "/SberPractic1/static/media/algae-2.829b5cdc57035d74d98f04a240de6cb8.svg",
+    "static/media/arrow-right.svg": "/SberPractic1/static/media/arrow-right.0b745d94cfff4a19da4c56cce48aa8b6.svg",
     "index.html": "/SberPractic1/index.html",
     "main.e6c13ad2.css.map": "/SberPractic1/static/css/main.e6c13ad2.css.map",
-    "main.0fd38428.js.map": "/SberPractic1/static/js/main.0fd38428.js.map"
+    "main.8c266777.js.map": "/SberPractic1/static/js/main.8c266777.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0fd38428.js"
+    "static/js/main.8c266777.js"
   ]
 }
