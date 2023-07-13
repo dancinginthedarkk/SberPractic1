@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/SberPractic1/static/css/main.e6c13ad2.css",
+    "main.js": "/SberPractic1/static/js/main.7beea0f0.js",
+    "static/media/content-office.svg": "/SberPractic1/static/media/content-office.c91d3aa4e0d5c078fed36a4c48525eac.svg",
+    "static/media/content-office-job.svg": "/SberPractic1/static/media/content-office-job.512b7d8bee77346091859bf43fa09631.svg",
+    "static/media/test-panorama.svg": "/SberPractic1/static/media/test-panorama.df5c9100d3d9c7205ef43f5e3a797d50.svg",
+    "static/media/loca-1.svg": "/SberPractic1/static/media/loca-1.772cc136e5c323c1c68054e35b10c6ac.svg",
+    "static/media/header-logo.svg": "/SberPractic1/static/media/header-logo.d1c4e0f437c623cd3d8656feb0b6066e.svg",
+    "index.html": "/SberPractic1/index.html",
+    "main.e6c13ad2.css.map": "/SberPractic1/static/css/main.e6c13ad2.css.map",
+    "main.7beea0f0.js.map": "/SberPractic1/static/js/main.7beea0f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7beea0f0.js"
+  ]
+}
