@@ -16,7 +16,7 @@ export const Container = styled.div`
   background-image: url(${banner});
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 `;
 
 export const ImageBanner = styled.img`

@@ -84,6 +84,7 @@ export const PanoramaContent = styled.img<PanoramaProps>`
   border-radius: 60px;
   height: 671px;
   filter: ${props => (props.isActive ? 'none' : 'brightness(0.6)')};
+  object-fit: cover;
 `;
 
 export const ButtonPanorama = styled(DefaultButton)`
