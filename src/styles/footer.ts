@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
-  width: 90%;
+  //width: 90%;
   height: 70px;
   display: flex;
   justify-content: center;

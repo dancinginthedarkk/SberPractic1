@@ -3,7 +3,7 @@ import { Typography } from './global';
 const panorama: string = require('../assets/test-panorama.svg').default;
 
 export const Container = styled.div`
-  width: 90%;
+  //width: 85%;
   margin-bottom: 100px;
   align-items: center;
   display: flex;

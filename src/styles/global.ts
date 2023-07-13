@@ -9,6 +9,12 @@ export const Container = styled.div`
   margin-bottom: 32px;
 `;
 
+export const InsideContainer = styled.div`
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const Typography = styled.p`
   color: #ededed;
   font-family: Inter, sans-serif;

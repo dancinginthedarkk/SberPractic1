@@ -20,7 +20,7 @@ export const swellAnimation = keyframes`
 `;
 
 export const Container = styled.div`
-  width: 78%;
+  //width: 73%;
   //height: 579px;
   border-radius: 60px;
   background: var(--unnamed, linear-gradient(90deg, #4ed1be 0%, #2dbe64 63.33%, #a1de83 100%));

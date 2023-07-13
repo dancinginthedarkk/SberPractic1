@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Typography } from './global';
 
 export const Container = styled.div`
-  width: 85%;
+  //width: 80%;
   //height: 535px;
   border-radius: 60px;
   background: rgba(53, 195, 120, 0.1);

@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
-  width: 90%;
+  //width: 85%;
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: end;
-  //border-bottom: 1px solid black;
 `;
 
 export const Logo = styled.img`
