@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import { Typography } from './global';
 
+const banner: string = require('../assets/background-banner.svg').default;
+
 export const Container = styled.div`
-  //width: 80%;
-  //height: 535px;
   border-radius: 60px;
-  background: rgba(53, 195, 120, 0.1);
+  background-color: rgba(53, 195, 120, 0.1);
   display: flex;
   flex-direction: row;
   margin-bottom: 100px;
@@ -13,6 +13,10 @@ export const Container = styled.div`
   justify-content: center;
   gap: 72px;
   padding: 68px 43px;
+  background-image: url(${banner});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 `;
 
 export const ImageBanner = styled.img`

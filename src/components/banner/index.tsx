@@ -9,6 +9,7 @@ import {
   TypographyH1,
   Wave
 } from '../../styles/banner';
+import { HashLink } from 'react-router-hash-link';
 const office: string = require('../../assets/content-office.svg').default;
 
 export const Banner = () => {
@@ -28,9 +29,9 @@ export const Banner = () => {
           корпоративное кредитование (включая торговое финансирование), документарный бизнес, инвестиционно-банковские
           услуги, торговые операции с ценными бумагами, собственные инвестиции.
         </TypographyDescription>
-        <a href="#panorama">
+        <HashLink to="/#panorama">
           <Button360>Экскурсия 360°</Button360>
-        </a>
+        </HashLink>
       </InfoBanner>
       <ImageBanner src={office} alt="Изображение офиса" />
     </Container>

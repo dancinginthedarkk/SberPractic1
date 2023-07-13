@@ -1,7 +1,7 @@
 import styled from 'styled-components';
+import { DefaultButton } from './global';
 
 export const HeaderContainer = styled.div`
-  //width: 85%;
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -13,21 +13,9 @@ export const Logo = styled.img`
   height: 76px;
 `;
 
-export const Button360 = styled.button`
-  border-radius: 20px;
+export const Button360 = styled(DefaultButton)`
   background: #35c378;
-  height: 70px;
-  padding: 21px 65px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border: 0;
   color: #f0f3fd;
-  font-family: Inter, sans-serif;
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 500;
-  cursor: pointer;
 
   a {
     text-decoration: none;

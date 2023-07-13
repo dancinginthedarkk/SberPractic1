@@ -1,14 +1,17 @@
 import styled from 'styled-components';
-import { Typography } from './global';
-const panorama: string = require('../assets/test-panorama.svg').default;
+import { DefaultButton, Typography } from './global';
+
+type PanoramaProps = {
+  isActive: boolean;
+};
 
 export const Container = styled.div`
-  //width: 85%;
   margin-bottom: 100px;
   align-items: center;
   display: flex;
   flex-direction: column;
   gap: 50px;
+  position: relative;
 `;
 
 export const HeaderPanorama = styled.div`
@@ -60,7 +63,6 @@ export const Icon360 = styled.div`
 export const TypographyDescription = styled(Typography)`
   color: #323f48;
   font-size: 30px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: -0.75px;
@@ -70,8 +72,29 @@ export const TypographyDescription = styled(Typography)`
 export const PanoramaContainer = styled.div`
   width: 100%;
   border-radius: 60px;
-  background-image: url(${panorama});
   height: 671px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+`;
+
+export const PanoramaContent = styled.img<PanoramaProps>`
+  width: 100%;
+  border-radius: 60px;
+  height: 671px;
+  filter: ${props => (props.isActive ? 'none' : 'brightness(0.6)')};
+`;
+
+export const ButtonPanorama = styled(DefaultButton)`
+  height: 76px;
+  background: #35c378;
+  color: #f0f3fd;
+  line-height: 173.523%;
+  letter-spacing: -0.575px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease-in-out;
 `;

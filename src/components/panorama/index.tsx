@@ -1,13 +1,23 @@
 import {
+  ButtonPanorama,
   Container,
   HeaderPanorama,
   Icon360,
   PanoramaContainer,
+  PanoramaContent,
   TypographyDescription,
   TypographyH1
 } from '../../styles/panorama';
+import { useState } from 'react';
+const panorama: string = require('../../assets/test-panorama.svg').default;
 
 export const Panorama = () => {
+  const [isActive, setIsActive] = useState<boolean>(false);
+
+  const handleButtonClick = () => {
+    setIsActive(true);
+  };
+
   return (
     <Container>
       <HeaderPanorama>
@@ -17,8 +27,10 @@ export const Panorama = () => {
       <TypographyDescription>
         Ниже вы можете вживую погулять по нашему <br /> чудесному офису бла бла
       </TypographyDescription>
+      <a id="panorama"></a>
       <PanoramaContainer>
-        <a id="panorama"></a>
+        <PanoramaContent src={panorama} isActive={isActive}></PanoramaContent>
+        {!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}
       </PanoramaContainer>
     </Container>
   );

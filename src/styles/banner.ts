@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components';
-import { Typography } from './global';
+import { DefaultButton, Typography } from './global';
+const banner: string = require('../assets/background-banner-main.svg').default;
 
 export const waveAnimation = keyframes`
       0% {
@@ -20,20 +21,22 @@ export const swellAnimation = keyframes`
 `;
 
 export const Container = styled.div`
-  //width: 73%;
-  //height: 579px;
   border-radius: 60px;
   background: var(--unnamed, linear-gradient(90deg, #4ed1be 0%, #2dbe64 63.33%, #a1de83 100%));
   margin-top: 65px;
   display: flex;
   flex-direction: row;
-  overflow: hidden; /* Добавлено */
+  overflow: hidden;
   position: relative;
   margin-bottom: 100px;
   align-items: center;
   justify-content: space-between;
-  gap: 22px;
+  gap: 15px;
   padding: 46px 102px;
+  background-image: url(${banner});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 `;
 
 export const Ocean = styled.div`
@@ -95,22 +98,11 @@ export const TypographyDescription = styled(Typography)`
   letter-spacing: -0.625px;
 `;
 
-export const Button360 = styled.button`
-  border-radius: 20px;
-  height: 76px;
-  padding: 21px 65px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border: 0;
+export const Button360 = styled(DefaultButton)`
   color: #323f48;
-  font-family: Inter, sans-serif;
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 500;
-  cursor: pointer;
   background: #f0f3fd;
   margin: 15px 0;
+  transition: transform 0.2s;
 
   a {
     text-decoration: none;
