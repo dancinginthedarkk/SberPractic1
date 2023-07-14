@@ -31,7 +31,8 @@
         "quotes": ["error", "single"],
         "react/react-in-jsx-scope": "off",
         "no-duplicate-imports": "error",
-        "import/no-default-export": "error",
+        "@typescript-eslint/no-var-requires": 0,
+//        "import/no-default-export": "error",
         "react/no-array-index-key": "error"
     }
 }
