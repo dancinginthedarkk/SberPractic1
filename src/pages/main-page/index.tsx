@@ -5,7 +5,7 @@ import { InfoBanner } from '../../components/info-banner';
 import { Panorama } from '../../components/panorama';
 import { Footer } from '../../components/footer';
 import { Locations } from '../../components/locations';
-const algae: string = require('../../assets/algae-1.svg').default;
+import AlgaeIcon from '../../assets/algae-1.svg';
 
 export const MainPage = () => {
   return (
@@ -17,7 +17,7 @@ export const MainPage = () => {
         <Panorama />
         <Locations />
         <Footer />
-        <Algae src={algae}></Algae>
+        <Algae src={AlgaeIcon}></Algae>
       </InsideContainer>
     </Container>
   );

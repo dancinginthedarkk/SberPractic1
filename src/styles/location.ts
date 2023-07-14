@@ -10,15 +10,23 @@ export const LocationsContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 59px;
+  gap: 2em;
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 export const Card = styled.div<PanoramaProps>`
-  width: 450px;
-  height: 450px;
+  width: 24vw;
+  //height: 450px;
+  aspect-ratio: 1 / 1;
+  //max-width: 450px;
+  //min-width: 350px;
+  //max-height: 450px;
+  //min-height: 350px;
   border-radius: 50px;
-  //background-image: ${({ background }) => background};
-  background-image: url(${require('../assets/hall.svg').default});
+  background-image: ${({ background }) => `url(${background})`};
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
