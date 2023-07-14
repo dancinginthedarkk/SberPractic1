@@ -1,0 +1,556 @@
+[
+  {
+    "id": 1,
+    "note": "Trum",
+    "imageURL": "http://&ip_address:$port/Trum.jpg",
+    "arrows": [
+      {
+        "color": "#ff0000",
+        "note": "Entry to 2 floor",
+        "noteColor": "#ffffff",
+        "position": [-10, -90, 250],
+        "rotationX": -3,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "panoramaId": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "note": "Entry to 2 floor",
+    "imageURL": "http://127.0.0.1:3000/entry_2_floor.jpg",
+    "arrows": [
+      {
+        "color": "#00ff00",
+        "note": "Openspace",
+        "noteColor": "#ffffff",
+        "position": [-100, -50, -400],
+        "rotationX": 0,
+        "rotationY": -0.6,
+        "rotationZ": 1.6,
+        "panoramaId": 3
+      },
+      {
+        "color": "#000000",
+        "note": "Hallway-1",
+        "noteColor": "#ffffff",
+        "position": [-110, -200, 350],
+        "rotationX": 3,
+        "rotationY": 0.4,
+        "rotationZ": 0,
+        "panoramaId": 4
+      },
+      {
+        "color": "#000000",
+        "note": "Trum",
+        "noteColor": "#ffffff",
+        "position": [-10, -10, -350],
+        "rotationX": 3,
+        "rotationY": 0.4,
+        "rotationZ": 0,
+        "panoramaId": 1
+      },
+      {
+        "color": "#000000",
+        "note": "3 Floor",
+        "noteColor": "#ffffff",
+        "position": [-10, -10, -350],
+        "rotationX": 3,
+        "rotationY": 0.4,
+        "rotationZ": 0,
+        "panoramaId": 16
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "note":"Openspace",
+    "imageURL": "http://127.0.0.1:3000/openspace.jpg",
+    "arrows": [
+      {
+        "color": "#ff0000",
+        "note": "Entry to 2 floor",
+        "noteColor": "#000000",
+        "position": [10, -50, -300],
+        "rotationX": 0.2,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "panoramaId": 2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "note":"Hallway-1",
+    "imageURL": "http://127.0.0.1:3000/hallway_1.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Entry to 2 floor",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 2
+      },
+      {
+        "color": "#000000",
+        "note": "Office КСБ",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 5
+      },
+      {
+        "color": "#000000",
+        "note": "Coworking",
+        "noteColor": "#ffffff",
+        "position": [10, -300, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 6
+      },
+      {
+        "color": "#000000",
+        "note": "Hallway-2",
+        "noteColor": "#ffffff",
+        "position": [10, -500, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 7
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "note":"Office КСБ",
+    "imageURL": "http://127.0.0.1:3000/office_KSB.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Office CKR",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 2
+      },
+      {
+        "color": "#000000",
+        "note": "Coworking",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 6
+      },
+      {
+        "color": "#000000",
+        "note": "Hallway-1",
+        "noteColor": "#ffffff",
+        "position": [10, -300, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 4
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "note":"Coworking",
+    "imageURL": "http://127.0.0.1:3000/coworking.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Office КСБ",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 5
+      },
+      {
+        "color": "#000000",
+        "note": "Hallway-1",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 4
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "note":"Hallway-2",
+    "imageURL": "http://127.0.0.1:3000/hallway_2.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Hallway-1",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 4
+      },
+      {
+        "color": "#000000",
+        "note": "Kitchen",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 9
+      },
+      {
+        "color": "#000000",
+        "note": "Hallway-3",
+        "noteColor": "#ffffff",
+        "position": [10, -300, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 10
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "note":"Office CKR",
+    "imageURL": "http://127.0.0.1:3000/office_CKR.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Office КСБ",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 5
+      },
+      {
+        "color": "#000000",
+        "note": "recreation area",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 13
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "note":"Kitchen-2",
+    "imageURL": "http://127.0.0.1:3000/kitchen_2.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Hallway-2",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 7
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "note":"Hallway-3",
+    "imageURL": "http://127.0.0.1:3000/hallway_3.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Hallway-2",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 7
+      },
+      {
+        "color": "#000000",
+        "note": "Meeting room",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 11
+      },
+      {
+        "color": "#000000",
+        "note": "Play zone",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 12
+      },
+      {
+        "color": "#000000",
+        "note": "recreation area",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 13
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "note":"Meeting room",
+    "imageURL": "http://127.0.0.1:3000/Meeting_room.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Hallway-3",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 10
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "note":"Play zone",
+    "imageURL": "http://127.0.0.1:3000/play_zone.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Hallway-3",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 10
+      },
+      {
+        "color": "#000000",
+        "note": "recreation area",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 13
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "note":"recreation area",
+    "imageURL": "http://127.0.0.1:3000/relax_area.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Office CKR",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 8
+      },
+      {
+        "color": "#000000",
+        "note": "Hallway-3",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 10
+      },
+      {
+        "color": "#000000",
+        "note": "Play zone",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 12
+      },
+      {
+        "color": "#000000",
+        "note": "Terrace",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 14
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "note":"Terrace",
+    "imageURL": "http://127.0.0.1:3000/Terrace.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "recreation area",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 13
+      },
+      {
+        "color": "#000000",
+        "note": "Extra terrace",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 15
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "note":"Extra terrace",
+    "imageURL": "http://127.0.0.1:3000/extra_terrace.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Terrace",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 14
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "note":"Hall",
+    "imageURL": "http://127.0.0.1:3000/hall.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "2 floor",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 2
+      },
+      {
+        "color": "#000000",
+        "note": "Office DKPP",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 17
+      },
+      {
+        "color": "#000000",
+        "note": "Kitchen",
+        "noteColor": "#ffffff",
+        "position": [-10, -10, -350],
+        "rotationX": 3,
+        "rotationY": 0.4,
+        "rotationZ": 0,
+        "panoramaId": 18
+      },
+      {
+        "color": "#000000",
+        "note": "Office DGR",
+        "noteColor": "#ffffff",
+        "position": [-10, -10, -350],
+        "rotationX": 3,
+        "rotationY": 0.4,
+        "rotationZ": 0,
+        "panoramaId": 19
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "note":"Office DKPP",
+    "imageURL": "http://127.0.0.1:3000/office_DKPP.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Hall",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 16
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "note":"Kitchen-3",
+    "imageURL": "http://127.0.0.1:3000/kitchen_3.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Hall",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 16
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "note":"Office DGR",
+    "imageURL": "http://127.0.0.1:3000/office_DGR.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Hall",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 16
+      }
+    ]
+  }
+]
+

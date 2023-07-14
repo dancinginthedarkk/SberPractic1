@@ -1,0 +1,26 @@
+version: '3'
+services:
+  web:
+    build: ./nginx
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+
+  api:
+    build:
+      context: .
+      dockerfile: ./backend/Dockerfile
+    volumes:
+      - "./panorama:/app/deployments/templates/panorama"
+    ports:
+      - "3999:3999"
+
+  frontend:
+    build:
+      context: ./frontend/three-js-webgl-panorama1/my-app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
