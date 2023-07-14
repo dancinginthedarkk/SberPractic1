@@ -9,7 +9,7 @@ RUN go build -o main .
 
 ENV PORT=3999
 
-CMD ["main"]
+CMD ["./main"]
 
 EXPOSE 3999
 
