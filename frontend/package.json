@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "prepare": "husky install",
+    "prepare": "cd .. && husky install frontend/.husky",
     "tsc": "tsc --skipLibCheck",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
