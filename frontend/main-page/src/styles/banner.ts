@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import { DefaultButton, Typography } from './global';
-const banner: string = require('../assets/background-banner-main.svg').default;
+import Banner from '../assets/background-banner-main.svg';
 
 export const waveAnimation = keyframes`
       0% {
@@ -32,8 +32,9 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 15px;
-  padding: 46px 102px;
-  background-image: url(${banner});
+  //padding: 46px 102px;
+  padding: 2em 5em;
+  background-image: url(${Banner});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -86,13 +87,13 @@ export const InfoBanner = styled.div`
 `;
 
 export const TypographyH1 = styled(Typography)`
-  font-size: 100px;
+  font-size: 6em;
   font-weight: 400;
   align-self: flex-start;
 `;
 
 export const TypographyDescription = styled(Typography)`
-  font-size: 25px;
+  font-size: 1.5em;
   font-weight: 500;
   line-height: 173.523%;
   letter-spacing: -0.625px;
@@ -116,7 +117,8 @@ export const Button360 = styled(DefaultButton)`
 `;
 
 export const ImageBanner = styled.img`
-  width: 536px;
+  max-width: 536px;
+  min-width: 450px;
   height: 511px;
   border-radius: 50px;
   z-index: 2;

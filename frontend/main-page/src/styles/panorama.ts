@@ -10,7 +10,7 @@ export const Container = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 2em;
   position: relative;
 `;
 

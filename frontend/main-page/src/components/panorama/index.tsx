@@ -9,7 +9,7 @@ import {
   TypographyH1
 } from '../../styles/panorama';
 import { useState } from 'react';
-const panorama: string = require('../../assets/test-panorama.svg').default;
+import PanoramaImg from '../../assets/test-panorama.svg';
 
 export const Panorama = () => {
   const [isActive, setIsActive] = useState<boolean>(false);
@@ -29,7 +29,7 @@ export const Panorama = () => {
       </TypographyDescription>
       <a id="panorama"></a>
       <PanoramaContainer>
-        <PanoramaContent src={panorama} isActive={isActive}></PanoramaContent>
+        <PanoramaContent src={PanoramaImg} isActive={isActive}></PanoramaContent>
         {!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}
       </PanoramaContainer>
     </Container>

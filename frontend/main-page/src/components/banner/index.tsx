@@ -10,7 +10,7 @@ import {
   Wave
 } from '../../styles/banner';
 import { HashLink } from 'react-router-hash-link';
-const office: string = require('../../assets/content-office.svg').default;
+import Office from '../../assets/content-office.svg';
 
 export const Banner = () => {
   return (
@@ -33,7 +33,7 @@ export const Banner = () => {
           <Button360>Экскурсия 360°</Button360>
         </HashLink>
       </InfoBanner>
-      <ImageBanner src={office} alt="Изображение офиса" />
+      <ImageBanner src={Office} alt="Изображение офиса" />
     </Container>
   );
 };

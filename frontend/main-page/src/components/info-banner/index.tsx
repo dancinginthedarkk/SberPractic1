@@ -1,11 +1,10 @@
 import { Container, InfoBlock, TypographyDescription, ImageBanner } from '../../styles/info-banner';
-
-const office: string = require('../../assets/content-office-job.svg').default;
+import Office from '../../assets/content-office-job.svg';
 
 export const InfoBanner = () => {
   return (
     <Container>
-      <ImageBanner src={office} alt="Изображение офиса" />
+      <ImageBanner src={Office} alt="Изображение офиса" />
       <InfoBlock>
         <TypographyDescription>
           <p>

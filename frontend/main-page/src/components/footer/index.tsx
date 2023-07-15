@@ -1,12 +1,11 @@
 import { Logo } from '../../styles/header';
 import { FooterContainer } from '../../styles/footer';
-
-const logo: string = require('../../assets/header-logo.svg').default;
+import LogoIcon from '../../assets/logo.svg';
 
 export const Footer = () => {
   return (
     <FooterContainer>
-      <Logo src={logo} alt="Логотип офиса"></Logo>
+      <Logo src={LogoIcon} alt="Логотип офиса"></Logo>
     </FooterContainer>
   );
 };

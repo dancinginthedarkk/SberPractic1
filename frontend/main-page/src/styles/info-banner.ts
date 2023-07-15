@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { Typography } from './global';
-
-const banner: string = require('../assets/background-banner.svg').default;
+import Banner from '../assets/background-banner.svg';
 
 export const Container = styled.div`
   border-radius: 60px;
@@ -12,16 +11,17 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   gap: 72px;
-  padding: 68px 43px;
-  background-image: url(${banner});
+  padding: 4em 2em;
+  //padding: 68px 43px;
+  background-image: url(${Banner});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
 `;
 
 export const ImageBanner = styled.img`
-  width: 536px;
-  height: 536px;
+  max-width: 536px;
+  min-width: 450px;
   border-radius: 50px;
 `;
 
@@ -32,6 +32,10 @@ export const InfoBlock = styled.div`
   flex-direction: column;
   gap: 50px;
   height: 100%;
+
+  p {
+    margin: 0;
+  }
 `;
 
 export const TypographyDescription = styled(Typography)`
@@ -43,4 +47,9 @@ export const TypographyDescription = styled(Typography)`
   justify-content: space-between;
   display: flex;
   flex-direction: column;
+  gap: 2em;
+
+  p {
+    margin: 0;
+  }
 `;
