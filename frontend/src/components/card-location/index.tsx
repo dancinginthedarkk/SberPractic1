@@ -36,16 +36,6 @@ const getBackground = (title: string) => {
 export const CardLocation: React.FC<CardProps> = ({ title, onClick }) => {
   const background = getBackground(title);
 
-  // const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
-  //
-  // const handleCardClick = () => {
-  //   setIsModalOpen(true);
-  // };
-  //
-  // const closeModal = () => {
-  //   setIsModalOpen(false);
-  // };
-
   return (
     <>
       <HashLink to="/#modal">
