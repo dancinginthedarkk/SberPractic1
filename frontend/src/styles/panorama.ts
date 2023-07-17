@@ -17,7 +17,7 @@ export const Container = styled.div`
     margin: 0;
   }
 
-  @media screen and (min-width: 390px) and (max-width: 450px) {
+  @media screen and (max-width: 480px) {
     margin-bottom: 50px;
     gap: 15px;
   }
@@ -35,7 +35,7 @@ export const TypographyH1 = styled(Typography)`
   line-height: normal;
   text-align: center;
 
-  @media screen and (min-width: 390px) and (max-width: 450px) {
+  @media screen and (max-width: 480px) {
     font-size: 30px;
   }
 `;
@@ -73,7 +73,7 @@ export const Icon360 = styled.div`
     }
   }
 
-  @media screen and (min-width: 390px) and (max-width: 450px) {
+  @media screen and (max-width: 480px) {
     width: 67px;
     height: 24px;
     font-size: 15px;
@@ -89,7 +89,7 @@ export const TypographyDescription = styled(Typography)`
   letter-spacing: -0.75px;
   text-align: center;
 
-  @media screen and (min-width: 390px) and (max-width: 450px) {
+  @media screen and (max-width: 480px) {
     font-size: 14px;
     letter-spacing: -0.35px;
   }
@@ -104,7 +104,7 @@ export const PanoramaContainer = styled.div`
   display: flex;
   position: relative;
 
-  @media screen and (min-width: 390px) and (max-width: 450px) {
+  @media screen and (max-width: 480px) {
     height: 138px;
     border-radius: 20px;
   }
@@ -117,7 +117,7 @@ export const PanoramaContent = styled.img<PanoramaProps>`
   filter: ${props => (props.isActive ? 'none' : 'brightness(0.6)')};
   object-fit: cover;
 
-  @media screen and (min-width: 390px) and (max-width: 450px) {
+  @media screen and (max-width: 480px) {
     height: 138px;
     border-radius: 20px;
   }
@@ -135,7 +135,7 @@ export const ButtonPanorama = styled(DefaultButton)`
   transform: translate(-50%, -50%);
   transition: transform 0.2s ease-in-out;
 
-  @media screen and (min-width: 390px) and (max-width: 450px) {
+  @media screen and (max-width: 480px) {
     height: 36px;
   }
 `;

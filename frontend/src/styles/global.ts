@@ -59,6 +59,13 @@ export const GlobalStyle = createGlobalStyle`
   html {
     scroll-behavior: smooth;
   }
+
+  *[id=panorama] {
+    display: block;
+    height: 100vh;
+    margin-top: -100vh;
+    visibility: hidden;
+  }
 `;
 
 export const Algae = styled.img`

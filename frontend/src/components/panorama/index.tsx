@@ -27,8 +27,8 @@ export const Panorama = () => {
       <TypographyDescription>
         Ниже вы можете вживую погулять по нашему <br /> чудесному офису бла бла
       </TypographyDescription>
-      <a id="panorama"></a>
       <PanoramaContainer>
+        <a id="panorama"></a>
         <PanoramaContent src={PanoramaImg} isActive={isActive}></PanoramaContent>
         {!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}
       </PanoramaContainer>

@@ -10,7 +10,7 @@ export const LocationsContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
 
   a {
     text-decoration: none;
@@ -18,6 +18,7 @@ export const LocationsContainer = styled.div`
 
   @media screen and (max-width: 480px) {
     gap: 15px;
+    justify-content: center;
   }
 `;
 
@@ -33,6 +34,7 @@ export const Card = styled.div<PanoramaProps>`
   justify-content: space-between;
   background-color: gray;
   cursor: pointer;
+  //padding: 3rem 3rem 2rem 2rem;
 
   &:hover {
     transform: scale(1.05);
