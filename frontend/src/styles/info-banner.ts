@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Typography } from './global';
 import Banner from '../assets/background-banner.svg';
+import BannerMobile from '../assets/background-mobile-banner.svg';
 
 export const Container = styled.div`
   border-radius: 60px;
@@ -12,17 +13,17 @@ export const Container = styled.div`
   justify-content: center;
   gap: 3rem;
   padding: 4rem 2rem;
-  //padding: 68px 43px;
   background-image: url(${Banner});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
 
-  @media (max-width: 390px) and (min-width: 450px) {
+  @media screen and (max-width: 480px) {
     flex-direction: column-reverse;
     padding: 1.5rem;
     border-radius: 30px;
     margin-bottom: 50px;
+    background-image: url(${BannerMobile});
   }
 `;
 
@@ -31,7 +32,7 @@ export const ImageBanner = styled.img`
   min-width: 350px;
   border-radius: 50px;
 
-  @media (max-width: 390px) and (min-width: 450px) {
+  @media screen and (max-width: 480px) {
     width: 302px;
     height: 300px;
     border-radius: 25px;
@@ -49,14 +50,13 @@ export const InfoBlock = styled.div`
     margin: 0;
   }
 
-  @media (max-width: 390px) and (min-width: 450px) {
+  @media screen and (max-width: 480px) {
     width: 100%;
     gap: 25px;
   }
 `;
 
 export const TypographyDescription = styled(Typography)`
-  //font-size: 25px;
   font-size: calc(18px + 7 * (100vw - 390px) / 1530);
   font-weight: 500;
   line-height: 173%;
@@ -71,9 +71,9 @@ export const TypographyDescription = styled(Typography)`
     margin: 0;
   }
 
-  @media (max-width: 390px) and (min-width: 450px) {
+  @media screen and (max-width: 480px) {
     text-align: justify;
-    font-size: 12px;
-    letter-spacing: -0.3px;
+    font-size: 14px;
+    letter-spacing: -0.35px;
   }
 `;

@@ -7,7 +7,7 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   align-items: end;
 
-  @media (max-width: 390px) and (min-width: 450px) {
+  @media screen and (max-width: 480px) {
     height: 36px;
   }
 `;
@@ -16,7 +16,7 @@ export const Logo = styled.img`
   width: 70px;
   height: 76px;
 
-  @media (max-width: 390px) and (min-width: 450px) {
+  @media screen and (max-width: 480px) {
     width: 34px;
     height: 36px;
   }
