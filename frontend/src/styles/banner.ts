@@ -31,13 +31,24 @@ export const Container = styled.div`
   margin-bottom: 100px;
   align-items: center;
   justify-content: space-between;
-  gap: 15px;
-  //padding: 46px 102px;
-  padding: 2em 5em;
+  gap: 2rem;
+  padding: 2rem 5rem;
   background-image: url(${Banner});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  //@media screen and (max-width: 1200px) {
+  //  flex-direction: column;
+  //}
+
+  @media (max-width: 390px) and (min-width: 450px) {
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
 `;
 
 export const Ocean = styled.div`
@@ -84,25 +95,51 @@ export const InfoBanner = styled.div`
   gap: 30px;
   height: 100%;
   z-index: 2;
+
+  //@media screen and (max-width: 1200px) {
+  //  width: 100%;
+  //}
+
+  @media (max-width: 390px) and (min-width: 450px) {
+    width: 100%;
+    gap: 25px;
+  }
 `;
 
 export const TypographyH1 = styled(Typography)`
-  font-size: 6em;
+  //font-size: 6em;
+  font-size: calc(60px + 40 * (100vw - 768px) / 1152);
   font-weight: 400;
   align-self: flex-start;
+
+  //@media screen and (max-width: 1200px) {
+  //  align-self: center;
+  //}
+
+  @media (max-width: 390px) and (min-width: 450px) {
+    align-self: center;
+    font-size: 30px;
+  }
 `;
 
 export const TypographyDescription = styled(Typography)`
-  font-size: 1.5em;
+  //font-size: 1.5em;
+  font-size: calc(18px + 7 * (100vw - 390px) / 1530);
   font-weight: 500;
   line-height: 173.523%;
   letter-spacing: -0.625px;
+
+  @media (max-width: 390px) and (min-width: 450px) {
+    text-align: justify;
+    font-size: 12px;
+    letter-spacing: -0.3px;
+  }
 `;
 
 export const Button360 = styled(DefaultButton)`
   color: #323f48;
   background: #f0f3fd;
-  margin: 15px 0;
+  //margin: 15px 0;
   transition: transform 0.2s;
 
   a {
@@ -118,8 +155,14 @@ export const Button360 = styled(DefaultButton)`
 
 export const ImageBanner = styled.img`
   max-width: 536px;
-  min-width: 450px;
-  height: 511px;
+  min-width: 350px;
+  //height: 511px;
   border-radius: 50px;
   z-index: 2;
+
+  @media (max-width: 390px) and (min-width: 450px) {
+    width: 302px;
+    height: 300px;
+    border-radius: 25px;
+  }
 `;

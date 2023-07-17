@@ -6,11 +6,20 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: end;
+
+  @media (max-width: 390px) and (min-width: 450px) {
+    height: 36px;
+  }
 `;
 
 export const Logo = styled.img`
   width: 70px;
   height: 76px;
+
+  @media (max-width: 390px) and (min-width: 450px) {
+    width: 34px;
+    height: 36px;
+  }
 `;
 
 export const Button360 = styled(DefaultButton)`

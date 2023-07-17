@@ -10,8 +10,17 @@ export const Container = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 1.5rem;
   position: relative;
+
+  a {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 390px) {
+    margin-bottom: 50px;
+    gap: 15px;
+  }
 `;
 
 export const HeaderPanorama = styled.div`
@@ -21,9 +30,15 @@ export const HeaderPanorama = styled.div`
 
 export const TypographyH1 = styled(Typography)`
   color: #323f48;
-  font-size: 100px;
+  //font-size: 100px;
+  font-size: calc(60px + 40 * (100vw - 768px) / 1152);
   font-weight: 500;
   line-height: normal;
+  text-align: center;
+
+  @media screen and (max-width: 390px) {
+    font-size: 30px;
+  }
 `;
 
 export const Icon360 = styled.div`
@@ -58,15 +73,28 @@ export const Icon360 = styled.div`
       }
     }
   }
+
+  @media screen and (max-width: 390px) {
+    width: 67px;
+    height: 24px;
+    font-size: 15px;
+    line-height: 24px;
+  }
 `;
 
 export const TypographyDescription = styled(Typography)`
   color: #323f48;
-  font-size: 30px;
+  //font-size: 30px;
+  font-size: calc(20px + 10 * (100vw - 390px) / 1530);
   font-weight: 500;
   line-height: normal;
   letter-spacing: -0.75px;
   text-align: center;
+
+  @media screen and (max-width: 390px) {
+    font-size: 12px;
+    letter-spacing: -0.3px;
+  }
 `;
 
 export const PanoramaContainer = styled.div`
@@ -77,6 +105,11 @@ export const PanoramaContainer = styled.div`
   justify-content: center;
   display: flex;
   position: relative;
+
+  @media screen and (max-width: 390px) {
+    height: 138px;
+    border-radius: 20px;
+  }
 `;
 
 export const PanoramaContent = styled.img<PanoramaProps>`
@@ -85,6 +118,11 @@ export const PanoramaContent = styled.img<PanoramaProps>`
   height: 671px;
   filter: ${props => (props.isActive ? 'none' : 'brightness(0.6)')};
   object-fit: cover;
+
+  @media screen and (max-width: 390px) {
+    height: 138px;
+    border-radius: 20px;
+  }
 `;
 
 export const ButtonPanorama = styled(DefaultButton)`
@@ -98,4 +136,8 @@ export const ButtonPanorama = styled(DefaultButton)`
   left: 50%;
   transform: translate(-50%, -50%);
   transition: transform 0.2s ease-in-out;
+
+  @media screen and (max-width: 390px) {
+    height: 36px;
+  }
 `;
