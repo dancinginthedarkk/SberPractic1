@@ -17,6 +17,11 @@ export const ModalContainer = styled.div`
   gap: 2em;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    padding: 20px;
+  }
 `;
 
 export const ModalContainerInside = styled.div`
@@ -34,6 +39,11 @@ export const TypographyHeader = styled(Typography)`
   font-size: 65px;
   font-weight: 400;
   text-align: center;
+
+  @media screen and (max-width: 480px) {
+    font-size: 30px;
+    font-weight: 400;
+  }
 `;
 
 export const TypographyDescription = styled(Typography)`
@@ -43,6 +53,14 @@ export const TypographyDescription = styled(Typography)`
   font-weight: 500;
   line-height: 173.5%; /* 43.375px */
   letter-spacing: -0.625px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 173.5%;
+    letter-spacing: -0.35px;
+  }
 `;
 
 export const ModalPanorama = styled.img`
@@ -50,6 +68,12 @@ export const ModalPanorama = styled.img`
   width: 100%;
   //height: 413px;
   object-fit: cover;
+
+  @media screen and (max-width: 480px) {
+    //width: 349px;
+    height: 413px;
+    border-radius: 25px;
+  }
 `;
 
 export const CloseIcon = styled.img`
@@ -63,5 +87,10 @@ export const CloseIcon = styled.img`
   &:hover {
     transform: scale(1.1);
     transition: 1s;
+  }
+
+  @media screen and (max-width: 480px) {
+    top: 23px;
+    right: 28px;
   }
 `;

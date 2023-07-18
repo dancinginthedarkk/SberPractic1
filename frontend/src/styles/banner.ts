@@ -29,6 +29,15 @@ export const Container = styled.div`
     margin-bottom: 50px;
     background-image: url(${BannerMobile});
   }
+
+  // @media screen and (max-width: 1024px) {
+  //   flex-direction: column;
+  //   padding: 1.5rem;
+  //   border-radius: 30px;
+  //   margin-top: 25px;
+  //   margin-bottom: 50px;
+  //   background-image: url(${BannerMobile});
+  // }
 `;
 
 export const InfoBanner = styled.div`
@@ -44,6 +53,11 @@ export const InfoBanner = styled.div`
     width: 100%;
     gap: 25px;
   }
+
+  //@media screen and (max-width: 1024px) {
+  //  width: 100%;
+  //  gap: 25px;
+  //}
 `;
 
 export const TypographyH1 = styled(Typography)`
@@ -55,6 +69,11 @@ export const TypographyH1 = styled(Typography)`
     align-self: center;
     font-size: 30px;
   }
+
+  //@media screen and (max-width: 1024px) {
+  //  align-self: center;
+  //  font-size: 30px;
+  //}
 `;
 
 export const TypographyDescription = styled(Typography)`
@@ -68,6 +87,12 @@ export const TypographyDescription = styled(Typography)`
     font-size: 14px;
     letter-spacing: -0.35px;
   }
+
+  //@media screen and (max-width: 1024px) {
+  //  text-align: justify;
+  //  font-size: 14px;
+  //  letter-spacing: -0.35px;
+  //}
 `;
 
 export const Button360 = styled(DefaultButton)`
@@ -97,6 +122,12 @@ export const ImageBanner = styled.img`
     height: 300px;
     border-radius: 25px;
   }
+
+  //@media screen and (max-width: 1024px) {
+  //  width: 302px;
+  //  height: 300px;
+  //  border-radius: 25px;
+  //}
 `;
 
 export const waveAnimation = keyframes`

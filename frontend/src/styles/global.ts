@@ -18,6 +18,10 @@ export const InsideContainer = styled.div`
   @media screen and (max-width: 480px) {
     width: 92%;
   }
+
+  //@media screen and (max-width: 1024px) {
+  //  width: 92%;
+  //}
 `;
 
 export const Typography = styled.p`
@@ -49,6 +53,10 @@ export const DefaultButton = styled.button`
     line-height: 173.523%;
     letter-spacing: -0.35px;
   }
+
+  //@media screen and (max-width: 1024px) {
+  //  font-size: 18px;
+  //}
 `;
 
 export const GlobalStyle = createGlobalStyle`
@@ -82,6 +90,13 @@ export const Algae = styled.img`
     right: 0;
     bottom: 0;
   }
+
+  @media screen and (max-width: 1024px) {
+    width: 28%;
+    height: 277px;
+    right: 0;
+    bottom: 0;
+  }
 `;
 
 export const AlgaeLong = styled.img`
@@ -95,6 +110,12 @@ export const AlgaeLong = styled.img`
     width: 83px;
     height: 108px;
     left: -15px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 40%;
+    height: 190px;
+    left: -32px;
   }
 `;
 
@@ -110,5 +131,12 @@ export const AlgaeLongBottom = styled.img`
     height: 108px;
     left: -33px;
     top: 37px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 40%;
+    height: 190px;
+    left: -97px;
+    top: 95px;
   }
 `;

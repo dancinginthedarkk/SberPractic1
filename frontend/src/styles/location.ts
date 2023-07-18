@@ -28,6 +28,7 @@ export const Card = styled.div<PanoramaProps>`
   border-radius: 50px;
   background-image: ${({ background }) => `url(${background})`};
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: row;
@@ -45,6 +46,13 @@ export const Card = styled.div<PanoramaProps>`
     border-radius: 25px;
     width: 165px;
     height: 165px;
+    background-size: cover;
+  }
+
+  @media screen and (max-width: 1024px) {
+    border-radius: 25px;
+    width: 35vw;
+    background-size: cover;
   }
 `;
 
@@ -58,6 +66,11 @@ export const ArrowRight = styled.img`
     padding-right: 25px;
     padding-bottom: 25px;
   }
+
+  @media screen and (max-width: 1024px) {
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
 `;
 
 export const TypographyH1 = styled(Typography)`
@@ -67,6 +80,7 @@ export const TypographyH1 = styled(Typography)`
   line-height: normal;
   position: relative;
   z-index: 5;
+  text-align: center;
 
   @media screen and (max-width: 480px) {
     font-size: 30px;
@@ -87,5 +101,10 @@ export const TypographyLocationName = styled(Typography)`
     letter-spacing: -0.4px;
     padding-top: 25px;
     padding-left: 25px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    padding-top: 2rem;
+    padding-left: 1rem;
   }
 `;
