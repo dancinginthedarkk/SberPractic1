@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "imageURL": "/assets/IMG_2526.JPG",
+    "arrows": [
+      {
+        "color": "#ff0000",
+        "note": "Коворкинг",
+        "noteColor": "#ffffff",
+        "position": [-10, -90, 250],
+        "rotationX": -3,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "panoramaId": 2
+      },
+      {
+        "color": "#00ff00",
+        "note": "Рабочий зал",
+        "noteColor": "#ffffff",
+        "position": [-180, -50, -250],
+        "rotationX": 0,
+        "rotationY": 1.5,
+        "rotationZ": 0,
+        "panoramaId": 3
+      },
+      {
+        "color": "#000000",
+        "note": "Игровая комната",
+        "noteColor": "#ffffff",
+        "position": [100, -40, -250],
+        "rotationX": 0,
+        "rotationY": -0.5,
+        "rotationZ": 0,
+        "panoramaId": 4
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "imageURL": "/assets/IMG_5495.PNG",
+    "arrows": [
+      {
+        "color": "#00ff00",
+        "note": "Рабочий зал",
+        "noteColor": "#ffffff",
+        "position": [-100, -50, -400],
+        "rotationX": 0,
+        "rotationY": -0.6,
+        "rotationZ": 1.6,
+        "panoramaId": 3
+      },
+      {
+        "color": "#000000",
+        "note": "Вход",
+        "noteColor": "#ffffff",
+        "position": [-110, -200, 350],
+        "rotationX": 3,
+        "rotationY": 0.4,
+        "rotationZ": 0,
+        "panoramaId": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "imageURL": "https://i.ibb.co/gzRSbXh/DAB52-DF2-09-E3-4-D8-A-94-E3-11814-E64-D133.jpg",
+    "arrows": [
+      {
+        "color": "#ff0000",
+        "note": "Игровая комната",
+        "noteColor": "#000000",
+        "position": [10, -50, -300],
+        "rotationX": 0.2,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "panoramaId": 4
+      },
+      {
+        "color": "#00ff00",
+        "note": "Коворкинг",
+        "noteColor": "#000000",
+        "position": [-10, -90, 350],
+        "rotationX": 3,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "panoramaId": 2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "imageURL": "https://i.ibb.co/d7h4zRQ/BEBA18-AB-38-DC-46-EA-99-DD-328-AB5097-B8-F.jpg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "Рабочий зал",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 3
+      },
+      {
+        "color": "#000000",
+        "note": "Вход",
+        "noteColor": "#ffffff",
+        "position": [10, -100, 300],
+        "rotationX": 3,
+        "rotationY": -0.2,
+        "rotationZ": 0,
+        "panoramaId": 1
+      }
+    ]
+  }
+]
+
