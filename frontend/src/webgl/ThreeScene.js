@@ -2,11 +2,11 @@ import React, { useRef } from 'react';
 import { useThreeScene } from './useThreeScene';
 
 // eslint-disable-next-line react/prop-types
-export const ThreeScene = ({ initialPanoramaId }) => {
+export const ThreeScene = ({ initialPanoramaId, isInteractive }) => {
   const containerRef = useRef();
   const loaderRef = useRef();
 
-  const [] = useThreeScene(containerRef, loaderRef, initialPanoramaId);
+  const [] = useThreeScene(containerRef, loaderRef, initialPanoramaId, isInteractive);
 
   return (
     <>

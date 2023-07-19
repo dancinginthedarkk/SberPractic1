@@ -62,7 +62,7 @@ export const Modal = ({ title, closeModal }: Props) => {
         <ModalContainerInside id="modal">
           <TypographyHeader>{title}</TypographyHeader>
           <ModalPanorama>
-            <ThreeScene initialPanoramaId={initialPanoramaId} />
+            <ThreeScene initialPanoramaId={initialPanoramaId} isInteractive={true} />
           </ModalPanorama>
           <TypographyDescription>{description}</TypographyDescription>
           <CloseIcon src={CloseModalIcon} onClick={closeModal}></CloseIcon>

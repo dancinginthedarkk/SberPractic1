@@ -81,11 +81,7 @@ export const PanoramaContainer = styled.div`
 `;
 
 export const PanoramaContent = styled.div<PanoramaProps>`
-  width: 100%;
-  border-radius: 60px;
-  height: 671px;
   filter: ${props => (props.isActive ? 'none' : 'brightness(0.3)')};
-  object-fit: cover;
 `;
 
 export const ButtonPanorama = styled(DefaultButton)`

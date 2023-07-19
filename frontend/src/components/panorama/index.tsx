@@ -18,10 +18,6 @@ export const Panorama = () => {
     setIsActive(true);
   };
 
-  const closeModal = () => {
-    setIsActive(false);
-  };
-
   return (
     <Container>
       <HeaderPanorama>
@@ -33,11 +29,10 @@ export const Panorama = () => {
       </TypographyDescription>
       <a id="panorama"></a>
       <PanoramaContainer>
-        {/*<PanoramaContent isActive={isActive}>*/}
-        {/*{!isActive && <BackgroundOverlay closeModal={closeModal} />}*/}
-        <ThreeScene initialPanoramaId={2} />
-        {/*</PanoramaContent>*/}
-        {/*{!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}*/}
+        <PanoramaContent isActive={isActive}>
+          <ThreeScene initialPanoramaId={1} isInteractive={isActive} />
+        </PanoramaContent>
+        {!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}
       </PanoramaContainer>
     </Container>
   );

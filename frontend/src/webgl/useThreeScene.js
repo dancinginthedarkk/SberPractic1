@@ -12,7 +12,7 @@ import Roboto from '../fonts/Roboto-Regular.ttf';
 
 gsap.registerPlugin(CSSPlugin);
 
-export const useThreeScene = (containerRef, loaderRef, initialPanoramaId = 1) => {
+export const useThreeScene = (containerRef, loaderRef, initialPanoramaId = 1, isInteractive) => {
   let camera, scene;
   let arrowMeshes = [];
   let textMeshes = [];
@@ -128,6 +128,7 @@ export const useThreeScene = (containerRef, loaderRef, initialPanoramaId = 1) =>
     container.appendChild(renderer.domElement);
 
     renderer.domElement.addEventListener('click', event => {
+      if (!isInteractive) return;
       const rect = renderer.domElement.getBoundingClientRect();
       const x = event.clientX - rect.left;
       const y = event.clientY - rect.top;
@@ -260,6 +261,7 @@ export const useThreeScene = (containerRef, loaderRef, initialPanoramaId = 1) =>
   };
 
   const onDocumentMouseDown = event => {
+    if (!isInteractive) return;
     event.preventDefault();
 
     isUserInteracting = true;
@@ -274,6 +276,7 @@ export const useThreeScene = (containerRef, loaderRef, initialPanoramaId = 1) =>
   const mouse = new THREE.Vector2();
 
   const onDocumentMouseMove = event => {
+    if (!isInteractive) return;
     if (isUserInteracting === true) {
       lon = (onPointerDownPointerX - event.clientX) * 0.1 + onPointerDownLon;
       lat = (event.clientY - onPointerDownPointerY) * 0.1 + onPointerDownLat;
@@ -284,10 +287,12 @@ export const useThreeScene = (containerRef, loaderRef, initialPanoramaId = 1) =>
   };
 
   const onDocumentMouseUp = event => {
+    if (!isInteractive) return;
     isUserInteracting = false;
   };
 
   const onDocumentMouseWheel = event => {
+    if (!isInteractive) return;
     camera.fov += event.deltaY * 0.05;
     camera.fov = Math.max(40, Math.min(105, camera.fov));
     camera.updateProjectionMatrix();
@@ -335,7 +340,7 @@ export const useThreeScene = (containerRef, loaderRef, initialPanoramaId = 1) =>
   useEffect(() => {
     init();
     animate();
-  }, []);
+  }, [isInteractive]);
 
   return [currentPanoramaId, setCurrentPanoramaId];
 };
