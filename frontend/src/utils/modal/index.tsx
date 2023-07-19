@@ -32,25 +32,25 @@ const descriptions: Record<string, string> = {
 export const Modal = ({ title, closeModal }: Props) => {
   const description = descriptions[title] || 'Описание не найдено';
 
-  let initialPanoramaId = 1;
+  let initialPanoramaId;
   switch (title) {
     case 'Холл':
-      initialPanoramaId = 1;
+      initialPanoramaId = 16;
       break;
     case 'Кухня':
-      initialPanoramaId = 2;
+      initialPanoramaId = 9;
       break;
     case 'Терасса':
-      initialPanoramaId = 3;
+      initialPanoramaId = 14;
       break;
     case 'Коворкинг для иногородних сотрудников':
-      initialPanoramaId = 3;
+      initialPanoramaId = 6;
       break;
     case 'Переговорные комнаты':
-      initialPanoramaId = 3;
+      initialPanoramaId = 11;
       break;
     case 'Игровая комната':
-      initialPanoramaId = 3;
+      initialPanoramaId = 12;
       break;
     default:
       initialPanoramaId = 1;
