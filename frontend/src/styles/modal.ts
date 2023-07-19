@@ -45,11 +45,12 @@ export const TypographyDescription = styled(Typography)`
   letter-spacing: -0.625px;
 `;
 
-export const ModalPanorama = styled.img`
+export const ModalPanorama = styled.div`
   border-radius: 50px;
   width: 100%;
-  //height: 413px;
-  object-fit: cover;
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
 `;
 
 export const CloseIcon = styled.img`

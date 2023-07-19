@@ -58,7 +58,7 @@ export const useThreeScene = (containerRef, loaderRef, initialPanoramaId = 1) =>
         map: texture
       });
       const panoramaMesh = new THREE.Mesh(geometry, material);
-      // panoramaMesh.visible = false;
+      panoramaMesh.visible = false;
       scene.add(panoramaMesh);
       panoramaMeshes.push(panoramaMesh);
     });
@@ -83,6 +83,7 @@ export const useThreeScene = (containerRef, loaderRef, initialPanoramaId = 1) =>
             color: arrow.color
           });
           const arrowMesh = new THREE.Mesh(geometry, material);
+          arrowMesh.scale.set(0.5, 0.5, 0.5);
           arrowMesh.position.set(...arrow.position);
           arrowMesh.rotation.set(arrow.rotationX, arrow.rotationY, arrow.rotationZ);
           arrowMesh.userData.panoramaId = arrow.panoramaId;
@@ -183,6 +184,7 @@ export const useThreeScene = (containerRef, loaderRef, initialPanoramaId = 1) =>
                     color: arrow.color
                   });
                   const arrowMesh = new THREE.Mesh(geometry, material);
+                  arrowMesh.scale.set(0.5, 0.5, 0.5);
                   arrowMesh.position.set(...arrow.position);
                   arrowMesh.rotation.set(arrow.rotationX, arrow.rotationY, arrow.rotationZ);
                   arrowMesh.userData.panoramaId = arrow.panoramaId;
@@ -247,7 +249,7 @@ export const useThreeScene = (containerRef, loaderRef, initialPanoramaId = 1) =>
     document.addEventListener('mousemove', onDocumentMouseMove, false);
     document.addEventListener('mouseup', onDocumentMouseUp, false);
     document.addEventListener('wheel', onDocumentMouseWheel, false);
-
+    renderer.domElement.addEventListener('wheel', onDocumentMouseWheel, false);
     window.addEventListener('resize', onWindowResize, false);
   };
 

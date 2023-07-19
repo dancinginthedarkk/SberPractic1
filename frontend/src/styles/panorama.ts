@@ -73,17 +73,18 @@ export const PanoramaContainer = styled.div`
   width: 100%;
   border-radius: 60px;
   height: 671px;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
   display: flex;
   position: relative;
 `;
 
-export const PanoramaContent = styled.img<PanoramaProps>`
+export const PanoramaContent = styled.div<PanoramaProps>`
   width: 100%;
   border-radius: 60px;
   height: 671px;
-  filter: ${props => (props.isActive ? 'none' : 'brightness(0.6)')};
+  filter: ${props => (props.isActive ? 'none' : 'brightness(0.3)')};
   object-fit: cover;
 `;
 

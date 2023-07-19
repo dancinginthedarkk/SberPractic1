@@ -9,7 +9,6 @@ import {
   TypographyH1
 } from '../../styles/panorama';
 import { useState } from 'react';
-import PanoramaImg from '../../assets/test-panorama.svg';
 import { ThreeScene } from '../../webgl/ThreeScene';
 
 export const Panorama = () => {
@@ -17,6 +16,10 @@ export const Panorama = () => {
 
   const handleButtonClick = () => {
     setIsActive(true);
+  };
+
+  const closeModal = () => {
+    setIsActive(false);
   };
 
   return (
@@ -30,9 +33,11 @@ export const Panorama = () => {
       </TypographyDescription>
       <a id="panorama"></a>
       <PanoramaContainer>
-        {/*<PanoramaContent src={PanoramaImg} isActive={isActive}></PanoramaContent>*/}
+        {/*<PanoramaContent isActive={isActive}>*/}
+        {/*{!isActive && <BackgroundOverlay closeModal={closeModal} />}*/}
         <ThreeScene initialPanoramaId={2} />
-        {!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}
+        {/*</PanoramaContent>*/}
+        {/*{!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}*/}
       </PanoramaContainer>
     </Container>
   );

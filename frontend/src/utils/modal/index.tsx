@@ -7,8 +7,8 @@ import {
   TypographyDescription,
   TypographyHeader
 } from '../../styles/modal';
-import PanoramaImg from '../../assets/test-panorama.svg';
 import CloseModalIcon from '../../assets/close-icon.svg';
+import { ThreeScene } from '../../webgl/ThreeScene';
 
 type Props = {
   title: string;
@@ -32,12 +32,38 @@ const descriptions: Record<string, string> = {
 export const Modal = ({ title, closeModal }: Props) => {
   const description = descriptions[title] || 'Описание не найдено';
 
+  let initialPanoramaId = 1;
+  switch (title) {
+    case 'Холл':
+      initialPanoramaId = 1;
+      break;
+    case 'Кухня':
+      initialPanoramaId = 2;
+      break;
+    case 'Терасса':
+      initialPanoramaId = 3;
+      break;
+    case 'Коворкинг для иногородних сотрудников':
+      initialPanoramaId = 3;
+      break;
+    case 'Переговорные комнаты':
+      initialPanoramaId = 3;
+      break;
+    case 'Игровая комната':
+      initialPanoramaId = 3;
+      break;
+    default:
+      initialPanoramaId = 1;
+  }
+
   return (
     <>
       <ModalContainer>
         <ModalContainerInside id="modal">
           <TypographyHeader>{title}</TypographyHeader>
-          <ModalPanorama src={PanoramaImg}></ModalPanorama>
+          <ModalPanorama>
+            <ThreeScene initialPanoramaId={initialPanoramaId} />
+          </ModalPanorama>
           <TypographyDescription>{description}</TypographyDescription>
           <CloseIcon src={CloseModalIcon} onClick={closeModal}></CloseIcon>
         </ModalContainerInside>
