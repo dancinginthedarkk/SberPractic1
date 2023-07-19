@@ -2,7 +2,7 @@
   {
     "id": 1,
     "note": "Trum",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Hold.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/5cVvrWZ/Hold.png",
     "arrows": [
       {
         "color": "#ff0000",
@@ -19,7 +19,7 @@
   {
     "id": 2,
     "note": "2 этаж - холл",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Openspace.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/y4DkW8h/Hall-1.jpg",
     "arrows": [
       {
         "color": "#00ff00",
@@ -77,7 +77,7 @@
   {
     "id": 3,
     "note":"Openspace",
-    "imageURL": "assets/openspace.png",
+    "imageURL": "https://i.ibb.co/Km2SDng/Openspace.png",
     "arrows": [
       {
         "color": "#ff0000",
@@ -92,76 +92,9 @@
     ]
   },
   {
-    "id": 4,
-    "note":"Hallway-1",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Hall_1.jpg?raw=true",
-    "arrows": [
-      {
-        "color": "#00ff00",
-        "note": "Openspace",
-        "noteColor": "#ffffff",
-        "position": [440, -160, 80],
-        "rotationX": 3,
-        "rotationY": 5,
-        "rotationZ": 0,
-        "panoramaId": 3
-      },
-      {
-        "color": "#000000",
-        "note": "Трюм",
-        "noteColor": "#ffffff",
-        "position": [200, -250, 300],
-        "rotationX": 4.7,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "panoramaId": 1
-      },
-      {
-        "color": "#000000",
-        "note": "3 этаж",
-        "noteColor": "#ffffff",
-        "position": [200, 30, 300],
-        "rotationX": -4.7,
-        "rotationY": 0,
-        "rotationZ": 8,
-        "panoramaId": 16
-      }, 
-      {
-        "color": "#000000",
-        "note": "Офис КСБ",
-        "noteColor": "#ffffff",
-        "position": [-100, -160, 405],
-        "rotationX": 0,
-        "rotationY": -3,
-        "rotationZ": -3,
-        "panoramaId": 5
-      },
-      {
-        "color": "#000000",
-        "note": "Коворкинг",
-        "noteColor": "#ffffff",
-        "position": [-400, -160, 100],
-        "rotationX": 0,
-        "rotationY": -5,
-        "rotationZ": 0,
-        "panoramaId": 6
-      },
-      {
-        "color": "#000000",
-        "note": "Далее",
-        "noteColor": "#ffffff",
-        "position": [10, -500, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
-        "rotationZ": 0,
-        "panoramaId": 7
-      }
-    ]
-  },
-  {
     "id": 5,
     "note":"Office КСБ",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Office_KSB.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/41JDW1Q/Office-KSB.png",
     "arrows": [
       {
         "color": "#000000",
@@ -191,14 +124,14 @@
         "rotationX": 3,
         "rotationY": 9,
         "rotationZ": 0,
-        "panoramaId": 4
+        "panoramaId": 2
       }
     ]
   },
   {
     "id": 6,
     "note":"Коворкинг",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Coworking.jpg?raw=true.jpg",
+    "imageURL": "https://i.ibb.co/5Tj4Zjd/Coworking.jpg",
     "arrows": [
       {
         "color": "#000000",
@@ -218,14 +151,14 @@
         "rotationX": 0,
         "rotationY": 7,
         "rotationZ": 0,
-        "panoramaId": 4
+        "panoramaId": 2
       }
     ]
   },
   {
     "id": 7,
     "note":"Hallway-2",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Hall_2.jpg?raw=true",
+    "imageURL": "https://i.ibb.co/X5nyQcc/Hall-2.jpg",
     "arrows": [
       {
         "color": "#000000",
@@ -235,7 +168,7 @@
         "rotationX": 0,
         "rotationY": -1.55,
         "rotationZ": 0,
-        "panoramaId": 4
+        "panoramaId": 2
       },
       {
         "color": "#000000",
@@ -262,7 +195,7 @@
   {
     "id": 8,
     "note":"Офис ЦКР",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Office_CKR.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/dkMGKTr/Office-CKR.png",
     "arrows": [
       {
         "color": "#000000",
@@ -289,7 +222,7 @@
   {
     "id": 9,
     "note":"Kitchen-2",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Kitchen_2.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/WffJZZp/Kitchen-2.png",
     "arrows": [
       {
         "color": "#000000",
@@ -306,7 +239,7 @@
   {
     "id": 10,
     "note":"Hallway-3",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Hall_3.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/1TrVsPn/Hall-3.png",
     "arrows": [
       {
         "color": "#000000",
@@ -353,7 +286,7 @@
   {
     "id": 11,
     "note":"Переговорная",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Meeting_room.JPG?raw=true",
+    "imageURL": "https://i.ibb.co/Jcnv2xf/Meeting-room.jpg",
     "arrows": [
       {
         "color": "#000000",
@@ -370,7 +303,7 @@
   {
     "id": 12,
     "note":"Игровая зона",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Play_zone.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/F3HLBJY/Play-zone.png",
     "arrows": [
       {
         "color": "#000000",
@@ -387,7 +320,7 @@
   {
     "id": 13,
     "note":"Зона отдыха",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Relax_zone.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/S3bH6z6/Relax-zone.png",
     "arrows": [
       {
         "color": "#000000",
@@ -424,7 +357,7 @@
   {
     "id": 14,
     "note":"Terrace",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Terrace.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/4FC5bbD/Terrace.png",
     "arrows": [
       {
         "color": "#000000",
@@ -441,7 +374,7 @@
   {
     "id": 16,
     "note":"Hall",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Hall.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/7Kt4Pbz/Hall.png",
     "arrows": [
       {
         "color": "#000000",
@@ -489,7 +422,7 @@
   {
     "id": 17,
     "note":"Офис ДКПП",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Office_DKPP.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/y4YDm3L/Office-DKPP.png",
     "arrows": [
       {
         "color": "#000000",
@@ -506,7 +439,7 @@
   {
     "id": 18,
     "note":"Kitchen-3",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/kitchen_3.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/pdDZpBy/kitchen-3.png",
     "arrows": [
       {
         "color": "#000000",
@@ -523,7 +456,7 @@
   {
     "id": 19,
     "note":"Офис ДГР",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Office_DGR.PNG?raw=true",
+    "imageURL": "https://i.ibb.co/fDPTN5v/Office-DGR.png",
     "arrows": [
       {
         "color": "#000000",
@@ -540,7 +473,7 @@
   {
     "id": 20,
     "note":"2 Этаж",
-    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Floor_2.JPEG?raw=true",
+    "imageURL": "https://i.ibb.co/260zz7x/Floor-2.jpg",
     "arrows": [
       {
         "color": "#000000",
