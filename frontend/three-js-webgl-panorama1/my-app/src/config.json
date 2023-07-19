@@ -2,7 +2,7 @@
   {
     "id": 1,
     "note": "Trum",
-    "imageURL": "assets/Трюм.png",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Hold.PNG?raw=true",
     "arrows": [
       {
         "color": "#ff0000",
@@ -19,7 +19,7 @@
   {
     "id": 2,
     "note": "2 этаж - холл",
-    "imageURL": "assets/Холл_1.jpg",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Openspace.PNG?raw=true",
     "arrows": [
       {
         "color": "#00ff00",
@@ -94,7 +94,7 @@
   {
     "id": 4,
     "note":"Hallway-1",
-    "imageURL": "assets/Холл_1.jpg",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Hall_1.jpg?raw=true",
     "arrows": [
       {
         "color": "#00ff00",
@@ -161,7 +161,7 @@
   {
     "id": 5,
     "note":"Office КСБ",
-    "imageURL": "assets/Офис_КСБ.png",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Office_KSB.PNG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -198,7 +198,7 @@
   {
     "id": 6,
     "note":"Коворкинг",
-    "imageURL": "assets/Коворкинг.jpg",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Coworking.jpg?raw=true.jpg",
     "arrows": [
       {
         "color": "#000000",
@@ -225,7 +225,7 @@
   {
     "id": 7,
     "note":"Hallway-2",
-    "imageURL": "assets/Холл_2.jpg",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Hall_2.jpg?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -262,7 +262,7 @@
   {
     "id": 8,
     "note":"Офис ЦКР",
-    "imageURL": "assets/Офис_ЦКР.PNG",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Office_CKR.PNG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -289,7 +289,7 @@
   {
     "id": 9,
     "note":"Kitchen-2",
-    "imageURL": "assets/Кухня_2.png",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Kitchen_2.PNG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -306,7 +306,7 @@
   {
     "id": 10,
     "note":"Hallway-3",
-    "imageURL": "assets/Холл_3.png",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Hall_3.PNG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -353,7 +353,7 @@
   {
     "id": 11,
     "note":"Переговорная",
-    "imageURL": "assets/Переговорная.jpg",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Meeting_room.JPG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -370,7 +370,7 @@
   {
     "id": 12,
     "note":"Игровая зона",
-    "imageURL": "assets/Игровая_зона.PNG",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Play_zone.PNG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -387,7 +387,7 @@
   {
     "id": 13,
     "note":"Зона отдыха",
-    "imageURL": "assets/Зона_Отдыха.png",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Relax_zone.PNG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -424,7 +424,7 @@
   {
     "id": 14,
     "note":"Terrace",
-    "imageURL": "assets/Терраса.png",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Terrace.PNG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -441,7 +441,7 @@
   {
     "id": 16,
     "note":"Hall",
-    "imageURL": "assets/Холл.png",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Hall.PNG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -489,7 +489,7 @@
   {
     "id": 17,
     "note":"Офис ДКПП",
-    "imageURL": "assets/Офис_ДКПП.png",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Office_DKPP.PNG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -506,7 +506,7 @@
   {
     "id": 18,
     "note":"Kitchen-3",
-    "imageURL": "assets/Кухня_3.png",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/kitchen_3.PNG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -523,7 +523,7 @@
   {
     "id": 19,
     "note":"Офис ДГР",
-    "imageURL": "assets/Офис_ДГР.png",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Office_DGR.PNG?raw=true",
     "arrows": [
       {
         "color": "#000000",
@@ -540,7 +540,7 @@
   {
     "id": 20,
     "note":"2 Этаж",
-    "imageURL": "assets/Этаж_2.jpeg",
+    "imageURL": "https://github.com/dancinginthedarkk/SberPractic1/blob/main/assets/Floor_2.JPEG?raw=true",
     "arrows": [
       {
         "color": "#000000",
