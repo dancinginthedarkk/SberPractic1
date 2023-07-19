@@ -6,6 +6,7 @@ import { Panorama } from '../../components/panorama';
 import { Footer } from '../../components/footer';
 import { Locations } from '../../components/locations';
 import AlgaeIcon from '../../assets/algae-1.svg';
+import { ThreeScene } from '../../webgl/ThreeScene';
 
 export const MainPage = () => {
   return (
@@ -15,6 +16,7 @@ export const MainPage = () => {
         <Banner />
         <InfoBanner />
         <Panorama />
+        {/*<ThreeScene initialPanoramaId={2} />*/}
         <Locations />
         <Footer />
         <Algae src={AlgaeIcon}></Algae>

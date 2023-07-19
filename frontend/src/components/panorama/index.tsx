@@ -10,6 +10,7 @@ import {
 } from '../../styles/panorama';
 import { useState } from 'react';
 import PanoramaImg from '../../assets/test-panorama.svg';
+import { ThreeScene } from '../../webgl/ThreeScene';
 
 export const Panorama = () => {
   const [isActive, setIsActive] = useState<boolean>(false);
@@ -29,7 +30,8 @@ export const Panorama = () => {
       </TypographyDescription>
       <a id="panorama"></a>
       <PanoramaContainer>
-        <PanoramaContent src={PanoramaImg} isActive={isActive}></PanoramaContent>
+        {/*<PanoramaContent src={PanoramaImg} isActive={isActive}></PanoramaContent>*/}
+        <ThreeScene initialPanoramaId={2} />
         {!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}
       </PanoramaContainer>
     </Container>

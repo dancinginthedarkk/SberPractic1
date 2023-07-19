@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/SberPractic1/static/js/main.20155c9f.js",
+    "static/media/content-office.svg": "/SberPractic1/static/media/content-office.c91d3aa4e0d5c078fed36a4c48525eac.svg",
+    "static/media/content-office-job.svg": "/SberPractic1/static/media/content-office-job.512b7d8bee77346091859bf43fa09631.svg",
+    "static/media/test-panorama.svg": "/SberPractic1/static/media/test-panorama.df5c9100d3d9c7205ef43f5e3a797d50.svg",
+    "static/media/Roboto-Regular.ttf": "/SberPractic1/static/media/Roboto-Regular.cfe3602cde0ad1c9ae0e.ttf",
+    "static/media/Arrow.STL": "/SberPractic1/static/media/Arrow.dd7ac2589e0f3467ecc2.STL",
+    "static/media/background-banner-main.svg": "/SberPractic1/static/media/background-banner-main.6d5ce8fce09bb2d9ab9407960337c413.svg",
+    "static/media/logo.svg": "/SberPractic1/static/media/logo.d1c4e0f437c623cd3d8656feb0b6066e.svg",
+    "static/media/background-banner.svg": "/SberPractic1/static/media/background-banner.0c5f0cd726fdb8c1ad3854c4ea328e60.svg",
+    "index.html": "/SberPractic1/index.html",
+    "main.20155c9f.js.map": "/SberPractic1/static/js/main.20155c9f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.20155c9f.js"
+  ]
+}
