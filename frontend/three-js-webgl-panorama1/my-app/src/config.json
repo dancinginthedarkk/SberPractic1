@@ -1,80 +1,91 @@
-[
+[ 
   {
     "id": 1,
     "note": "Trum",
-    "imageURL": "http://&ip_address:$port/Trum.jpg",
+    "imageURL": "assets/Трюм.png",
     "arrows": [
       {
         "color": "#ff0000",
-        "note": "Entry to 2 floor",
+        "note": "2 этаж",
         "noteColor": "#ffffff",
-        "position": [-10, -90, 250],
-        "rotationX": -3,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "panoramaId": 2
+        "position": [105, -130, 300],
+        "rotationX": 1,
+        "rotationY": 5,
+        "rotationZ": 3,
+        "panoramaId": 20
       }
     ]
   },
   {
     "id": 2,
-    "note": "Entry to 2 floor",
-    "imageURL": "http://127.0.0.1:3000/entry_2_floor.jpg",
+    "note": "2 этаж - холл",
+    "imageURL": "assets/Холл_1.jpg",
     "arrows": [
       {
         "color": "#00ff00",
         "note": "Openspace",
         "noteColor": "#ffffff",
-        "position": [-100, -50, -400],
-        "rotationX": 0,
-        "rotationY": -0.6,
-        "rotationZ": 1.6,
+        "position": [340, -160, 80],
+        "rotationX": 3,
+        "rotationY": 5,
+        "rotationZ": 0,
         "panoramaId": 3
       },
       {
         "color": "#000000",
-        "note": "Hallway-1",
+        "note": "Вход",
         "noteColor": "#ffffff",
-        "position": [-110, -200, 350],
-        "rotationX": 3,
-        "rotationY": 0.4,
-        "rotationZ": 0,
-        "panoramaId": 4
+        "position": [270, -100, 300],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 8.43,
+        "panoramaId": 20
+      }, 
+      {
+        "color": "#000000",
+        "note": "Офис КСБ",
+        "noteColor": "#ffffff",
+        "position": [-100, -160, 405],
+        "rotationX": 0,
+        "rotationY": -3,
+        "rotationZ": -3,
+        "panoramaId": 5
       },
       {
         "color": "#000000",
-        "note": "Trum",
+        "note": "Коворкинг",
         "noteColor": "#ffffff",
-        "position": [-10, -10, -350],
-        "rotationX": 3,
-        "rotationY": 0.4,
+        "position": [-400, -160, 100],
+        "rotationX": 0,
+        "rotationY": -5,
         "rotationZ": 0,
-        "panoramaId": 1
+        "panoramaId": 6
       },
       {
         "color": "#000000",
-        "note": "3 Floor",
+        "note": "Холл",
         "noteColor": "#ffffff",
-        "position": [-10, -10, -350],
-        "rotationX": 3,
-        "rotationY": 0.4,
+        "position": [-140, -160, -300],
+        "rotationX": 0,
+        "rotationY": 0.55,
         "rotationZ": 0,
-        "panoramaId": 16
+        "panoramaId": 7
       }
     ]
   },
+  
   {
     "id": 3,
     "note":"Openspace",
-    "imageURL": "http://127.0.0.1:3000/openspace.jpg",
+    "imageURL": "assets/openspace.png",
     "arrows": [
       {
         "color": "#ff0000",
-        "note": "Entry to 2 floor",
+        "note": "Далее",
         "noteColor": "#000000",
-        "position": [10, -50, -300],
-        "rotationX": 0.2,
-        "rotationY": 0,
+        "position": [-200, -230, 230],
+        "rotationX": 0,
+        "rotationY": -3,
         "rotationZ": 0,
         "panoramaId": 2
       }
@@ -83,41 +94,61 @@
   {
     "id": 4,
     "note":"Hallway-1",
-    "imageURL": "http://127.0.0.1:3000/hallway_1.jpg",
+    "imageURL": "assets/Холл_1.jpg",
     "arrows": [
       {
-        "color": "#000000",
-        "note": "Entry to 2 floor",
+        "color": "#00ff00",
+        "note": "Openspace",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
-        "rotationX": 0,
-        "rotationY": -1.2,
+        "position": [440, -160, 80],
+        "rotationX": 3,
+        "rotationY": 5,
         "rotationZ": 0,
-        "panoramaId": 2
+        "panoramaId": 3
       },
       {
         "color": "#000000",
-        "note": "Office КСБ",
+        "note": "Трюм",
         "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
+        "position": [200, -250, 300],
+        "rotationX": 4.7,
+        "rotationY": 0,
         "rotationZ": 0,
+        "panoramaId": 1
+      },
+      {
+        "color": "#000000",
+        "note": "3 этаж",
+        "noteColor": "#ffffff",
+        "position": [200, 30, 300],
+        "rotationX": -4.7,
+        "rotationY": 0,
+        "rotationZ": 8,
+        "panoramaId": 16
+      }, 
+      {
+        "color": "#000000",
+        "note": "Офис КСБ",
+        "noteColor": "#ffffff",
+        "position": [-100, -160, 405],
+        "rotationX": 0,
+        "rotationY": -3,
+        "rotationZ": -3,
         "panoramaId": 5
       },
       {
         "color": "#000000",
-        "note": "Coworking",
+        "note": "Коворкинг",
         "noteColor": "#ffffff",
-        "position": [10, -300, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
+        "position": [-400, -160, 100],
+        "rotationX": 0,
+        "rotationY": -5,
         "rotationZ": 0,
         "panoramaId": 6
       },
       {
         "color": "#000000",
-        "note": "Hallway-2",
+        "note": "Далее",
         "noteColor": "#ffffff",
         "position": [10, -500, 300],
         "rotationX": 3,
@@ -130,35 +161,35 @@
   {
     "id": 5,
     "note":"Office КСБ",
-    "imageURL": "http://127.0.0.1:3000/office_KSB.jpg",
+    "imageURL": "assets/Офис_КСБ.png",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Office CKR",
+        "note": "Офис ЦКР",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
+        "position": [-350, -160, 230],
         "rotationX": 0,
-        "rotationY": -1.2,
-        "rotationZ": 0,
-        "panoramaId": 2
+        "rotationY": -3,
+        "rotationZ": -3,
+        "panoramaId": 8
       },
       {
         "color": "#000000",
-        "note": "Coworking",
+        "note": "Коворкинг",
         "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
+        "position": [-410, -160, 0],
+        "rotationX": 0,
+        "rotationY": -4.55,
         "rotationZ": 0,
         "panoramaId": 6
       },
       {
         "color": "#000000",
-        "note": "Hallway-1",
+        "note": "Холл",
         "noteColor": "#ffffff",
-        "position": [10, -300, 300],
+        "position": [-270, -160, -230],
         "rotationX": 3,
-        "rotationY": -0.2,
+        "rotationY": 9,
         "rotationZ": 0,
         "panoramaId": 4
       }
@@ -166,26 +197,26 @@
   },
   {
     "id": 6,
-    "note":"Coworking",
-    "imageURL": "http://127.0.0.1:3000/coworking.jpg",
+    "note":"Коворкинг",
+    "imageURL": "assets/Коворкинг.jpg",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Office КСБ",
+        "note": "Офис КСБ",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
+        "position": [-100, -160, -400],
         "rotationX": 0,
-        "rotationY": -1.2,
+        "rotationY": -0.23,
         "rotationZ": 0,
         "panoramaId": 5
       },
       {
         "color": "#000000",
-        "note": "Hallway-1",
+        "note": "Холл",
         "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
+        "position": [0, -160, -300],
+        "rotationX": 0,
+        "rotationY": 7,
         "rotationZ": 0,
         "panoramaId": 4
       }
@@ -194,35 +225,35 @@
   {
     "id": 7,
     "note":"Hallway-2",
-    "imageURL": "http://127.0.0.1:3000/hallway_2.jpg",
+    "imageURL": "assets/Холл_2.jpg",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Hallway-1",
+        "note": "Холл",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
+        "position": [379, -160, -60],
         "rotationX": 0,
-        "rotationY": -1.2,
+        "rotationY": -1.55,
         "rotationZ": 0,
         "panoramaId": 4
       },
       {
         "color": "#000000",
-        "note": "Kitchen",
+        "note": "Кухня",
         "noteColor": "#ffffff",
-        "position": [10, -100, 300],
+        "position": [-260, -160, 140],
         "rotationX": 3,
-        "rotationY": -0.2,
+        "rotationY": 1.55,
         "rotationZ": 0,
         "panoramaId": 9
       },
       {
         "color": "#000000",
-        "note": "Hallway-3",
+        "note": "Холл",
         "noteColor": "#ffffff",
-        "position": [10, -300, 300],
+        "position": [-100, -160, 400],
         "rotationX": 3,
-        "rotationY": -0.2,
+        "rotationY": 0,
         "rotationZ": 0,
         "panoramaId": 10
       }
@@ -230,26 +261,26 @@
   },
   {
     "id": 8,
-    "note":"Office CKR",
-    "imageURL": "http://127.0.0.1:3000/office_CKR.jpg",
+    "note":"Офис ЦКР",
+    "imageURL": "assets/Офис_ЦКР.PNG",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Office КСБ",
+        "note": "Офис КСБ",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
-        "rotationX": 0,
-        "rotationY": -1.2,
+        "position": [-70, -160, 310],
+        "rotationX": 3,
+        "rotationY": 0,
         "rotationZ": 0,
         "panoramaId": 5
       },
       {
         "color": "#000000",
-        "note": "recreation area",
+        "note": "Зона отдыха",
         "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
+        "position": [0, -160, -369],
+        "rotationX": 0,
+        "rotationY": 0,
         "rotationZ": 0,
         "panoramaId": 13
       }
@@ -258,13 +289,13 @@
   {
     "id": 9,
     "note":"Kitchen-2",
-    "imageURL": "http://127.0.0.1:3000/kitchen_2.jpg",
+    "imageURL": "assets/Кухня_2.png",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Hallway-2",
+        "note": "Холл",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
+        "position": [160, -160, 200],
         "rotationX": 0,
         "rotationY": -1.2,
         "rotationZ": 0,
@@ -275,58 +306,58 @@
   {
     "id": 10,
     "note":"Hallway-3",
-    "imageURL": "http://127.0.0.1:3000/hallway_3.jpg",
+    "imageURL": "assets/Холл_3.png",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Hallway-2",
+        "note": "Далее",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
-        "rotationX": 0,
-        "rotationY": -1.2,
-        "rotationZ": 0,
+        "position": [-170, -160, -300],
+          "rotationX": 0,
+          "rotationY": 0.5,
+          "rotationZ": 0,
         "panoramaId": 7
       },
       {
         "color": "#000000",
-        "note": "Meeting room",
+        "note": "Переговорная",
         "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
-        "rotationZ": 0,
+        "position": [-316, -160, -200],
+          "rotationX": 0,
+          "rotationY": 1,
+          "rotationZ": 0,
         "panoramaId": 11
       },
       {
         "color": "#000000",
-        "note": "Play zone",
+        "note": "Игровая зона",
         "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
-        "rotationZ": 0,
+        "position": [-170, -160, 365],
+          "rotationX": 0,
+          "rotationY": 2.55,
+          "rotationZ": 0,
         "panoramaId": 12
       },
       {
         "color": "#000000",
-        "note": "recreation area",
+        "note": "Зона отдыха",
         "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
-        "rotationZ": 0,
+        "position": [-20, -180, 365],
+          "rotationX": 0,
+          "rotationY": 3,
+          "rotationZ": 0,
         "panoramaId": 13
       }
     ]
   },
   {
     "id": 11,
-    "note":"Meeting room",
-    "imageURL": "http://127.0.0.1:3000/Meeting_room.jpg",
+    "note":"Переговорная",
+    "imageURL": "assets/Переговорная.jpg",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Hallway-3",
+        "note": "Далее",
         "noteColor": "#ffffff",
         "position": [300, -100, -200],
         "rotationX": 0,
@@ -338,73 +369,53 @@
   },
   {
     "id": 12,
-    "note":"Play zone",
-    "imageURL": "http://127.0.0.1:3000/play_zone.jpg",
+    "note":"Игровая зона",
+    "imageURL": "assets/Игровая_зона.PNG",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Hallway-3",
+        "note": "Холл",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
+        "position": [-100, -160, 340],
         "rotationX": 0,
-        "rotationY": -1.2,
+        "rotationY": 2.6,
         "rotationZ": 0,
         "panoramaId": 10
-      },
-      {
-        "color": "#000000",
-        "note": "recreation area",
-        "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
-        "rotationZ": 0,
-        "panoramaId": 13
       }
     ]
   },
   {
     "id": 13,
-    "note":"recreation area",
-    "imageURL": "http://127.0.0.1:3000/relax_area.jpg",
+    "note":"Зона отдыха",
+    "imageURL": "assets/Зона_Отдыха.png",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Office CKR",
+        "note": "Офис ЦКР",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
+        "position": [300, -160, 0],
         "rotationX": 0,
-        "rotationY": -1.2,
+        "rotationY": -1.45,
         "rotationZ": 0,
         "panoramaId": 8
       },
       {
         "color": "#000000",
-        "note": "Hallway-3",
+        "note": "Холл",
         "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
+        "position": [200, -160, -200],
+        "rotationX": 0,
+        "rotationY": -0.5,
         "rotationZ": 0,
         "panoramaId": 10
       },
       {
         "color": "#000000",
-        "note": "Play zone",
+        "note": "Терраса",
         "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
-        "rotationZ": 0,
-        "panoramaId": 12
-      },
-      {
-        "color": "#000000",
-        "note": "Terrace",
-        "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
+        "position": [-300, -160, -200],
+        "rotationX": 0,
+        "rotationY": 1,
         "rotationZ": 0,
         "panoramaId": 14
       }
@@ -413,106 +424,80 @@
   {
     "id": 14,
     "note":"Terrace",
-    "imageURL": "http://127.0.0.1:3000/Terrace.jpg",
+    "imageURL": "assets/Терраса.png",
     "arrows": [
       {
         "color": "#000000",
-        "note": "recreation area",
+        "note": "Зона отдыха",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
+        "position": [-355, -160, -180],
         "rotationX": 0,
-        "rotationY": -1.2,
+        "rotationY": 1.2,
         "rotationZ": 0,
         "panoramaId": 13
-      },
-      {
-        "color": "#000000",
-        "note": "Extra terrace",
-        "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
-        "rotationZ": 0,
-        "panoramaId": 15
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "note":"Extra terrace",
-    "imageURL": "http://127.0.0.1:3000/extra_terrace.jpg",
-    "arrows": [
-      {
-        "color": "#000000",
-        "note": "Terrace",
-        "noteColor": "#ffffff",
-        "position": [300, -100, -200],
-        "rotationX": 0,
-        "rotationY": -1.2,
-        "rotationZ": 0,
-        "panoramaId": 14
       }
     ]
   },
   {
     "id": 16,
     "note":"Hall",
-    "imageURL": "http://127.0.0.1:3000/hall.jpg",
+    "imageURL": "assets/Холл.png",
     "arrows": [
       {
         "color": "#000000",
-        "note": "2 floor",
+        "note": "2 этаж",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
-        "rotationX": 0,
-        "rotationY": -1.2,
+        "position": [-110, -100, 380],
+        "rotationX": 3,
+        "rotationY": 0.23,
         "rotationZ": 0,
-        "panoramaId": 2
+        "panoramaId": 20
       },
       {
         "color": "#000000",
-        "note": "Office DKPP",
+        "note": "Офис ДКПП",
         "noteColor": "#ffffff",
-        "position": [10, -100, 300],
-        "rotationX": 3,
-        "rotationY": -0.2,
-        "rotationZ": 0,
+        "position": [-355, -0, 210],
+        "rotationX": 0.64,
+        "rotationY": 1,
+        "rotationZ": 1.3,
         "panoramaId": 17
       },
       {
         "color": "#000000",
-        "note": "Kitchen",
+        "note": "Кухня",
         "noteColor": "#ffffff",
-        "position": [-10, -10, -350],
-        "rotationX": 3,
-        "rotationY": 0.4,
+        "position": [320, -160, 280],
+        "rotationX": 0,
+        "rotationY": -2.76,
         "rotationZ": 0,
         "panoramaId": 18
       },
       {
         "color": "#000000",
-        "note": "Office DGR",
+        "note": "Офис ДГР",
         "noteColor": "#ffffff",
-        "position": [-10, -10, -350],
-        "rotationX": 3,
-        "rotationY": 0.4,
+        "position": [400, -160, -80],
+        "rotationX": 0,
+        "rotationY": -2.76,
         "rotationZ": 0,
         "panoramaId": 19
       }
     ]
   },
+  
   {
     "id": 17,
-    "note":"Office DKPP",
-    "imageURL": "http://127.0.0.1:3000/office_DKPP.jpg",
+    "note":"Офис ДКПП",
+    "imageURL": "assets/Офис_ДКПП.png",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Hall",
+        "note": "Холл",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
+        "position": [-270, -200, -68],
         "rotationX": 0,
-        "rotationY": -1.2,
+        "rotationY": 1.23,
         "rotationZ": 0,
         "panoramaId": 16
       }
@@ -521,15 +506,15 @@
   {
     "id": 18,
     "note":"Kitchen-3",
-    "imageURL": "http://127.0.0.1:3000/kitchen_3.jpg",
+    "imageURL": "assets/Кухня_3.png",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Hall",
+        "note": "Холл",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
+        "position": [0, -160, -260],
         "rotationX": 0,
-        "rotationY": -1.2,
+        "rotationY": 0.43,
         "rotationZ": 0,
         "panoramaId": 16
       }
@@ -537,18 +522,55 @@
   },
   {
     "id": 19,
-    "note":"Office DGR",
-    "imageURL": "http://127.0.0.1:3000/office_DGR.jpg",
+    "note":"Офис ДГР",
+    "imageURL": "assets/Офис_ДГР.png",
     "arrows": [
       {
         "color": "#000000",
-        "note": "Hall",
+        "note": "Холл",
         "noteColor": "#ffffff",
-        "position": [300, -100, -200],
+        "position": [-110, -160, -300],
         "rotationX": 0,
-        "rotationY": -1.2,
+        "rotationY": -0.45,
         "rotationZ": 0,
         "panoramaId": 16
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "note":"2 Этаж",
+    "imageURL": "assets/Этаж_2.jpeg",
+    "arrows": [
+      {
+        "color": "#000000",
+        "note": "3 Этаж",
+        "noteColor": "#ffffff",
+        "position": [100, 20, -250],
+        "rotationX": -5,
+        "rotationY": 1,
+        "rotationZ": 0,
+        "panoramaId": 16
+      },
+      {
+        "color": "#000000",
+        "note": "Трюм",
+        "noteColor": "#ffffff",
+        "position": [100, -200, -250],
+        "rotationX": 5,
+        "rotationY": 1,
+        "rotationZ": 0,
+        "panoramaId": 1
+      },
+      {
+        "color": "#000000",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [100, -160, 260],
+        "rotationX": 0,
+        "rotationY": -2.4,
+        "rotationZ": 0,
+        "panoramaId": 2
       }
     ]
   }
