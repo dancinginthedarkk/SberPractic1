@@ -7,7 +7,6 @@ export const ModalContainer = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
-  //height: 30vw;
   background-color: rgb(255, 255, 255);
   box-shadow: rgb(0 0 0 / 20%) 0 11px 15px -7px, rgb(0 0 0 / 14%) 0px 24px 38px 3px, rgb(0 0 0 / 12%) 0px 9px 46px 8px;
   padding: 32px;
@@ -19,6 +18,11 @@ export const ModalContainer = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 480px) {
+    width: 100%;
+    padding: 20px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 800px) {
     width: 100%;
     padding: 20px;
   }
@@ -36,7 +40,7 @@ export const ModalContainerInside = styled.div`
 
 export const TypographyHeader = styled(Typography)`
   color: #323f48;
-  font-size: 65px;
+  font-size: calc(30px + 35 * (100vw - 390px) / 1530);
   font-weight: 400;
   text-align: center;
 
@@ -49,9 +53,9 @@ export const TypographyHeader = styled(Typography)`
 export const TypographyDescription = styled(Typography)`
   color: #323f48;
   text-align: justify;
-  font-size: 22px;
+  font-size: calc(14px + 8 * (100vw - 390px) / 1530);
   font-weight: 500;
-  line-height: 173.5%; /* 43.375px */
+  line-height: 173.5%;
   letter-spacing: -0.625px;
 
   @media screen and (max-width: 480px) {
@@ -66,12 +70,15 @@ export const TypographyDescription = styled(Typography)`
 export const ModalPanorama = styled.img`
   border-radius: 50px;
   width: 100%;
-  //height: 413px;
   object-fit: cover;
 
   @media screen and (max-width: 480px) {
-    //width: 349px;
     height: 413px;
+    border-radius: 25px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1150px) {
+    height: 30vw;
     border-radius: 25px;
   }
 `;

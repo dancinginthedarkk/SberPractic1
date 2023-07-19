@@ -18,10 +18,6 @@ export const InsideContainer = styled.div`
   @media screen and (max-width: 480px) {
     width: 92%;
   }
-
-  //@media screen and (max-width: 1024px) {
-  //  width: 92%;
-  //}
 `;
 
 export const Typography = styled.p`
@@ -39,7 +35,7 @@ export const DefaultButton = styled.button`
   align-items: center;
   border: 0;
   font-family: Inter, sans-serif;
-  font-size: 23px;
+  font-size: calc(14px + 9 * (100vw - 480px) / 1440);
   font-style: normal;
   font-weight: 500;
   cursor: pointer;
@@ -50,13 +46,13 @@ export const DefaultButton = styled.button`
     font-size: 14px;
     padding: 0;
     border-radius: 10px;
-    line-height: 173.523%;
     letter-spacing: -0.35px;
   }
 
-  //@media screen and (max-width: 1024px) {
-  //  font-size: 18px;
-  //}
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    height: 50px;
+    padding: 1.5rem 4rem;
+  }
 `;
 
 export const GlobalStyle = createGlobalStyle`
@@ -91,7 +87,7 @@ export const Algae = styled.img`
     bottom: 0;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
     width: 28%;
     height: 277px;
     right: 0;
@@ -112,7 +108,7 @@ export const AlgaeLong = styled.img`
     left: -15px;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
     width: 40%;
     height: 190px;
     left: -32px;
@@ -133,7 +129,7 @@ export const AlgaeLongBottom = styled.img`
     top: 37px;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
     width: 40%;
     height: 190px;
     left: -97px;

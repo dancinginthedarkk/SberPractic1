@@ -79,6 +79,13 @@ export const Icon360 = styled.div`
     font-size: 15px;
     line-height: 24px;
   }
+
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+  }
 `;
 
 export const TypographyDescription = styled(Typography)`
@@ -97,7 +104,6 @@ export const TypographyDescription = styled(Typography)`
 
 export const PanoramaContainer = styled.div`
   width: 100%;
-  border-radius: 60px;
   height: 671px;
   align-items: center;
   justify-content: center;
@@ -107,6 +113,10 @@ export const PanoramaContainer = styled.div`
   @media screen and (max-width: 480px) {
     height: 138px;
     border-radius: 20px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    height: 40vw;
   }
 `;
 
@@ -121,13 +131,17 @@ export const PanoramaContent = styled.img<PanoramaProps>`
     height: 138px;
     border-radius: 20px;
   }
+
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    height: 40vw;
+    border-radius: 25px;
+  }
 `;
 
 export const ButtonPanorama = styled(DefaultButton)`
   height: 76px;
   background: #35c378;
   color: #f0f3fd;
-  line-height: 173.523%;
   letter-spacing: -0.575px;
   position: absolute;
   top: 50%;
@@ -137,5 +151,10 @@ export const ButtonPanorama = styled(DefaultButton)`
 
   @media screen and (max-width: 480px) {
     height: 36px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    height: 50px;
+    padding: 0 3rem;
   }
 `;

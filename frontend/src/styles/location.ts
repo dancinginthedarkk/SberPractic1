@@ -17,7 +17,7 @@ export const LocationsContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    gap: 15px;
+    gap: 30px;
     justify-content: center;
   }
 `;
@@ -35,7 +35,6 @@ export const Card = styled.div<PanoramaProps>`
   justify-content: space-between;
   background-color: gray;
   cursor: pointer;
-  //padding: 3rem 3rem 2rem 2rem;
 
   &:hover {
     transform: scale(1.05);
@@ -49,7 +48,7 @@ export const Card = styled.div<PanoramaProps>`
     background-size: cover;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
     border-radius: 25px;
     width: 35vw;
     background-size: cover;
@@ -67,7 +66,7 @@ export const ArrowRight = styled.img`
     padding-bottom: 25px;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
     padding-right: 2rem;
     padding-bottom: 1rem;
   }
@@ -103,7 +102,7 @@ export const TypographyLocationName = styled(Typography)`
     padding-left: 25px;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
     padding-top: 2rem;
     padding-left: 1rem;
   }

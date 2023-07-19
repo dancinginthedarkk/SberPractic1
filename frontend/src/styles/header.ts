@@ -20,6 +20,11 @@ export const Logo = styled.img`
     width: 34px;
     height: 36px;
   }
+
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    width: 50px;
+    height: 56px;
+  }
 `;
 
 export const Button360 = styled(DefaultButton)`
@@ -48,5 +53,10 @@ export const Button360 = styled(DefaultButton)`
         background-position: 0 50%;
       }
     }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    height: 50px;
+    padding: 0 3rem;
   }
 `;

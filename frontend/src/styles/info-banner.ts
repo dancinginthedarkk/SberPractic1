@@ -25,6 +25,13 @@ export const Container = styled.div`
     margin-bottom: 50px;
     background-image: url(${BannerMobile});
   }
+
+  @media screen and (min-width: 481px) and (max-width: 1150px) {
+    flex-direction: column-reverse;
+    padding: 1.5rem;
+    border-radius: 30px;
+    margin-bottom: 50px;
+  }
 `;
 
 export const ImageBanner = styled.img`
@@ -35,6 +42,11 @@ export const ImageBanner = styled.img`
   @media screen and (max-width: 480px) {
     width: 302px;
     height: 300px;
+    border-radius: 25px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1150px) {
+    width: 100%;
     border-radius: 25px;
   }
 `;
@@ -51,6 +63,11 @@ export const InfoBlock = styled.div`
   }
 
   @media screen and (max-width: 480px) {
+    width: 100%;
+    gap: 25px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1150px) {
     width: 100%;
     gap: 25px;
   }
