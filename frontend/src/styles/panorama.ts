@@ -73,10 +73,23 @@ export const PanoramaContainer = styled.div`
   width: 100%;
   border-radius: 60px;
   height: 671px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  position: relative;
+  overflow: hidden;
+  //align-items: center;
+  //justify-content: center;
+  //display: flex;
+  //position: relative;
+
+  //&:nth-child(3) {
+  //  display: none !important;
+  //}
+  //
+  //&:nth-child(4) {
+  //  display: none !important;
+  //}
+  //
+  //&:nth-child(5) {
+  //  display: none !important;
+  //}
 `;
 
 export const PanoramaContent = styled.img<PanoramaProps>`
