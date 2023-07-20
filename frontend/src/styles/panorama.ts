@@ -110,11 +110,10 @@ export const PanoramaContainer = styled.div`
   justify-content: center;
   display: flex;
   position: relative;
-  border-radius: 50px;
+  border-radius: 20px;
 
   @media screen and (max-width: 480px) {
-    height: 138px;
-    border-radius: 20px;
+    height: 50vw;
   }
 
   @media screen and (min-width: 481px) and (max-width: 1024px) {
@@ -124,15 +123,38 @@ export const PanoramaContainer = styled.div`
 
 export const PanoramaContent = styled.div<PanoramaProps>`
   filter: ${props => (props.isActive ? 'none' : 'brightness(0.3)')};
+  width: 100%;
+  height: 671px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  border-radius: 20px;
 
   @media screen and (max-width: 480px) {
-    height: 138px;
-    border-radius: 20px;
+    height: 50vw;
   }
 
   @media screen and (min-width: 481px) and (max-width: 1024px) {
     height: 40vw;
-    border-radius: 25px;
+  }
+`;
+
+export const PanoContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+
+  @media screen and (max-width: 480px) {
+    border-radius: 20px;
+  }
+
+  div ~ div {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 

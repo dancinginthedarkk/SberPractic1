@@ -28,10 +28,12 @@ export const Panorama = () => {
         Готовы ли вы отправиться вместе с нами <br /> в уникальную морскую экскурсию по нашему офису?
       </TypographyDescription>
       <PanoramaContainer>
-        <Pano />
         <a id="panorama"></a>
+        <PanoramaContent isActive={isActive}>
+          <Pano isMovable={isActive} />
+        </PanoramaContent>
         {/*<PanoramaContent src={PanoramaImg} isActive={isActive}></PanoramaContent>*/}
-        {/*{!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}*/}
+        {!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}
       </PanoramaContainer>
     </Container>
   );
