@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.js": "/SberPractic1/static/js/main.c11ab501.js",
+    "main.js": "/SberPractic1/static/js/main.3d52ce1e.js",
     "static/media/terassa.jpg": "/SberPractic1/static/media/terassa.78ba5312a15375e2ab68.jpg",
     "static/media/gaming.jpg": "/SberPractic1/static/media/gaming.8e996c6122eb649c7379.jpg",
-    "static/media/pano-1.jpg": "/SberPractic1/static/media/pano-1.6653a8207fbc4675b18b.jpg",
     "static/media/coworking.jpg": "/SberPractic1/static/media/coworking.57386db5914936ef65fa.jpg",
     "static/media/kitchen.jpg": "/SberPractic1/static/media/kitchen.0c5c6f59a16d27a08d4c.jpg",
     "static/media/content-office-2.jpg": "/SberPractic1/static/media/content-office-2.8848fdc5c4b1265f935b.jpg",
-    "static/media/pano-2.jpg": "/SberPractic1/static/media/pano-2.9031be5ef0a6b9a4a192.jpg",
     "static/media/hall.jpg": "/SberPractic1/static/media/hall.58e3330136c39cd89a94.jpg",
     "static/media/meeting.jpg": "/SberPractic1/static/media/meeting.d23e226ed4367185a979.jpg",
     "static/media/port.png": "/SberPractic1/static/media/port.39b0d46df6db4591d9eb.png",
@@ -21,9 +19,9 @@
     "static/media/close-icon.svg": "/SberPractic1/static/media/close-icon.f79002ecff285a551fc8c663ca237e20.svg",
     "static/media/arrow-right.svg": "/SberPractic1/static/media/arrow-right.0b745d94cfff4a19da4c56cce48aa8b6.svg",
     "index.html": "/SberPractic1/index.html",
-    "main.c11ab501.js.map": "/SberPractic1/static/js/main.c11ab501.js.map"
+    "main.3d52ce1e.js.map": "/SberPractic1/static/js/main.3d52ce1e.js.map"
   },
   "entrypoints": [
-    "static/js/main.c11ab501.js"
+    "static/js/main.3d52ce1e.js"
   ]
 }
