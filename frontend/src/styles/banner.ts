@@ -111,8 +111,13 @@ export const Button360 = styled(DefaultButton)`
 export const ImageBanner = styled.img`
   max-width: 536px;
   min-width: 350px;
+  max-height: 511px;
+  aspect-ratio: 1 / 1;
   border-radius: 50px;
   z-index: 2;
+  object-fit: cover;
+  filter: contrast(0.9);
+  object-position: left;
 
   @media screen and (max-width: 480px) {
     width: 302px;
@@ -122,7 +127,6 @@ export const ImageBanner = styled.img`
 
   @media screen and (min-width: 481px) and (max-width: 1150px) {
     width: 100%;
-    border-radius: 25px;
   }
 `;
 

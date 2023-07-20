@@ -35,6 +35,7 @@ export const Card = styled.div<PanoramaProps>`
   justify-content: space-between;
   background-color: gray;
   cursor: pointer;
+  filter: brightness(0.8);
 
   &:hover {
     transform: scale(1.05);
