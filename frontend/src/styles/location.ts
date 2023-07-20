@@ -90,8 +90,6 @@ export const CardInside = styled.div`
 
   @media screen and (max-width: 480px) {
     border-radius: 25px;
-    width: 165px;
-    height: 165px;
     background-size: cover;
     padding: 25px;
   }
