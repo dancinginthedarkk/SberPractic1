@@ -25,7 +25,7 @@ export const Panorama = () => {
         <Icon360>360°</Icon360>
       </HeaderPanorama>
       <TypographyDescription>
-        Ниже вы можете вживую погулять по нашему <br /> чудесному офису бла бла
+        Готовы ли вы отправиться вместе с нами <br /> в уникальную морскую экскурсию по нашему офису?
       </TypographyDescription>
       <PanoramaContainer>
         <a id="panorama"></a>

@@ -37,7 +37,8 @@ export const Locations = () => {
         <AlgaeLongBottom src={AlgaeIcon}></AlgaeLongBottom>
         <TypographyH1>Основные локации</TypographyH1>
         <TypographyDescription>
-          Ниже вы можете вживую погулять по нашему <br /> чудесному офису бла бла
+          Добро пожаловать на борт! <br />
+          Здесь вы можете прогуляться по нашим основным палубам.
         </TypographyDescription>
         <LocationsContainer>
           {cards.map(card => (
