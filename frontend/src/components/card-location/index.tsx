@@ -1,4 +1,4 @@
-import { ArrowRight, Card, TypographyLocationName } from '../../styles/location';
+import { ArrowRight, Card, TypographyLocationName, CardInside } from '../../styles/location';
 import React from 'react';
 import ArrowRightIcon from '../../assets/arrow-right.svg';
 import Coworking from '../../assets/coworking.jpg';
@@ -40,8 +40,10 @@ export const CardLocation: React.FC<CardProps> = ({ title, onClick }) => {
     <>
       <HashLink to="/#modal">
         <Card background={background} onClick={onClick}>
-          <TypographyLocationName>{title}</TypographyLocationName>
-          <ArrowRight src={ArrowRightIcon} />
+          <CardInside>
+            <TypographyLocationName>{title}</TypographyLocationName>
+            <ArrowRight src={ArrowRightIcon} />
+          </CardInside>
         </Card>
       </HashLink>
     </>
