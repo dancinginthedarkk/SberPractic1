@@ -1,10 +1,10 @@
 import { Container, InfoBlock, TypographyDescription, ImageBanner } from '../../styles/info-banner';
-import Office from '../../assets/content-office-job.svg';
+import Port from '../../assets/port.png';
 
 export const InfoBanner = () => {
   return (
     <Container>
-      <ImageBanner src={Office} alt="Изображение офиса" />
+      <ImageBanner src={Port} alt="Изображение порта"></ImageBanner>
       <InfoBlock>
         <TypographyDescription>
           <p>

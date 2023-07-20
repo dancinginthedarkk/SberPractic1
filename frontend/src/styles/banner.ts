@@ -1,6 +1,134 @@
 import styled, { keyframes } from 'styled-components';
 import { DefaultButton, Typography } from './global';
 import Banner from '../assets/background-banner-main.svg';
+import BannerMobile from '../assets/background-mobile-main.svg';
+
+export const Container = styled.div`
+  border-radius: 60px;
+  background: var(linear-gradient(90deg, #4ed1be 0%, #2dbe64 63.33%, #a1de83 100%));
+  margin-top: 65px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 5rem;
+  background-image: url(${Banner});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background-image: url(${BannerMobile});
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1150px) {
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+`;
+
+export const InfoBanner = styled.div`
+  width: 60%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+  z-index: 2;
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    gap: 25px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1150px) {
+    width: 100%;
+    gap: 25px;
+  }
+`;
+
+export const TypographyH1 = styled(Typography)`
+  font-size: calc(60px + 40 * (100vw - 768px) / 1530);
+  font-weight: 400;
+  align-self: flex-start;
+
+  @media screen and (max-width: 480px) {
+    align-self: center;
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1150px) {
+    align-self: center;
+  }
+`;
+
+export const TypographyDescription = styled(Typography)`
+  font-size: calc(18px + 7 * (100vw - 390px) / 1530);
+  font-weight: 500;
+  line-height: 173.5%;
+  letter-spacing: -0.625px;
+
+  @media screen and (max-width: 480px) {
+    text-align: justify;
+    font-size: 14px;
+    letter-spacing: -0.35px;
+  }
+`;
+
+export const Button360 = styled(DefaultButton)`
+  color: #323f48;
+  background: #f0f3fd;
+  transition: transform 0.2s;
+
+  a {
+    text-decoration: none;
+    color: #323f48;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    transition: 1s;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1150px) {
+    height: 50px;
+    padding: 0 3rem;
+  }
+`;
+
+export const ImageBanner = styled.img`
+  max-width: 536px;
+  min-width: 350px;
+  max-height: 511px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50px;
+  z-index: 2;
+  object-fit: cover;
+  filter: contrast(0.9);
+  object-position: left;
+
+  @media screen and (max-width: 480px) {
+    width: 302px;
+    height: 300px;
+    border-radius: 25px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1150px) {
+    width: 100%;
+  }
+`;
 
 export const waveAnimation = keyframes`
       0% {
@@ -20,26 +148,6 @@ export const swellAnimation = keyframes`
       }
 `;
 
-export const Container = styled.div`
-  border-radius: 60px;
-  background: var(--unnamed, linear-gradient(90deg, #4ed1be 0%, #2dbe64 63.33%, #a1de83 100%));
-  margin-top: 65px;
-  display: flex;
-  flex-direction: row;
-  overflow: hidden;
-  position: relative;
-  margin-bottom: 100px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 15px;
-  //padding: 46px 102px;
-  padding: 2em 5em;
-  background-image: url(${Banner});
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-`;
-
 export const Ocean = styled.div`
   height: 5%;
   width: 100%;
@@ -48,6 +156,10 @@ export const Ocean = styled.div`
   left: 0;
   opacity: 0.1;
   z-index: 1;
+
+  @media screen and (max-width: 480px) {
+    border-radius: 30px;
+  }
 `;
 
 export const Wave = styled.div`
@@ -61,6 +173,10 @@ export const Wave = styled.div`
   transform: translate3d(0, 0, 0);
   opacity: 0.3;
   z-index: 1;
+
+  @media screen and (max-width: 480px) {
+    border-radius: 30px;
+  }
 `;
 
 export const InnerWave = styled.div`
@@ -74,52 +190,8 @@ export const InnerWave = styled.div`
     ${swellAnimation} 7s ease -1.25s infinite;
   opacity: 0.3;
   z-index: 1;
-`;
 
-export const InfoBanner = styled.div`
-  width: 60%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  height: 100%;
-  z-index: 2;
-`;
-
-export const TypographyH1 = styled(Typography)`
-  font-size: 6em;
-  font-weight: 400;
-  align-self: flex-start;
-`;
-
-export const TypographyDescription = styled(Typography)`
-  font-size: 1.5em;
-  font-weight: 500;
-  line-height: 173.523%;
-  letter-spacing: -0.625px;
-`;
-
-export const Button360 = styled(DefaultButton)`
-  color: #323f48;
-  background: #f0f3fd;
-  margin: 15px 0;
-  transition: transform 0.2s;
-
-  a {
-    text-decoration: none;
-    color: #323f48;
+  @media screen and (max-width: 480px) {
+    border-radius: 30px;
   }
-
-  &:hover {
-    transform: scale(1.05);
-    transition: 1s;
-  }
-`;
-
-export const ImageBanner = styled.img`
-  max-width: 536px;
-  min-width: 450px;
-  height: 511px;
-  border-radius: 50px;
-  z-index: 2;
 `;
