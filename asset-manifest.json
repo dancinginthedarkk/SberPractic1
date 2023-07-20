@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/SberPractic1/static/js/main.aacec5a7.js",
+    "main.js": "/SberPractic1/static/js/main.c11ab501.js",
     "static/media/terassa.jpg": "/SberPractic1/static/media/terassa.78ba5312a15375e2ab68.jpg",
     "static/media/gaming.jpg": "/SberPractic1/static/media/gaming.8e996c6122eb649c7379.jpg",
     "static/media/pano-1.jpg": "/SberPractic1/static/media/pano-1.6653a8207fbc4675b18b.jpg",
@@ -21,9 +21,9 @@
     "static/media/close-icon.svg": "/SberPractic1/static/media/close-icon.f79002ecff285a551fc8c663ca237e20.svg",
     "static/media/arrow-right.svg": "/SberPractic1/static/media/arrow-right.0b745d94cfff4a19da4c56cce48aa8b6.svg",
     "index.html": "/SberPractic1/index.html",
-    "main.aacec5a7.js.map": "/SberPractic1/static/js/main.aacec5a7.js.map"
+    "main.c11ab501.js.map": "/SberPractic1/static/js/main.c11ab501.js.map"
   },
   "entrypoints": [
-    "static/js/main.aacec5a7.js"
+    "static/js/main.c11ab501.js"
   ]
 }
