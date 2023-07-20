@@ -1,0 +1,510 @@
+[
+  {
+    "id": 1,
+    "note": "Trum",
+    "imageURL": "https://i.ibb.co/KLr9bQp/Hold.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "2 этаж",
+        "noteColor": "#ffffff",
+        "position": [105, -130, 300],
+        "rotationX": 1,
+        "rotationY": 5,
+        "rotationZ": 3,
+        "panoramaId": 20
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "note": "2 этаж - холл",
+    "imageURL": "https://i.ibb.co/y4DkW8h/Hall-1.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Openspace",
+        "noteColor": "#ffffff",
+        "position": [340, -160, 80],
+        "rotationX": 3,
+        "rotationY": 5,
+        "rotationZ": 0,
+        "panoramaId": 3
+      },
+      {
+        "color": "#ffffff",
+        "note": "Вход",
+        "noteColor": "#ffffff",
+        "position": [270, -100, 300],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 8.43,
+        "panoramaId": 20
+      },
+      {
+        "color": "#ffffff",
+        "note": "Офис КСБ",
+        "noteColor": "#ffffff",
+        "position": [-100, -160, 405],
+        "rotationX": 0,
+        "rotationY": -3,
+        "rotationZ": -3,
+        "panoramaId": 5
+      },
+      {
+        "color": "#ffffff",
+        "note": "Коворкинг",
+        "noteColor": "#ffffff",
+        "position": [-400, -160, 100],
+        "rotationX": 0,
+        "rotationY": -5,
+        "rotationZ": 0,
+        "panoramaId": 6
+      },
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [-140, -160, -300],
+        "rotationX": 0,
+        "rotationY": 0.55,
+        "rotationZ": 0,
+        "panoramaId": 7
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "note":"Openspace",
+    "imageURL": "https://i.ibb.co/rMfHMN9/Openspace.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Далее",
+        "noteColor": "#000000",
+        "position": [-200, -230, 230],
+        "rotationX": 0,
+        "rotationY": -3,
+        "rotationZ": 0,
+        "panoramaId": 2
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "note":"Office КСБ",
+    "imageURL": "https://i.ibb.co/ZdtX6sC/Office-KSB.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Офис ЦКР",
+        "noteColor": "#ffffff",
+        "position": [-350, -160, 230],
+        "rotationX": 0,
+        "rotationY": -3,
+        "rotationZ": -3,
+        "panoramaId": 8
+      },
+      {
+        "color": "#ffffff",
+        "note": "Коворкинг",
+        "noteColor": "#ffffff",
+        "position": [-410, -160, 0],
+        "rotationX": 0,
+        "rotationY": -4.55,
+        "rotationZ": 0,
+        "panoramaId": 6
+      },
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [-270, -160, -230],
+        "rotationX": 3,
+        "rotationY": 9,
+        "rotationZ": 0,
+        "panoramaId": 2
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "note":"Коворкинг",
+    "imageURL": "https://i.ibb.co/DRTPv2z/Coworking.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Офис КСБ",
+        "noteColor": "#ffffff",
+        "position": [-100, -160, -400],
+        "rotationX": 0,
+        "rotationY": -0.23,
+        "rotationZ": 0,
+        "panoramaId": 5
+      },
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [0, -160, -300],
+        "rotationX": 0,
+        "rotationY": 7,
+        "rotationZ": 0,
+        "panoramaId": 2
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "note":"Hallway-2",
+    "imageURL": "https://i.ibb.co/b5NqzvB/Hall-2.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [379, -160, -60],
+        "rotationX": 0,
+        "rotationY": -1.55,
+        "rotationZ": 0,
+        "panoramaId": 2
+      },
+      {
+        "color": "#ffffff",
+        "note": "Кухня",
+        "noteColor": "#ffffff",
+        "position": [-260, -160, 140],
+        "rotationX": 3,
+        "rotationY": 1.55,
+        "rotationZ": 0,
+        "panoramaId": 9
+      },
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [-100, -160, 400],
+        "rotationX": 3,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "panoramaId": 10
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "note":"Офис ЦКР",
+    "imageURL": "https://i.ibb.co/fSTfWCy/Office-CKR.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Офис КСБ",
+        "noteColor": "#ffffff",
+        "position": [-70, -160, 310],
+        "rotationX": 3,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "panoramaId": 5
+      },
+      {
+        "color": "#ffffff",
+        "note": "Зона отдыха",
+        "noteColor": "#ffffff",
+        "position": [0, -160, -369],
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "panoramaId": 13
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "note":"Kitchen-2",
+    "imageURL": "https://i.ibb.co/0Dj7CDF/Kitchen-2.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [160, -160, 200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 7
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "note":"Hallway-3",
+    "imageURL": "https://i.ibb.co/sbTC69j/Hall-3.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Далее",
+        "noteColor": "#ffffff",
+        "position": [-170, -160, -300],
+        "rotationX": 0,
+        "rotationY": 0.5,
+        "rotationZ": 0,
+        "panoramaId": 7
+      },
+      {
+        "color": "#ffffff",
+        "note": "Переговорная",
+        "noteColor": "#ffffff",
+        "position": [-316, -160, -200],
+        "rotationX": 0,
+        "rotationY": 1,
+        "rotationZ": 0,
+        "panoramaId": 11
+      },
+      {
+        "color": "#ffffff",
+        "note": "Игровая зона",
+        "noteColor": "#ffffff",
+        "position": [-170, -160, 365],
+        "rotationX": 0,
+        "rotationY": 2.55,
+        "rotationZ": 0,
+        "panoramaId": 12
+      },
+      {
+        "color": "#ffffff",
+        "note": "Зона отдыха",
+        "noteColor": "#ffffff",
+        "position": [-20, -180, 365],
+        "rotationX": 0,
+        "rotationY": 3,
+        "rotationZ": 0,
+        "panoramaId": 13
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "note":"Переговорная",
+    "imageURL": "https://i.ibb.co/Jcnv2xf/Meeting-room.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Далее",
+        "noteColor": "#ffffff",
+        "position": [300, -100, -200],
+        "rotationX": 0,
+        "rotationY": -1.2,
+        "rotationZ": 0,
+        "panoramaId": 10
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "note":"Игровая зона",
+    "imageURL": "https://i.ibb.co/nfcrnj6/Play-zone.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [-100, -160, 340],
+        "rotationX": 0,
+        "rotationY": 2.6,
+        "rotationZ": 0,
+        "panoramaId": 10
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "note":"Зона отдыха",
+    "imageURL": "https://i.ibb.co/BfPFXvN/Relax-zone.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Офис ЦКР",
+        "noteColor": "#ffffff",
+        "position": [300, -160, 0],
+        "rotationX": 0,
+        "rotationY": -1.45,
+        "rotationZ": 0,
+        "panoramaId": 8
+      },
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [200, -160, -200],
+        "rotationX": 0,
+        "rotationY": -0.5,
+        "rotationZ": 0,
+        "panoramaId": 10
+      },
+      {
+        "color": "#ffffff",
+        "note": "Терраса",
+        "noteColor": "#ffffff",
+        "position": [-300, -160, -200],
+        "rotationX": 0,
+        "rotationY": 1,
+        "rotationZ": 0,
+        "panoramaId": 14
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "note":"Terrace",
+    "imageURL": "https://i.ibb.co/MCNr9Kw/Terrace.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Зона отдыха",
+        "noteColor": "#ffffff",
+        "position": [-355, -160, -180],
+        "rotationX": 0,
+        "rotationY": 1.2,
+        "rotationZ": 0,
+        "panoramaId": 13
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "note":"Hall",
+    "imageURL": "https://i.ibb.co/SvCTqqk/Hall.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "2 этаж",
+        "noteColor": "#ffffff",
+        "position": [-110, -100, 380],
+        "rotationX": 3,
+        "rotationY": 0.23,
+        "rotationZ": 0,
+        "panoramaId": 20
+      },
+      {
+        "color": "#ffffff",
+        "note": "Офис ДКПП",
+        "noteColor": "#ffffff",
+        "position": [-355, -0, 210],
+        "rotationX": 0.64,
+        "rotationY": 1,
+        "rotationZ": 1.3,
+        "panoramaId": 17
+      },
+      {
+        "color": "#ffffff",
+        "note": "Кухня",
+        "noteColor": "#ffffff",
+        "position": [320, -160, 280],
+        "rotationX": 0,
+        "rotationY": -2.76,
+        "rotationZ": 0,
+        "panoramaId": 18
+      },
+      {
+        "color": "#ffffff",
+        "note": "Офис ДГР",
+        "noteColor": "#ffffff",
+        "position": [400, -160, -80],
+        "rotationX": 0,
+        "rotationY": -2.76,
+        "rotationZ": 0,
+        "panoramaId": 19
+      }
+    ]
+  },
+
+  {
+    "id": 17,
+    "note":"Офис ДКПП",
+    "imageURL": "https://i.ibb.co/g4QYqkN/Office-DKPP.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [-270, -200, -68],
+        "rotationX": 0,
+        "rotationY": 1.23,
+        "rotationZ": 0,
+        "panoramaId": 16
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "note":"Kitchen-3",
+    "imageURL": "https://i.ibb.co/XVKBYhr/kitchen-3.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [0, -160, -260],
+        "rotationX": 0,
+        "rotationY": 0.43,
+        "rotationZ": 0,
+        "panoramaId": 16
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "note":"Офис ДГР",
+    "imageURL": "https://i.ibb.co/7rZfbW2/Office-DGR.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [-110, -160, -300],
+        "rotationX": 0,
+        "rotationY": -0.45,
+        "rotationZ": 0,
+        "panoramaId": 16
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "note":"2 Этаж",
+    "imageURL": "https://i.ibb.co/XWSdkwS/Floor-2.jpg",
+    "arrows": [
+      {
+        "color": "#ffffff",
+        "note": "3 Этаж",
+        "noteColor": "#ffffff",
+        "position": [100, 20, -250],
+        "rotationX": -5,
+        "rotationY": 1,
+        "rotationZ": 0,
+        "panoramaId": 16
+      },
+      {
+        "color": "#ffffff",
+        "note": "Трюм",
+        "noteColor": "#ffffff",
+        "position": [100, -200, -250],
+        "rotationX": 5,
+        "rotationY": 1,
+        "rotationZ": 0,
+        "panoramaId": 1
+      },
+      {
+        "color": "#ffffff",
+        "note": "Холл",
+        "noteColor": "#ffffff",
+        "position": [100, -160, 260],
+        "rotationX": 0,
+        "rotationY": -2.4,
+        "rotationZ": 0,
+        "panoramaId": 2
+      }
+    ]
+  }
+]

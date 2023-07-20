@@ -10,7 +10,7 @@ import {
   Wave
 } from '../../styles/banner';
 import { HashLink } from 'react-router-hash-link';
-import Office from '../../assets/content-office.svg';
+import Office from '../../assets/content-office-2.jpg';
 
 export const Banner = () => {
   return (
