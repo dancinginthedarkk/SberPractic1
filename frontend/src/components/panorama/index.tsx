@@ -10,7 +10,7 @@ import {
 } from '../../styles/panorama';
 import { useState } from 'react';
 import PanoramaImg from '../../assets/test-panorama.svg';
-import Pano from '../panorama-360';
+import { Pano } from '../panorama-360';
 
 export const Panorama = () => {
   const [isActive, setIsActive] = useState<boolean>(false);

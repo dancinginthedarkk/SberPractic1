@@ -2,11 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import * as PANOLENS from 'panolens';
 import panoramaImage from '../../assets/panorams/pano-1.jpg';
 import panoramaImage2 from '../../assets/panorams/pano-2.jpg';
-import panoramaImage3 from '../../assets/panorams/pano-3.jpg';
 import * as THREE from 'three';
-import { PanoramaContainer, PanoramaContent } from '../../styles/panorama';
 
-const Pano = () => {
+export const Pano = () => {
   const viewerRef = useRef();
 
   useEffect(() => {
@@ -21,10 +19,5 @@ const Pano = () => {
     viewer.add(panorama, panorama2);
   }, []);
 
-  return (
-    // <PanoramaContainer ref={viewerRef}></PanoramaContainer>
-    <div className="panoContainer" ref={viewerRef} style={{ width: '100%', height: '100%' }} />
-  );
+  return <div className="panoContainer" ref={viewerRef} style={{ width: '100%', height: '100%' }} />;
 };
-
-export default Pano;
