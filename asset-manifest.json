@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.js": "/SberPractic1/static/js/main.366b49bb.js",
-    "static/media/pano-3.jpg": "/SberPractic1/static/media/pano-3.fa633597ce286ea2bc8d.jpg",
+    "main.js": "/SberPractic1/static/js/main.70ea8305.js",
+    "static/media/terassa.jpg": "/SberPractic1/static/media/terassa.78ba5312a15375e2ab68.jpg",
+    "static/media/gaming.jpg": "/SberPractic1/static/media/gaming.8e996c6122eb649c7379.jpg",
     "static/media/pano-1.jpg": "/SberPractic1/static/media/pano-1.6653a8207fbc4675b18b.jpg",
-    "static/media/content-office.svg": "/SberPractic1/static/media/content-office.c91d3aa4e0d5c078fed36a4c48525eac.svg",
+    "static/media/coworking.jpg": "/SberPractic1/static/media/coworking.57386db5914936ef65fa.jpg",
+    "static/media/kitchen.jpg": "/SberPractic1/static/media/kitchen.0c5c6f59a16d27a08d4c.jpg",
+    "static/media/content-office-2.jpg": "/SberPractic1/static/media/content-office-2.8848fdc5c4b1265f935b.jpg",
     "static/media/pano-2.jpg": "/SberPractic1/static/media/pano-2.9031be5ef0a6b9a4a192.jpg",
-    "static/media/content-office-job.svg": "/SberPractic1/static/media/content-office-job.512b7d8bee77346091859bf43fa09631.svg",
-    "static/media/test-panorama.svg": "/SberPractic1/static/media/test-panorama.df5c9100d3d9c7205ef43f5e3a797d50.svg",
-    "static/media/coworking.svg": "/SberPractic1/static/media/coworking.bd2b0308df5517f7aa048d268a41422b.svg",
-    "static/media/kitchen.svg": "/SberPractic1/static/media/kitchen.b098abf082f3fac3f04eb26cc9d3e440.svg",
-    "static/media/meeting.svg": "/SberPractic1/static/media/meeting.7d3b7c72fcdaedf0c2856f36a02851aa.svg",
-    "static/media/terassa.svg": "/SberPractic1/static/media/terassa.c892466e468df7da0c84bb3ea351d63e.svg",
-    "static/media/gaming.svg": "/SberPractic1/static/media/gaming.662eab8ed552b180b2db022d571b6eda.svg",
-    "static/media/hall.svg": "/SberPractic1/static/media/hall.772cc136e5c323c1c68054e35b10c6ac.svg",
+    "static/media/hall.jpg": "/SberPractic1/static/media/hall.58e3330136c39cd89a94.jpg",
+    "static/media/meeting.jpg": "/SberPractic1/static/media/meeting.d23e226ed4367185a979.jpg",
+    "static/media/port.png": "/SberPractic1/static/media/port.39b0d46df6db4591d9eb.png",
+    "static/media/background-mobile-banner.svg": "/SberPractic1/static/media/background-mobile-banner.7dfae734493574e82f2a325010654156.svg",
     "static/media/background-banner-main.svg": "/SberPractic1/static/media/background-banner-main.6d5ce8fce09bb2d9ab9407960337c413.svg",
     "static/media/logo.svg": "/SberPractic1/static/media/logo.d1c4e0f437c623cd3d8656feb0b6066e.svg",
     "static/media/background-banner.svg": "/SberPractic1/static/media/background-banner.0c5f0cd726fdb8c1ad3854c4ea328e60.svg",
+    "static/media/background-mobile-main.svg": "/SberPractic1/static/media/background-mobile-main.7943ad3f8908a059dc65fa0d2de831a6.svg",
     "static/media/algae-1.svg": "/SberPractic1/static/media/algae-1.e06f4dce964fdb1eee0070d4232a770e.svg",
     "static/media/algae-2.svg": "/SberPractic1/static/media/algae-2.829b5cdc57035d74d98f04a240de6cb8.svg",
     "static/media/close-icon.svg": "/SberPractic1/static/media/close-icon.f79002ecff285a551fc8c663ca237e20.svg",
     "static/media/arrow-right.svg": "/SberPractic1/static/media/arrow-right.0b745d94cfff4a19da4c56cce48aa8b6.svg",
     "index.html": "/SberPractic1/index.html",
-    "main.366b49bb.js.map": "/SberPractic1/static/js/main.366b49bb.js.map"
+    "main.70ea8305.js.map": "/SberPractic1/static/js/main.70ea8305.js.map"
   },
   "entrypoints": [
-    "static/js/main.366b49bb.js"
+    "static/js/main.70ea8305.js"
   ]
 }
