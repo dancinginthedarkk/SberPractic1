@@ -30,9 +30,8 @@ export const Panorama = () => {
       <PanoramaContainer>
         <a id="panorama"></a>
         <PanoramaContent isActive={isActive}>
-          <Pano isMovable={isActive} />
+          <Pano key={isActive.toString()} isMovable={isActive} />
         </PanoramaContent>
-        {/*<PanoramaContent src={PanoramaImg} isActive={isActive}></PanoramaContent>*/}
         {!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}
       </PanoramaContainer>
     </Container>
