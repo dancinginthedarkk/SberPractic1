@@ -8,7 +8,7 @@ import {
   TypographyDescription,
   TypographyH1
 } from '../../styles/panorama';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Pano } from '../panorama-360';
 
 type PanoramaProps = {

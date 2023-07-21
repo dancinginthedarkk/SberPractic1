@@ -104,7 +104,7 @@ export const TypographyDescription = styled(Typography)`
 
 export const PanoramaContainer = styled.div`
   width: 100%;
-  height: 671px;
+  height: 45vw;
   overflow: hidden;
   align-items: center;
   justify-content: center;
@@ -113,7 +113,7 @@ export const PanoramaContainer = styled.div`
   border-radius: 20px;
 
   @media screen and (max-width: 480px) {
-    height: 50vw;
+    height: 80vw;
   }
 
   @media screen and (min-width: 481px) and (max-width: 1024px) {
@@ -124,7 +124,7 @@ export const PanoramaContainer = styled.div`
 export const PanoramaContent = styled.div<PanoramaProps>`
   filter: ${props => (props.isActive ? 'none' : 'brightness(0.3)')};
   width: 100%;
-  height: 671px;
+  height: 45vw;
   overflow: hidden;
   align-items: center;
   justify-content: center;
@@ -133,7 +133,7 @@ export const PanoramaContent = styled.div<PanoramaProps>`
   border-radius: 20px;
 
   @media screen and (max-width: 480px) {
-    height: 50vw;
+    height: 80vw;
   }
 
   @media screen and (min-width: 481px) and (max-width: 1024px) {

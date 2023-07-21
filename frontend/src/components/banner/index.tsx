@@ -10,7 +10,7 @@ import {
   Wave
 } from '../../styles/banner';
 import { HashLink } from 'react-router-hash-link';
-import Office from '../../assets/content-office-2.jpg';
+import Regata from '../../assets/regata.jpg';
 
 export const Banner = () => {
   return (
@@ -33,7 +33,7 @@ export const Banner = () => {
           <Button360>Экскурсия 360°</Button360>
         </HashLink>
       </InfoBanner>
-      <ImageBanner src={Office} alt="Изображение офиса" />
+      <ImageBanner src={Regata} alt="Изображение регаты Сбер" />
     </Container>
   );
 };
