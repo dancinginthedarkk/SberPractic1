@@ -1,6 +1,38 @@
 {
   "panoramas": [
     {
+      "id": "panoramaHall1",
+      "image": "https://i.ibb.co/pRr8yn2/Hall1.jpg",
+      "lookAtPosition": [6000.39, -1000.07, 1000.41],
+      "infospots": [
+        {
+          "position": [2900.94, -1000.17, -4500.32],
+          "text": "Дальше - Больше",
+          "panoramaId": "panoramaHall2"
+        },
+        {
+          "position": [700.94, -1000.17, 6000.32],
+          "text": "Офис КСБ",
+          "panoramaId": "panoramaOfficeKSB"
+        },
+        {
+          "position": [7500.94, -1000.17, 2000.32],
+          "text": "Коворкинг для иногородних",
+          "panoramaId": "panoramaCoworking"
+        },
+        {
+          "position": [6000.94, -1000.17, 3000.32],
+          "text": "Офис ЦКР",
+          "panoramaId": "panoramaOfficeCKR"
+        },
+        {
+          "position": [-10500.94, -1000.17, 2000.32],
+          "text": "Главная палуба",
+          "panoramaId": "panoramaFloor2"
+        }
+      ]
+    },
+    {
       "id": "panoramaHold",
       "image": "https://i.ibb.co/KLr9bQp/Hold.jpg",
       "lookAtPosition": [6000.39, 1000.07, 1000.41],
@@ -15,25 +47,25 @@
     {
       "id": "panoramaFloor2",
       "image": "https://i.ibb.co/XWSdkwS/Floor-2.jpg",
-      "lookAtPosition": [6000.39, 1000.07, 1000.41],
+      "lookAtPosition": [0.39, 0, 1000.41],
       "infospots": [
         {
-          "position": [-5000.94, -500.17, 3000.32],
+          "position": [-100, -2000.17, 5000.32],
           "text": "Openspace",
           "panoramaId": "panoramaOpenspace"
         },
         {
-          "position": [-5000.94, -500.17, 3000.32],
+          "position": [0.94, -3000.17, -5000.32],
           "text": "Спуститься на первый этаж",
           "panoramaId": "panoramaHold"
         },
         {
-          "position": [-5000.94, -500.17, 3000.32],
+          "position": [0.94, 0.17, -5000.32],
           "text": "Подняться наверх",
           "panoramaId": "panoramaHall"
         },
         {
-          "position": [-5000.94, -500.17, 3000.32],
+          "position":[-3000.94, -2000.17, 5000.32],
           "text": "Пройти дальше",
           "panoramaId": "panoramaHall1"
         }
@@ -45,44 +77,13 @@
       "lookAtPosition": [6000.39, 1000.07, 1000.41],
       "infospots": [
         {
-          "position": [-5000.94, -500.17, 3000.32],
+          "position":[ 3200.94, -2000.17, 5000.32],
           "text": "Вернуться",
           "panoramaId": "panoramaFloor2"
         }
       ]
     },
-    {
-      "id": "panoramaHall1",
-      "image": "https://i.ibb.co/pRr8yn2/Hall1.jpg",
-      "lookAtPosition": [6000.39, -1000.07, 1000.41],
-      "infospots": [
-        {
-          "position": [4000.94, -1000.17, -6000.32],
-          "text": "Дальше - Больше",
-          "panoramaId": "panoramaHall2"
-        },
-        {
-          "position": [4000.94, -1000.17, -6000.32],
-          "text": "Офис КСБ",
-          "panoramaId": "panoramaOfficeKSB"
-        },
-        {
-          "position": [4000.94, -1000.17, -6000.32],
-          "text": "Коворкинг для иногородних",
-          "panoramaId": "panoramaCoworking"
-        },
-        {
-          "position": [4000.94, -1000.17, -6000.32],
-          "text": "Офис ЦКР",
-          "panoramaId": "panoramOfficeCKR"
-        },
-        {
-          "position": [4000.94, -1000.17, -6000.32],
-          "text": "Главная палуба",
-          "panoramaId": "panoramaFloor2"
-        }
-      ]
-    },
+    
     {
       "id": "panoramaCoworking",
       "image": "https://i.ibb.co/DRTPv2z/Coworking.jpg",
