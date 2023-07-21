@@ -5,20 +5,26 @@ import { PanoContainer } from '../../styles/panorama';
 import config from './config.json';
 
 // eslint-disable-next-line react/prop-types
-export const Pano = ({ isMovable }) => {
-  const viewerRef = useRef();
+export const Pano = ({ isMovable, initialPanoramaId }) => {
+  const containerRef = useRef();
 
   useEffect(() => {
     const viewer = new PANOLENS.Viewer({
-      container: viewerRef.current,
+      container: containerRef.current,
       autoHideInfospot: true,
       controlButtons: ['fullscreen']
     });
 
     const panoramas = {};
+    // eslint-disable-next-line react/prop-types
+    let initialPanorama;
     config.panoramas.forEach(panoramaConfig => {
       const panorama = new PANOLENS.ImagePanorama(panoramaConfig.image);
       panoramas[panoramaConfig.id] = panorama;
+
+      if (panoramaConfig.id === initialPanoramaId) {
+        initialPanorama = panorama;
+      }
 
       if (panoramaConfig.lookAtPosition) {
         panorama.addEventListener('enter-fade-start', function () {
@@ -39,10 +45,10 @@ export const Pano = ({ isMovable }) => {
 
     viewer.add(...Object.values(panoramas));
 
-    if (!isMovable) {
-      return;
+    if (initialPanorama) {
+      viewer.setPanorama(initialPanorama);
     }
-  }, [isMovable]);
+  }, []);
 
-  return <PanoContainer ref={viewerRef}></PanoContainer>;
+  return <PanoContainer ref={containerRef}></PanoContainer>;
 };

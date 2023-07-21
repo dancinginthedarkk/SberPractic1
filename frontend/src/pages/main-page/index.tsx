@@ -14,7 +14,7 @@ export const MainPage = () => {
         <Header />
         <Banner />
         <InfoBanner />
-        <Panorama />
+        <Panorama initialPanoramaId="panoramaKitchen" />
         <Locations />
         <Footer />
         <Algae src={AlgaeIcon}></Algae>

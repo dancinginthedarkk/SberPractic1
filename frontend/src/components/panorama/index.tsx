@@ -11,7 +11,11 @@ import {
 import { useState } from 'react';
 import { Pano } from '../panorama-360';
 
-export const Panorama = () => {
+type PanoramaProps = {
+  initialPanoramaId: string;
+};
+
+export const Panorama: React.FC<PanoramaProps> = ({ initialPanoramaId }) => {
   const [isActive, setIsActive] = useState<boolean>(false);
 
   const handleButtonClick = () => {
@@ -30,7 +34,7 @@ export const Panorama = () => {
       <PanoramaContainer>
         <a id="panorama"></a>
         <PanoramaContent isActive={isActive}>
-          <Pano key={isActive.toString()} isMovable={isActive} />
+          <Pano isMovable={isActive} initialPanoramaId={initialPanoramaId} />
         </PanoramaContent>
         {!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}
       </PanoramaContainer>
