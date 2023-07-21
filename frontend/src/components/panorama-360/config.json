@@ -1,65 +1,175 @@
 {
   "panoramas": [
     {
-      "id": "panoramaStart",
+      "id": "panoramaHold",
       "image": "https://i.ibb.co/KLr9bQp/Hold.jpg",
       "lookAtPosition": [6000.39, 1000.07, 1000.41],
       "infospots": [
         {
           "position": [-5000.94, -500.17, 3000.32],
           "text": "Подняться наверх",
-          "panoramaId": "panoramaHoll"
+          "panoramaId": "panoramaFloor2"
         }
       ]
     },
     {
-      "id": "panoramaHoll",
-      "image": "https://i.ibb.co/y4DkW8h/Hall-1.jpg",
+      "id": "panoramaFloor2",
+      "image": "https://i.ibb.co/XWSdkwS/Floor-2.jpg",
+      "lookAtPosition": [6000.39, 1000.07, 1000.41],
+      "infospots": [
+        {
+          "position": [-5000.94, -500.17, 3000.32],
+          "text": "Openspace",
+          "panoramaId": "panoramaOpenspace"
+        },
+        {
+          "position": [-5000.94, -500.17, 3000.32],
+          "text": "Спуститься на первый этаж",
+          "panoramaId": "panoramaHold"
+        },
+        {
+          "position": [-5000.94, -500.17, 3000.32],
+          "text": "Подняться наверх",
+          "panoramaId": "panoramaHall"
+        },
+        {
+          "position": [-5000.94, -500.17, 3000.32],
+          "text": "Пройти дальше",
+          "panoramaId": "panoramaHall1"
+        }
+      ]
+    },
+    {
+      "id": "panoramaOpenspace",
+      "image": "https://i.ibb.co/rMfHMN9/Openspace.jpg",
+      "lookAtPosition": [6000.39, 1000.07, 1000.41],
+      "infospots": [
+        {
+          "position": [-5000.94, -500.17, 3000.32],
+          "text": "Вернуться",
+          "panoramaId": "panoramaFloor2"
+        }
+      ]
+    },
+    {
+      "id": "panoramaHall1",
+      "image": "https://i.ibb.co/pRr8yn2/Hall1.jpg",
       "lookAtPosition": [6000.39, -1000.07, 1000.41],
       "infospots": [
         {
-          "position": [-7000.94, -2000.17, 3000.32],
-          "text": "Спуститься на первый этаж",
-          "panoramaId": "panoramaStart"
+          "position": [4000.94, -1000.17, -6000.32],
+          "text": "Дальше - Больше",
+          "panoramaId": "panoramaHall2"
         },
         {
           "position": [4000.94, -1000.17, -6000.32],
-          "text": "Там дальше будет кухня!",
-          "panoramaId": "panoramaHall2"
+          "text": "Офис КСБ",
+          "panoramaId": "panoramaOfficeKSB"
+        },
+        {
+          "position": [4000.94, -1000.17, -6000.32],
+          "text": "Коворкинг для иногородних",
+          "panoramaId": "panoramaCoworking"
+        },
+        {
+          "position": [4000.94, -1000.17, -6000.32],
+          "text": "Офис ЦКР",
+          "panoramaId": "panoramOfficeCKR"
+        },
+        {
+          "position": [4000.94, -1000.17, -6000.32],
+          "text": "Главная палуба",
+          "panoramaId": "panoramaFloor2"
         }
       ]
     },
     {
-      "id": "panoramaKitchen",
-      "image": "https://i.ibb.co/0Dj7CDF/Kitchen-2.jpg",
+      "id": "panoramaCoworking",
+      "image": "https://i.ibb.co/DRTPv2z/Coworking.jpg",
       "lookAtPosition": [4000.39, -1000.07, 6500.41],
       "infospots": [
         {
           "position": [-3900.94, -1000.17, 6000.32],
-          "text": "Выйти в холл",
-          "panoramaId": "panoramaHall2"
+          "text": "Коридор",
+          "panoramaId": "panoramaHall1"
+        },
+        {
+          "position": [-3900.94, -1000.17, 6000.32],
+          "text": "Офис КСБ",
+          "panoramaId": "panoramaOfficeKSB"
+        }
+      ]
+    },
+    {
+      "id": "panoramaOfficeKSB",
+      "image": "https://i.ibb.co/ZdtX6sC/Office-KSB.jpg",
+      "lookAtPosition": [4000.39, -1000.07, 6500.41],
+      "infospots": [
+        {
+          "position": [-3900.94, -1000.17, 6000.32],
+          "text": "Коридор",
+          "panoramaId": "panoramaHall1"
+        },
+        {
+          "position": [-3900.94, -1000.17, 6000.32],
+          "text": "Коворкинг для иногородних",
+          "panoramaId": "panoramaCoworking"
+        },
+        {
+          "position": [-3900.94, -1000.17, 6000.32],
+          "text": "Офис ЦКР",
+          "panoramaId": "panoramaOfficeCKR"
+        }
+      ]
+    },
+    {
+      "id": "panoramaOfficeCKR",
+      "image": "https://i.ibb.co/fSTfWCy/Office-CKR.jpg",
+      "lookAtPosition": [4000.39, -1000.07, 6500.41],
+      "infospots": [
+        {
+          "position": [-3900.94, -1000.17, 6000.32],
+          "text": "Зона отдыха",
+          "panoramaId": "panoramaRelaxZone"
+        },
+        {
+          "position": [-3900.94, -1000.17, 6000.32],
+          "text": "Офис КСБ",
+          "panoramaId": "panoramaOfficeKSB"
         }
       ]
     },
     {
       "id": "panoramaHall2",
       "image": "https://i.ibb.co/b5NqzvB/Hall-2.jpg",
-      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "lookAtPosition": [4000.39, -1000.07, 6500.41],
       "infospots": [
         {
-          "position": [6000.94, -1000.17, 6000.32],
-          "text": "Выпить кофе",
-          "panoramaId": "panoramaKitchen"
+          "position": [-3900.94, -1000.17, 6000.32],
+          "text": "Попить кофе",
+          "panoramaId": "panoramaKitchen2"
         },
         {
-          "position":[-5000.94, -1000.17, 100.32],
-          "text": "Выйти в холл",
-          "panoramaId": "panoramaHoll"
-        },
-        {
-          "position": [1000.94, -1000.17, 6000.32],
-          "text": "К переговоркам",
+          "position": [-3900.94, -1000.17, 6000.32],
+          "text": "Можем поговорить?",
           "panoramaId": "panoramaHall3"
+        },
+        {
+          "position": [-3900.94, -1000.17, 6000.32],
+          "text": "Коридор",
+          "panoramaId": "panoramaHall1"
+        }
+      ]
+    },
+    {
+      "id": "panoramaKitchen2",
+      "image": "https://i.ibb.co/0Dj7CDF/Kitchen-2.jpg",
+      "lookAtPosition": [4000.39, -1000.07, 6500.41],
+      "infospots": [
+        {
+          "position": [-3900.94, -1000.17, 6000.32],
+          "text": "Напились кофе - ходим дальше",
+          "panoramaId": "panoramaHall2"
         }
       ]
     },
@@ -67,7 +177,132 @@
       "id": "panoramaHall3",
       "image": "https://i.ibb.co/sbTC69j/Hall-3.jpg",
       "lookAtPosition": [2000.39, -500.07, -4000.41],
-      "infospots": []
+      "infospots": [
+        {
+          "position": [6000.94, -1000.17, 6000.32],
+          "text": "Снова на кухню?",
+          "panoramaId": "panoramaHall2"
+        },
+        {
+          "position":[-5000.94, -1000.17, 100.32],
+          "text": "Переговорная комната",
+          "panoramaId": "panoramaMeetingRoom"
+        },
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Игровая комната",
+          "panoramaId": "panoramaPlayZone"
+        },
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Зона отдыха",
+          "panoramaId": "panoramaRelaxZone"
+        }
+      ]
+    },
+    {
+      "id": "panoramaPlayZone",
+      "image": "https://i.ibb.co/nfcrnj6/Play-zone.jpg",
+      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "infospots": [
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Вернуться",
+          "panoramaId": "panoramaHall3"
+        }
+      ]
+    },
+    {
+      "id": "panoramaRelaxZone",
+      "image": "https://i.ibb.co/BfPFXvN/Relax-zone.jpg",
+      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "infospots": [
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Можем поговорит?",
+          "panoramaId": "panoramaHall3"
+        },
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Офис ЦКР",
+          "panoramaId": "panoramaOfficeCKR"
+        },
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Подышать воздухом",
+          "panoramaId": "panoramaTerrace"
+        }
+      ]
+    },
+    {
+      "id": "panoramaTerrace",
+      "image": "https://i.ibb.co/MCNr9Kw/Terrace.jpg",
+      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "infospots": [
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Вернуться на отдых",
+          "panoramaId": "panoramaRelaxZone"
+        }
+      ]
+    },
+    {
+      "id": "panoramaHall",
+      "image": "https://i.ibb.co/SvCTqqk/Hall.jpg",
+      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "infospots": [
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Офис ДКПП",
+          "panoramaId": "panoramaOfficeDKPP"
+        },
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Офис ДГР",
+          "panoramaId": "panoramaOfficeDGR"
+        },
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Опять кушать?",
+          "panoramaId": "panoramaKitchen3"
+        }
+      ]
+    },
+    {
+      "id": "panoramaOfficeDKPP",
+      "image": "https://i.ibb.co/g4QYqkN/Office-DKPP.jpg",
+      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "infospots": [
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Вернуться",
+          "panoramaId": "panoramaHall"
+        }
+      ]
+    },
+    {
+      "id": "panoramaOfficeDGR",
+      "image": "https://i.ibb.co/7rZfbW2/Office-DGR.jpg",
+      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "infospots": [
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Вернуться",
+          "panoramaId": "panoramaHall"
+        }
+      ]
+    },
+    {
+      "id": "panoramaKitchen3",
+      "image": "https://i.ibb.co/7rZfbW2/Office-DGR.jpg",
+      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "infospots": [
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "Покушалию Вернемся?",
+          "panoramaId": "panoramaHall"
+        }
+      ]
     }
   ]
 }
