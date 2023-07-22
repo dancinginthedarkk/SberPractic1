@@ -5,41 +5,20 @@ import { PanoContainer } from '../../styles/panorama';
 import config from './config.json';
 import PanelImage from '../../assets/panel-background.svg';
 
+const noteStyle = `
+width: 270px;
+height: 250px;
+background-image: url(${PanelImage});
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+padding: 0 34px;
+line-height: 230px;
+`;
+
 // eslint-disable-next-line react/prop-types
 export const Pano = ({ isMovable, initialPanoramaId }) => {
   const containerRef = useRef();
-
-  const panel = document.createElement('div');
-  panel.setAttribute(
-    'style',
-    `
-        width: 270px;
-        height: 250px;
-        background-image: url(${PanelImage});
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom;
-        padding: 0 34px;
-        line-height: 230px;
-      `
-  );
-
-  const paragraph = document.createElement('p');
-  paragraph.setAttribute(
-    'style',
-    `
-        margin: 0;
-        color: #052617;
-        vertical-align: middle;
-        display: inline-block;
-        line-height: 1;
-        text-align: center;
-      `
-  );
-
-  paragraph.textContent =
-    'На камбузе созданы все условия, чтобы наши матросы оставались сытыми и довольными! По пятницам у нас день вкусняшек :)';
-  panel.appendChild(paragraph);
 
   useEffect(() => {
     const viewer = new PANOLENS.Viewer({
@@ -51,17 +30,10 @@ export const Pano = ({ isMovable, initialPanoramaId }) => {
     });
 
     const panoramas = {};
-    // eslint-disable-next-line react/prop-types
     let initialPanorama;
     config.panoramas.forEach(panoramaConfig => {
       const panorama = new PANOLENS.ImagePanorama(panoramaConfig.image);
       panoramas[panoramaConfig.id] = panorama;
-
-      //Заметка
-      const infospot8 = new PANOLENS.Infospot(200, PANOLENS.DataImage.Info);
-      infospot8.position.set(0, -1000, -5000);
-      infospot8.addHoverElement(panel, 150);
-      panoramas[panoramaConfig.id].add(infospot8);
 
       if (panoramaConfig.id === initialPanoramaId) {
         initialPanorama = panorama;
@@ -82,6 +54,34 @@ export const Pano = ({ isMovable, initialPanoramaId }) => {
         });
         panorama.add(infospot);
       });
+
+      if (panoramaConfig.notes) {
+        panoramaConfig.notes.forEach(noteConfig => {
+          const note = document.createElement('div');
+          note.setAttribute('style', noteStyle);
+
+          const noteText = document.createElement('p');
+          noteText.setAttribute(
+            'style',
+            `
+              margin: 0;
+              color: #052617;
+              vertical-align: middle;
+              display: inline-block;
+              line-height: 1;
+              text-align: center;
+            `
+          );
+
+          noteText.textContent = noteConfig.text;
+          note.appendChild(noteText);
+
+          const infospot = new PANOLENS.Infospot(200, PANOLENS.DataImage.Info);
+          infospot.position.set(...noteConfig.position);
+          infospot.addHoverElement(note, 150);
+          panoramas[panoramaConfig.id].add(infospot);
+        });
+      }
     });
 
     viewer.add(...Object.values(panoramas));
