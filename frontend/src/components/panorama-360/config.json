@@ -1,37 +1,6 @@
 {
   "panoramas": [
-    {
-      "id": "panoramaHall1",
-      "image": "https://i.ibb.co/pRr8yn2/Hall1.jpg",
-      "lookAtPosition": [6000.39, -1000.07, 1000.41],
-      "infospots": [
-        {
-          "position": [2900.94, -1000.17, -4500.32],
-          "text": "Дальше - Больше",
-          "panoramaId": "panoramaHall2"
-        },
-        {
-          "position": [700.94, -1000.17, 6000.32],
-          "text": "Офис КСБ",
-          "panoramaId": "panoramaOfficeKSB"
-        },
-        {
-          "position": [7500.94, -1000.17, 2000.32],
-          "text": "Коворкинг для иногородних",
-          "panoramaId": "panoramaCoworking"
-        },
-        {
-          "position": [6000.94, -1000.17, 3000.32],
-          "text": "Офис ЦКР",
-          "panoramaId": "panoramaOfficeCKR"
-        },
-        {
-          "position": [-10500.94, -1000.17, 2000.32],
-          "text": "Главная палуба",
-          "panoramaId": "panoramaFloor2"
-        }
-      ]
-    },
+    
     {
       "id": "panoramaHold",
       "image": "https://i.ibb.co/KLr9bQp/Hold.jpg",
@@ -72,30 +41,61 @@
       ]
     },
     {
+      "id": "panoramaHall1",
+      "image": "https://i.ibb.co/pRr8yn2/Hall1.jpg",
+      "lookAtPosition": [6000.39, -1000.07, 1000.41],
+      "infospots": [
+        {
+          "position": [2900.94, -1000.17, -4500.32],
+          "text": "Дальше - Больше",
+          "panoramaId": "panoramaHall2"
+        },
+        {
+          "position": [700.94, -1000.17, 6000.32],
+          "text": "Офис КСБ",
+          "panoramaId": "panoramaOfficeKSB"
+        },
+        {
+          "position": [7500.94, -1000.17, 2000.32],
+          "text": "Коворкинг для иногородних",
+          "panoramaId": "panoramaCoworking"
+        },
+        {
+          "position": [6000.94, -1000.17, 3000.32],
+          "text": "Офис ЦКР",
+          "panoramaId": "panoramaOfficeCKR"
+        },
+        {
+          "position": [-10500.94, -1000.17, 2000.32],
+          "text": "Главная палуба",
+          "panoramaId": "panoramaFloor2"
+        }
+      ]
+    },
+    {
       "id": "panoramaOpenspace",
       "image": "https://i.ibb.co/rMfHMN9/Openspace.jpg",
       "lookAtPosition": [6000.39, 1000.07, 1000.41],
       "infospots": [
         {
-          "position":[ 3200.94, -2000.17, 5000.32],
+          "position":[ 3200.94, -500.17, 5000.32],
           "text": "Вернуться",
           "panoramaId": "panoramaFloor2"
         }
       ]
     },
-    
     {
       "id": "panoramaCoworking",
       "image": "https://i.ibb.co/DRTPv2z/Coworking.jpg",
-      "lookAtPosition": [4000.39, -1000.07, 6500.41],
+      "lookAtPosition": [6000.39, -1000.07, 6500.41],
       "infospots": [
         {
-          "position": [-3900.94, -1000.17, 6000.32],
+          "position": [700, -1000.17, -6000.32],
           "text": "Коридор",
           "panoramaId": "panoramaHall1"
         },
         {
-          "position": [-3900.94, -1000.17, 6000.32],
+          "position": [-700, -1000.17, -6000.32],
           "text": "Офис КСБ",
           "panoramaId": "panoramaOfficeKSB"
         }
@@ -104,20 +104,20 @@
     {
       "id": "panoramaOfficeKSB",
       "image": "https://i.ibb.co/ZdtX6sC/Office-KSB.jpg",
-      "lookAtPosition": [4000.39, -1000.07, 6500.41],
+      "lookAtPosition": [6000.39, -1000.07, 1000.41],
       "infospots": [
         {
-          "position": [-3900.94, -1000.17, 6000.32],
-          "text": "Коридор",
+          "position": [9000.94, -1000.17, -3000.32],
+          "text": "Вернемся",
           "panoramaId": "panoramaHall1"
         },
         {
-          "position": [-3900.94, -1000.17, 6000.32],
+          "position": [9000.94, -1000.17, 0.32],
           "text": "Коворкинг для иногородних",
           "panoramaId": "panoramaCoworking"
         },
         {
-          "position": [-3900.94, -1000.17, 6000.32],
+          "position": [2300.94, -1000.17, 6000.32],
           "text": "Офис ЦКР",
           "panoramaId": "panoramaOfficeCKR"
         }
@@ -126,15 +126,15 @@
     {
       "id": "panoramaOfficeCKR",
       "image": "https://i.ibb.co/fSTfWCy/Office-CKR.jpg",
-      "lookAtPosition": [4000.39, -1000.07, 6500.41],
+      "lookAtPosition": [6000.39, -1000.07, 1500.41],
       "infospots": [
         {
-          "position": [-3900.94, -1000.17, 6000.32],
+          "position": [ -600.94, -600.17, -6000.32],
           "text": "Зона отдыха",
           "panoramaId": "panoramaRelaxZone"
         },
         {
-          "position": [-3900.94, -1000.17, 6000.32],
+          "position": [500.94, -1000.17, 6000.32],
           "text": "Офис КСБ",
           "panoramaId": "panoramaOfficeKSB"
         }
@@ -146,17 +146,17 @@
       "lookAtPosition": [4000.39, -1000.07, 6500.41],
       "infospots": [
         {
-          "position": [-3900.94, -1000.17, 6000.32],
+          "position": [ 5000.94, -1000.17, 5000.32],
           "text": "Попить кофе",
           "panoramaId": "panoramaKitchen2"
         },
         {
-          "position": [-3900.94, -1000.17, 6000.32],
+          "position": [ 650.94, -700.17, 6000.32],
           "text": "Можем поговорить?",
           "panoramaId": "panoramaHall3"
         },
         {
-          "position": [-3900.94, -1000.17, 6000.32],
+          "position": [-7000.94, -1000.17, 500.32],
           "text": "Коридор",
           "panoramaId": "panoramaHall1"
         }
@@ -180,17 +180,17 @@
       "lookAtPosition": [2000.39, -500.07, -4000.41],
       "infospots": [
         {
-          "position": [6000.94, -1000.17, 6000.32],
+          "position": [1500.94, -1000.17, -6000.32],
           "text": "Снова на кухню?",
           "panoramaId": "panoramaHall2"
         },
         {
-          "position":[-5000.94, -1000.17, 100.32],
+          "position":[4500.94, -700.17, -4000.32],
           "text": "Переговорная комната",
           "panoramaId": "panoramaMeetingRoom"
         },
         {
-          "position": [1000.94, -1000.17, 6000.32],
+          "position": [3000.94, -1000.17, 6000.32],
           "text": "Игровая комната",
           "panoramaId": "panoramaPlayZone"
         },
@@ -202,12 +202,24 @@
       ]
     },
     {
-      "id": "panoramaPlayZone",
-      "image": "https://i.ibb.co/nfcrnj6/Play-zone.jpg",
-      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "id": "panoramaMeetingRoom",
+      "image": "https://i.ibb.co/sPjTL5D/Meeting-Room.png",
+      "lookAtPosition": [2000.39, -500.07, 1000.41],
       "infospots": [
         {
-          "position": [1000.94, -1000.17, 6000.32],
+          "position": [3000.94, -500.17, 5000.32],
+          "text": "Вернуться",
+          "panoramaId": "panoramaHall3"
+        }
+      ]
+    },
+    {
+      "id": "panoramaPlayZone",
+      "image": "https://i.ibb.co/nfcrnj6/Play-zone.jpg",
+      "lookAtPosition": [-1000.39, -500.07, 4000.41],
+      "infospots": [
+        {
+          "position": [1300.94, -1000.17, 6000.32],
           "text": "Вернуться",
           "panoramaId": "panoramaHall3"
         }
@@ -216,20 +228,20 @@
     {
       "id": "panoramaRelaxZone",
       "image": "https://i.ibb.co/BfPFXvN/Relax-zone.jpg",
-      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "lookAtPosition": [2000.39, -500.07, 4000.41],
       "infospots": [
         {
-          "position": [1000.94, -1000.17, 6000.32],
+          "position": [-4000.94, -1000.17, -6000.32],
           "text": "Можем поговорит?",
           "panoramaId": "panoramaHall3"
         },
         {
-          "position": [1000.94, -1000.17, 6000.32],
+          "position": [-6000.94, -1000.17, -6000.32],
           "text": "Офис ЦКР",
           "panoramaId": "panoramaOfficeCKR"
         },
         {
-          "position": [1000.94, -1000.17, 6000.32],
+          "position": [4000.94, -1000.17, -3000.32],
           "text": "Подышать воздухом",
           "panoramaId": "panoramaTerrace"
         }
@@ -241,7 +253,7 @@
       "lookAtPosition": [2000.39, -500.07, -4000.41],
       "infospots": [
         {
-          "position": [1000.94, -1000.17, 6000.32],
+          "position": [5000.94, -1000.17, -2000.32],
           "text": "Вернуться на отдых",
           "panoramaId": "panoramaRelaxZone"
         }
@@ -253,19 +265,24 @@
       "lookAtPosition": [2000.39, -500.07, -4000.41],
       "infospots": [
         {
-          "position": [1000.94, -1000.17, 6000.32],
+          "position": [6000.94, 1000.17,-1000.32],
           "text": "Офис ДКПП",
           "panoramaId": "panoramaOfficeDKPP"
         },
         {
-          "position": [1000.94, -1000.17, 6000.32],
+          "position": [-5000.94, -1000.17, -1000.32],
           "text": "Офис ДГР",
           "panoramaId": "panoramaOfficeDGR"
         },
         {
-          "position": [1000.94, -1000.17, 6000.32],
+          "position": [-4000.94, -1000.17, 5000.32],
           "text": "Опять кушать?",
           "panoramaId": "panoramaKitchen3"
+        },
+        {
+          "position": [1000.94, -1000.17, 6000.32],
+          "text": "На главную палубу",
+          "panoramaId": "panoramaFloor2"
         }
       ]
     },
@@ -275,7 +292,7 @@
       "lookAtPosition": [2000.39, -500.07, -4000.41],
       "infospots": [
         {
-          "position": [1000.94, -1000.17, 6000.32],
+          "position": [6000.94, -5000.17, 0.32],
           "text": "Вернуться",
           "panoramaId": "panoramaHall"
         }
@@ -287,7 +304,7 @@
       "lookAtPosition": [2000.39, -500.07, -4000.41],
       "infospots": [
         {
-          "position": [1000.94, -1000.17, 6000.32],
+          "position": [-2000.94, -1000.17, 6000.32],
           "text": "Вернуться",
           "panoramaId": "panoramaHall"
         }
@@ -295,16 +312,17 @@
     },
     {
       "id": "panoramaKitchen3",
-      "image": "https://i.ibb.co/7rZfbW2/Office-DGR.jpg",
+      "image": "https://i.ibb.co/XVKBYhr/kitchen-3.jpg",
       "lookAtPosition": [2000.39, -500.07, -4000.41],
       "infospots": [
         {
-          "position": [1000.94, -1000.17, 6000.32],
-          "text": "Покушалию Вернемся?",
+          "position": [0.94, -1000.17, -4000.32],
+          "text": "Покушали? Вернемся?",
           "panoramaId": "panoramaHall"
         }
       ]
     }
+    
   ]
 }
 
