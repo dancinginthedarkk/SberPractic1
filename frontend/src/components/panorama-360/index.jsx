@@ -28,7 +28,7 @@ export const Pano = ({ isMovable, initialPanoramaId }) => {
       controlButtons: ['fullscreen'],
       autoHideControlBar: false
     });
-
+    containerRef.current.style.pointerEvents = isMovable ? 'auto' : 'none';
     const panoramas = {};
     // eslint-disable-next-line react/prop-types
     let initialPanorama;
@@ -89,7 +89,7 @@ export const Pano = ({ isMovable, initialPanoramaId }) => {
     if (initialPanorama) {
       viewer.setPanorama(initialPanorama);
     }
-  }, []);
+  }, [isMovable]);
 
   return <PanoContainer ref={containerRef}></PanoContainer>;
 };
