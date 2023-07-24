@@ -7,6 +7,7 @@ import {
   TypographyDescription,
   TypographyHeader
 } from '../../styles/modal';
+import { Pano } from '../../components/panorama-360'
 import CloseModalIcon from '../../assets/close-icon.svg';
 
 type Props = {
@@ -34,22 +35,22 @@ export const Modal = ({ title, closeModal }: Props) => {
   let initialPanoramaId;
   switch (title) {
     case 'Холл':
-      initialPanoramaId = 16;
+      initialPanoramaId = 'panoramaHall';
       break;
     case 'Кухня':
-      initialPanoramaId = 9;
+      initialPanoramaId = 'panoramaKitchen2';
       break;
     case 'Терасса':
-      initialPanoramaId = 14;
+      initialPanoramaId = 'panoramaTerrace';
       break;
     case 'Коворкинг для иногородних сотрудников':
-      initialPanoramaId = 6;
+      initialPanoramaId = 'panoramaCoworking';
       break;
     case 'Переговорные комнаты':
-      initialPanoramaId = 11;
+      initialPanoramaId = 'panoramaMeetingRoom';
       break;
     case 'Игровая комната':
-      initialPanoramaId = 12;
+      initialPanoramaId = 'panoramaPlayZone';
       break;
     default:
       initialPanoramaId = 1;
@@ -60,7 +61,9 @@ export const Modal = ({ title, closeModal }: Props) => {
       <ModalContainer>
         <ModalContainerInside id="modal">
           <TypographyHeader>{title}</TypographyHeader>
-          <ModalPanorama></ModalPanorama>
+          <ModalPanorama>
+      <Pano initialPanoramaId={initialPanoramaId} isMovable />
+          </ModalPanorama>
           <TypographyDescription>{description}</TypographyDescription>
           <CloseIcon src={CloseModalIcon} onClick={closeModal}></CloseIcon>
         </ModalContainerInside>
