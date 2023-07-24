@@ -7,7 +7,7 @@ import {
   TypographyDescription,
   TypographyHeader
 } from '../../styles/modal';
-import { Pano } from '../../components/panorama-360'
+import { Pano } from '../../components/panorama-360';
 import CloseModalIcon from '../../assets/close-icon.svg';
 
 type Props = {
