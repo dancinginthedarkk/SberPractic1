@@ -93,4 +93,3 @@ export const Pano = ({ isMovable, initialPanoramaId }) => {
 
   return <PanoContainer ref={containerRef}></PanoContainer>;
 };
-
