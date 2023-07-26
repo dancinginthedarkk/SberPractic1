@@ -8,7 +8,7 @@
       "infospots": [
         {
           "position": [1500.94, -500.17, -3000.32],
-          "text": "Подняться наверх",
+          "text": "Главная палуба",
           "panoramaId": "panoramaFloor2"
         }
       ]
@@ -65,12 +65,12 @@
         },
         {
           "position": [5000.94, -200.17, 4500.32],
-          "text": "Коворкинг для иногородних",
+          "text": "Коворкинг для гостей",
           "panoramaId": "panoramaCoworking"
         },
         {
           "position": [3600.94, -500.17, 5000.32],
-          "text": "Офис КСБ",
+          "text": "Openspace",
           "panoramaId": "panoramaOfficeKSB"
         },
         {
@@ -92,7 +92,7 @@
         },
         {
           "position": [-6000, -1000.17, 100.32],
-          "text": "Офис КСБ",
+          "text": "Openspace",
           "panoramaId": "panoramaOfficeKSB"
         }
       ]
@@ -109,12 +109,12 @@
         },
         {
           "position": [-6000.94, -1000.17, -2000.32],
-          "text": "Коворкинг для иногородних",
+          "text": "Коворкинг для гостей",
           "panoramaId": "panoramaCoworking"
         },
         {
           "position": [6000.94, -500.17, -1500.32],
-          "text": "Офис ЦКР",
+          "text": "Openspace",
           "panoramaId": "panoramaOfficeCKR"
         }
       ]
@@ -131,7 +131,7 @@
         },
         {
           "position": [-6000.94, -1000.17, -1500.32],
-          "text": "Офис КСБ",
+          "text": "Openspace",
           "panoramaId": "panoramaOfficeKSB"
         },
         {
@@ -215,8 +215,8 @@
         },
         {
           "position": [6000.94, -700.17, -2500.32],
-          "text": "Зона отдыха",
-          "panoramaId": "panoramaRelaxZone"
+          "text": "Openspace",
+          "panoramaId": "panoramaOfficeCKR"
         }
       ]
     },
@@ -264,12 +264,12 @@
 
         {
           "position": [3600.94, -500.17, 6000.32],
-          "text": "Офис ЦКР",
+          "text": "Openspace",
           "panoramaId": "panoramaOfficeCKR"
         },
         {
           "position": [-6000.94, -1000.17, 6000.32],
-          "text": "Подышать воздухом",
+          "text": "Выйти на террасу",
           "panoramaId": "panoramaTerrace"
         }
       ],
@@ -287,7 +287,7 @@
       "infospots": [
         {
           "position": [5000.94, -1000.17, -2000.32],
-          "text": "Вернуться на отдых",
+          "text": "В зону отдыха",
           "panoramaId": "panoramaRelaxZone"
         }
       ],
@@ -310,7 +310,7 @@
         },
         {
           "position": [-3900.94, -3800.17, -6000.32],
-          "text": "Главную палуба",
+          "text": "Главная палуба",
           "panoramaId": "panoramaFloor2"
         }
       ]
@@ -322,12 +322,12 @@
       "infospots": [
         {
           "position": [ -4000.94, 600.17, 2400.32],
-          "text": "Офис ДКПП",
+          "text": "Openspace",
           "panoramaId": "panoramaOfficeDKPP"
         },
         {
           "position": [6000.94, -1000.17, -4000.32],
-          "text": "Офис ДГР",
+          "text": "Openspace",
           "panoramaId": "panoramaOfficeDGR"
         },
         {
@@ -379,7 +379,7 @@
       "infospots": [
         {
           "position": [-4000.94, -1000.17, -4000.32],
-          "text": "Покушали? Вернемся?",
+          "text": "Вернуться",
           "panoramaId": "panoramaHall"
         }
       ],
