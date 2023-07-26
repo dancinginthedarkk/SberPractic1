@@ -47,7 +47,13 @@ export const Card = styled.div<PanoramaProps>`
     background-size: cover;
     border-radius: 50px;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 390px) {
+      border-radius: 25px;
+      width: 65vw;
+      background-size: cover;
+    }
+
+    @media screen and (min-width: 391px) and (max-width: 480px) {
       border-radius: 25px;
       width: 165px;
       height: 165px;
@@ -66,7 +72,13 @@ export const Card = styled.div<PanoramaProps>`
     transition: 1s;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 390px) {
+    border-radius: 25px;
+    width: 65vw;
+    background-size: cover;
+  }
+
+  @media screen and (min-width: 391px) and (max-width: 480px) {
     border-radius: 25px;
     width: 165px;
     height: 165px;

@@ -4,8 +4,10 @@ import LogoIcon from '../../assets/logo.svg';
 
 export const Header = () => {
   return (
-    <HeaderContainer>
-      <Logo src={LogoIcon} alt="Логотип офиса"></Logo>
+    <HeaderContainer id="/">
+      <HashLink to="/#">
+        <Logo src={LogoIcon} alt="Логотип офиса"></Logo>
+      </HashLink>
       <HashLink to="/#panorama">
         <Button360>Экскурсия 360°</Button360>
       </HashLink>

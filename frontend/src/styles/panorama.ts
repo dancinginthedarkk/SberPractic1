@@ -104,47 +104,51 @@ export const TypographyDescription = styled(Typography)`
 
 export const PanoramaContainer = styled.div`
   width: 100%;
-  height: 45vw;
+  height: 40vw;
   overflow: hidden;
   align-items: center;
   justify-content: center;
   display: flex;
   position: relative;
-  border-radius: 20px;
+  border-radius: 60px;
 
   @media screen and (max-width: 480px) {
     height: 80vw;
+    border-radius: 20px;
   }
 
-  @media screen and (min-width: 481px) and (max-width: 1024px) {
+  @media screen and (min-width: 481px) and (max-width: 1150px) {
     height: 40vw;
+    border-radius: 20px;
   }
 `;
 
 export const PanoramaContent = styled.div<PanoramaProps>`
   filter: ${props => (props.isActive ? 'none' : 'brightness(0.3)')};
   width: 100%;
-  height: 45vw;
+  height: 40vw;
   overflow: hidden;
   align-items: center;
   justify-content: center;
   display: flex;
   position: relative;
-  border-radius: 20px;
+  border-radius: 60px;
 
   @media screen and (max-width: 480px) {
     height: 80vw;
+    border-radius: 20px;
   }
 
   @media screen and (min-width: 481px) and (max-width: 1024px) {
     height: 40vw;
+    border-radius: 20px;
   }
 `;
 
 export const PanoContainer = styled.div`
   width: 100%;
   height: 100%;
-  border-radius: 20px;
+  border-radius: 60px;
 
   @media screen and (max-width: 480px) {
     border-radius: 20px;

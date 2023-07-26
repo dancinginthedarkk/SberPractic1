@@ -30,8 +30,8 @@ export const Pano = ({ isMovable, initialPanoramaId }) => {
     });
     containerRef.current.style.pointerEvents = isMovable ? 'auto' : 'none';
     const panoramas = {};
-    // eslint-disable-next-line react/prop-types
     let initialPanorama;
+
     config.panoramas.forEach(panoramaConfig => {
       const panorama = new PANOLENS.ImagePanorama(panoramaConfig.image);
       panoramas[panoramaConfig.id] = panorama;

@@ -6,14 +6,13 @@ export const ModalContainer = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  width: 60%;
   background-color: rgb(255, 255, 255);
   box-shadow: rgb(0 0 0 / 20%) 0 11px 15px -7px, rgb(0 0 0 / 14%) 0px 24px 38px 3px, rgb(0 0 0 / 12%) 0px 9px 46px 8px;
   padding: 32px;
   z-index: 10;
   display: flex;
   flex-direction: column;
-  gap: 2em;
   align-items: center;
   justify-content: center;
   scrollbar-width: auto;
@@ -32,7 +31,7 @@ export const ModalContainer = styled.div`
 export const ModalContainerInside = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 1.5em;
   align-items: center;
   justify-content: center;
   width: 90%;
@@ -41,7 +40,7 @@ export const ModalContainerInside = styled.div`
 
 export const TypographyHeader = styled(Typography)`
   color: #323f48;
-  font-size: calc(30px + 35 * (100vw - 390px) / 1530);
+  font-size: calc(30px + 30 * (100vw - 390px) / 1530);
   font-weight: 400;
   text-align: center;
 
@@ -54,16 +53,16 @@ export const TypographyHeader = styled(Typography)`
 export const TypographyDescription = styled(Typography)`
   color: #323f48;
   text-align: justify;
-  font-size: calc(14px + 8 * (100vw - 390px) / 1530);
+  font-size: calc(14px + 6 * (100vw - 390px) / 1530);
   font-weight: 500;
-  line-height: 173.5%;
+  line-height: 160%;
   letter-spacing: -0.625px;
 
   @media screen and (max-width: 480px) {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 173.5%;
+    line-height: 150%;
     letter-spacing: -0.35px;
   }
 `;
@@ -72,13 +71,13 @@ export const ModalPanorama = styled.div`
   border-radius: 50px;
   width: 100%;
   object-fit: cover;
-  height: 60vh;
+  height: 55vh;
   overflow: hidden;
   position: relative;
   object-position: center;
 
   @media screen and (max-width: 480px) {
-    height: 413px;
+    height: 45vh;
     border-radius: 25px;
   }
 

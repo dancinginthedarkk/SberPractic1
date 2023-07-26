@@ -120,8 +120,9 @@ export const ImageBanner = styled.img`
   object-position: left;
 
   @media screen and (max-width: 480px) {
-    width: 302px;
-    height: 300px;
+    max-width: 100%;
+    min-width: 100%;
+    aspect-ratio: 1 / 1;
     border-radius: 25px;
   }
 
