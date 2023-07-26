@@ -1,6 +1,5 @@
 {
   "panoramas": [
-
     {
       "id": "panoramaHold",
       "image": "https://i.ibb.co/KwYSJt7/Trum.jpg",
@@ -34,20 +33,20 @@
           "panoramaId": "panoramaFloor3"
         },
         {
-          "position":[1700.94, -2000.17, 5000.32],
+          "position": [1700.94, -2000.17, 5000.32],
           "text": "Пройти дальше",
           "panoramaId": "panoramaHall1"
         }
       ]
     },
-  
+
     {
       "id": "panoramaOpenspace",
       "image": "https://i.ibb.co/0hRmQrB/Open-Space.jpg",
       "lookAtPosition": [-6000.39, 500.07, 1000.41],
       "infospots": [
         {
-          "position":[5200.94, -500.17, 500.32],
+          "position": [5200.94, -500.17, 500.32],
           "text": "Вернуться",
           "panoramaId": "panoramaFloor2"
         }
@@ -141,19 +140,19 @@
         }
       ]
     },
-    
+
     {
       "id": "panoramaHall2",
       "image": "https://i.ibb.co/PwXFvnz/Hall2.jpg",
       "lookAtPosition": [-4000.39, -1000.07, -6500.41],
       "infospots": [
         {
-          "position": [ 5000.94, -1000.17, 5000.32],
+          "position": [5000.94, -1000.17, 5000.32],
           "text": "Кушать",
           "panoramaId": "panoramaKitchen2"
         },
         {
-          "position": [ -5000.94, -1000.17, 5000.32],
+          "position": [-5000.94, -1000.17, 5000.32],
           "text": "Попить кофе",
           "panoramaId": "panoramaKitchen2"
         },
@@ -192,7 +191,7 @@
         }
       ]
     },
-   
+
     {
       "id": "panoramaHall3",
       "image": "https://i.ibb.co/CP64ygQ/Hall3.jpg",
@@ -204,7 +203,7 @@
           "panoramaId": "panoramaHall2"
         },
         {
-          "position":[-5000.94, -1000.17, -6000.32],
+          "position": [-5000.94, -1000.17, -6000.32],
           "text": "Переговорная комната",
           "panoramaId": "panoramaMeetingRoom"
         },
@@ -261,7 +260,6 @@
       "image": "https://i.ibb.co/F7kcSGX/Relax-Zone.jpg",
       "lookAtPosition": [6000.39, -500.07, 1000.41],
       "infospots": [
-
         {
           "position": [3600.94, -500.17, 6000.32],
           "text": "Openspace",
@@ -321,7 +319,7 @@
       "lookAtPosition": [-4000.39, -500.07, -2000.41],
       "infospots": [
         {
-          "position": [ -4000.94, 600.17, 2400.32],
+          "position": [-4000.94, 600.17, 2400.32],
           "text": "Openspace",
           "panoramaId": "panoramaOfficeDKPP"
         },
@@ -392,4 +390,3 @@
     }
   ]
 }
-

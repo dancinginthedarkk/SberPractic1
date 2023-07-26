@@ -6,25 +6,34 @@ type PanoramaProps = {
 };
 
 export const LocationsContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
+  width: 100%;
 
   a {
     text-decoration: none;
   }
 
-  @media screen and (max-width: 480px) {
-    gap: 30px;
-    justify-content: center;
+  @media screen and (max-width: 350px) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  @media screen and (min-width: 351px) and (max-width: 480px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1026px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
 `;
 
 export const Card = styled.div<PanoramaProps>`
-  width: 24vw;
   aspect-ratio: 1 / 1;
+  width: 100%;
   border-radius: 50px;
   display: flex;
   flex-direction: row;
@@ -32,6 +41,11 @@ export const Card = styled.div<PanoramaProps>`
   background-color: gray;
   cursor: pointer;
   position: relative;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: 1s;
+  }
 
   &::before {
     content: '';
@@ -47,47 +61,14 @@ export const Card = styled.div<PanoramaProps>`
     background-size: cover;
     border-radius: 50px;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 1024px) {
       border-radius: 25px;
-      width: 65vw;
-      background-size: cover;
-    }
-
-    @media screen and (min-width: 391px) and (max-width: 480px) {
-      border-radius: 25px;
-      width: 165px;
-      height: 165px;
-      background-size: cover;
-    }
-
-    @media screen and (min-width: 481px) and (max-width: 1024px) {
-      border-radius: 25px;
-      width: 35vw;
       background-size: cover;
     }
   }
 
-  &:hover {
-    transform: scale(1.05);
-    transition: 1s;
-  }
-
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 1024px) {
     border-radius: 25px;
-    width: 65vw;
-    background-size: cover;
-  }
-
-  @media screen and (min-width: 391px) and (max-width: 480px) {
-    border-radius: 25px;
-    width: 165px;
-    height: 165px;
-    background-size: cover;
-  }
-
-  @media screen and (min-width: 481px) and (max-width: 1024px) {
-    border-radius: 25px;
-    width: 35vw;
     background-size: cover;
   }
 `;
@@ -108,7 +89,6 @@ export const CardInside = styled.div`
 
   @media screen and (min-width: 481px) and (max-width: 1024px) {
     border-radius: 25px;
-    width: 35vw;
     background-size: cover;
     padding: 2rem 2rem 1rem 1rem;
   }

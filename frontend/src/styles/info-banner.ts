@@ -8,7 +8,6 @@ export const Container = styled.div`
   background-color: rgba(53, 195, 120, 0.1);
   display: flex;
   flex-direction: row;
-  margin-bottom: 100px;
   align-items: center;
   justify-content: center;
   gap: 3rem;
@@ -22,7 +21,6 @@ export const Container = styled.div`
     flex-direction: column-reverse;
     padding: 1.5rem;
     border-radius: 30px;
-    margin-bottom: 50px;
     background-image: url(${BannerMobile});
   }
 
@@ -30,7 +28,6 @@ export const Container = styled.div`
     flex-direction: column-reverse;
     padding: 1.5rem;
     border-radius: 30px;
-    margin-bottom: 50px;
   }
 `;
 

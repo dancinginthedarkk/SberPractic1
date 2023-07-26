@@ -6,19 +6,18 @@ type PanoramaProps = {
 };
 
 export const Container = styled.div`
-  margin-bottom: 100px;
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   position: relative;
+  width: 100%;
 
   a {
     margin: 0;
   }
 
   @media screen and (max-width: 480px) {
-    margin-bottom: 50px;
     gap: 15px;
   }
 `;
@@ -137,11 +136,19 @@ export const PanoramaContent = styled.div<PanoramaProps>`
   @media screen and (max-width: 480px) {
     height: 80vw;
     border-radius: 20px;
+
+    & > div {
+      border-radius: 20px;
+    }
   }
 
   @media screen and (min-width: 481px) and (max-width: 1024px) {
     height: 40vw;
     border-radius: 20px;
+
+    & > div {
+      border-radius: 20px;
+    }
   }
 `;
 

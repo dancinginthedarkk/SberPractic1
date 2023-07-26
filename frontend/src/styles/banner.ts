@@ -6,12 +6,11 @@ import BannerMobile from '../assets/background-mobile-main.svg';
 export const Container = styled.div`
   border-radius: 60px;
   background: var(linear-gradient(90deg, #4ed1be 0%, #2dbe64 63.33%, #a1de83 100%));
-  margin-top: 65px;
+  margin-top: -50px;
   display: flex;
   flex-direction: row;
   overflow: hidden;
   position: relative;
-  margin-bottom: 100px;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
@@ -25,8 +24,7 @@ export const Container = styled.div`
     flex-direction: column;
     padding: 1.5rem;
     border-radius: 30px;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    margin-top: -25px;
     background-image: url(${BannerMobile});
   }
 
@@ -34,8 +32,7 @@ export const Container = styled.div`
     flex-direction: column;
     padding: 1.5rem;
     border-radius: 30px;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    margin-top: 0;
   }
 `;
 

@@ -7,16 +7,23 @@ export const Container = styled.div`
   flex-direction: column;
   margin-top: 23px;
   position: relative;
-  z-index: 5;
 `;
 
 export const InsideContainer = styled.div`
   width: 85%;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 
   @media screen and (max-width: 480px) {
     width: 92%;
+    gap: 50px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1150px) {
+    gap: 50px;
   }
 `;
 
