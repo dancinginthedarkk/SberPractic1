@@ -1,335 +1,288 @@
 {
   "panoramas": [
-    
+
     {
       "id": "panoramaHold",
-      "image": "https://i.ibb.co/KLr9bQp/Hold.jpg",
-      "lookAtPosition": [6000.39, 1000.07, 1000.41],
+      "image": "https://i.ibb.co/KwYSJt7/Trum.jpg",
+      "lookAtPosition": [-6000.39, 500.07, 1000.41],
       "infospots": [
         {
-          "position": [-5000.94, -500.17, 3000.32],
+          "position": [1500.94, -500.17, -3000.32],
           "text": "Подняться наверх",
           "panoramaId": "panoramaFloor2"
-        }
-      ],
-      "notes": [
-        {
-          "text": "Это пример заметки",
-          "position": [0, -1000, -5000]
-        },
-        {
-          "text": "Это еще одна заметка",
-          "position": [1000, -1000, -5000]
         }
       ]
     },
     {
       "id": "panoramaFloor2",
-      "image": "https://i.ibb.co/XWSdkwS/Floor-2.jpg",
-      "lookAtPosition": [0.39, 0, 1000.41],
+      "image": "https://i.ibb.co/FhHqQ2R/Floor2.jpg",
+      "lookAtPosition": [1000.39, 0, 1000.41],
       "infospots": [
         {
-          "position": [-100, -2000.17, 5000.32],
+          "position": [3600, -1200.17, 5000.32],
           "text": "Openspace",
           "panoramaId": "panoramaOpenspace"
         },
         {
-          "position": [0.94, -3000.17, -5000.32],
-          "text": "Спуститься на первый этаж",
+          "position": [-3000.94, -3000, -2000.32],
+          "text": "Спуститься в Трюм",
           "panoramaId": "panoramaHold"
         },
         {
-          "position": [0.94, 0.17, -5000.32],
-          "text": "Подняться наверх",
-          "panoramaId": "panoramaHall"
+          "position": [-3000.94, 0, -2000.32],
+          "text": "Солнечная палуба",
+          "panoramaId": "panoramaFloor3"
         },
         {
-          "position":[-3000.94, -2000.17, 5000.32],
+          "position":[1700.94, -2000.17, 5000.32],
           "text": "Пройти дальше",
           "panoramaId": "panoramaHall1"
         }
-      ],
-      "notes": [
+      ]
+    },
+  
+    {
+      "id": "panoramaOpenspace",
+      "image": "https://i.ibb.co/0hRmQrB/Open-Space.jpg",
+      "lookAtPosition": [-6000.39, 500.07, 1000.41],
+      "infospots": [
         {
-          "text": "Это пример заметки",
-          "position": [0, -1000, -5000]
-        },
-        {
-          "text": "Это еще одна заметка",
-          "position": [1000, -1000, -5000]
+          "position":[5200.94, -500.17, 500.32],
+          "text": "Вернуться",
+          "panoramaId": "panoramaFloor2"
         }
       ]
     },
     {
       "id": "panoramaHall1",
-      "image": "https://i.ibb.co/pRr8yn2/Hall1.jpg",
-      "lookAtPosition": [6000.39, -1000.07, 1000.41],
+      "image": "https://i.ibb.co/QFgjwj3/Hall1.jpg",
+      "lookAtPosition": [6000.39, -500.07, 4000.41],
       "infospots": [
         {
-          "position": [2900.94, -1000.17, -4500.32],
+          "position": [3000.94, -500.17, -2000.32],
           "text": "Дальше - Больше",
           "panoramaId": "panoramaHall2"
         },
         {
-          "position": [700.94, -1000.17, 6000.32],
-          "text": "Офис КСБ",
-          "panoramaId": "panoramaOfficeKSB"
-        },
-        {
-          "position": [7500.94, -1000.17, 2000.32],
+          "position": [5000.94, -200.17, 4500.32],
           "text": "Коворкинг для иногородних",
           "panoramaId": "panoramaCoworking"
         },
         {
-          "position": [6000.94, -1000.17, 3000.32],
-          "text": "Офис ЦКР",
-          "panoramaId": "panoramaOfficeCKR"
+          "position": [3600.94, -500.17, 5000.32],
+          "text": "Офис КСБ",
+          "panoramaId": "panoramaOfficeKSB"
         },
         {
-          "position": [-10500.94, -1000.17, 2000.32],
+          "position": [-4500.94, -1000.17, -1000.32],
           "text": "Главная палуба",
           "panoramaId": "panoramaFloor2"
-        }
-      ],
-      "notes": [
-        {
-          "text": "Это пример заметки",
-          "position": [0, -1000, -5000]
-        },
-        {
-          "text": "Это еще одна заметка",
-          "position": [1000, -1000, -5000]
-        }
-      ]
-    },
-    {
-      "id": "panoramaOpenspace",
-      "image": "https://i.ibb.co/rMfHMN9/Openspace.jpg",
-      "lookAtPosition": [6000.39, 1000.07, 1000.41],
-      "infospots": [
-        {
-          "position":[ 3200.94, -500.17, 5000.32],
-          "text": "Вернуться",
-          "panoramaId": "panoramaFloor2"
-        }
-      ],
-      "notes": [
-        {
-          "text": "Это пример заметки",
-          "position": [0, -1000, -5000]
-        },
-        {
-          "text": "Это еще одна заметка",
-          "position": [1000, -1000, -5000]
         }
       ]
     },
     {
       "id": "panoramaCoworking",
-      "image": "https://i.ibb.co/DRTPv2z/Coworking.jpg",
+      "image": "https://i.ibb.co/jMkNgpc/Coworking.jpg",
       "lookAtPosition": [6000.39, -1000.07, 6500.41],
       "infospots": [
         {
-          "position": [700, -1000.17, -6000.32],
+          "position": [-6000, -1000.17, -1000.32],
           "text": "Коридор",
           "panoramaId": "panoramaHall1"
         },
         {
-          "position": [-700, -1000.17, -6000.32],
+          "position": [-6000, -1000.17, 100.32],
           "text": "Офис КСБ",
           "panoramaId": "panoramaOfficeKSB"
-        }
-      ],
-      "notes": [
-        {
-          "text": "Это пример заметки",
-          "position": [0, -1000, -5000]
-        },
-        {
-          "text": "Это еще одна заметка",
-          "position": [1000, -1000, -5000]
         }
       ]
     },
     {
       "id": "panoramaOfficeKSB",
-      "image": "https://i.ibb.co/ZdtX6sC/Office-KSB.jpg",
-      "lookAtPosition": [6000.39, -1000.07, 1000.41],
+      "image": "https://i.ibb.co/PwfqnqS/Office-KSB.jpg",
+      "lookAtPosition": [-5000.39, -1000.07, 6500.41],
       "infospots": [
         {
-          "position": [9000.94, -1000.17, -3000.32],
+          "position": [-6000.94, -1000.17, 1000.32],
           "text": "Вернемся",
           "panoramaId": "panoramaHall1"
         },
         {
-          "position": [9000.94, -1000.17, 0.32],
+          "position": [-6000.94, -1000.17, -2000.32],
           "text": "Коворкинг для иногородних",
           "panoramaId": "panoramaCoworking"
         },
         {
-          "position": [2300.94, -1000.17, 6000.32],
+          "position": [6000.94, -500.17, -1500.32],
           "text": "Офис ЦКР",
           "panoramaId": "panoramaOfficeCKR"
-        }
-      ],
-      "notes": [
-        {
-          "text": "Это пример заметки",
-          "position": [0, -1000, -5000]
-        },
-        {
-          "text": "Это еще одна заметка",
-          "position": [1000, -1000, -5000]
         }
       ]
     },
     {
       "id": "panoramaOfficeCKR",
-      "image": "https://i.ibb.co/fSTfWCy/Office-CKR.jpg",
+      "image": "https://i.ibb.co/d6zwbHB/Office-CKR.jpg",
       "lookAtPosition": [6000.39, -1000.07, 1500.41],
       "infospots": [
         {
-          "position": [ -600.94, -600.17, -6000.32],
+          "position": [6000.94, -600.17, 1000.32],
           "text": "Зона отдыха",
           "panoramaId": "panoramaRelaxZone"
         },
         {
-          "position": [500.94, -1000.17, 6000.32],
+          "position": [-6000.94, -1000.17, -1500.32],
           "text": "Офис КСБ",
           "panoramaId": "panoramaOfficeKSB"
+        },
+        {
+          "position": [6000.94, -1000.17, -300.32],
+          "text": "Можем поговорить?",
+          "panoramaId": "panoramaHall3"
         }
       ]
     },
+    
     {
       "id": "panoramaHall2",
-      "image": "https://i.ibb.co/b5NqzvB/Hall-2.jpg",
-      "lookAtPosition": [4000.39, -1000.07, 6500.41],
+      "image": "https://i.ibb.co/PwXFvnz/Hall2.jpg",
+      "lookAtPosition": [-4000.39, -1000.07, -6500.41],
       "infospots": [
         {
           "position": [ 5000.94, -1000.17, 5000.32],
+          "text": "Кушать",
+          "panoramaId": "panoramaKitchen2"
+        },
+        {
+          "position": [ -5000.94, -1000.17, 5000.32],
           "text": "Попить кофе",
           "panoramaId": "panoramaKitchen2"
         },
         {
-          "position": [ 650.94, -700.17, 6000.32],
+          "position": [-6000.94, -500.17, -600.32],
           "text": "Можем поговорить?",
           "panoramaId": "panoramaHall3"
         },
         {
-          "position": [-7000.94, -1000.17, 500.32],
+          "position": [1000.94, -1000.17, -5000.32],
           "text": "Коридор",
           "panoramaId": "panoramaHall1"
-        }
-      ],
-      "notes": [
-        {
-          "text": "Это пример заметки",
-          "position": [0, -1000, -5000]
-        },
-        {
-          "text": "Это еще одна заметка",
-          "position": [1000, -1000, -5000]
         }
       ]
     },
     {
       "id": "panoramaKitchen2",
-      "image": "https://i.ibb.co/0Dj7CDF/Kitchen-2.jpg",
+      "image": "https://i.ibb.co/K0jVb10/Kitchen2.jpg",
       "lookAtPosition": [4000.39, -1000.07, 6500.41],
       "infospots": [
         {
-          "position": [-3900.94, -1000.17, 6000.32],
+          "position": [-6000.94, -1000.17, -5000.32],
+          "text": "Покушали - ходим дальше",
+          "panoramaId": "panoramaHall2"
+        },
+        {
+          "position": [6000.94, -1000.17, -3000.32],
           "text": "Напились кофе - ходим дальше",
           "panoramaId": "panoramaHall2"
-        }
-      ]
-    },
-    {
-      "id": "panoramaHall3",
-      "image": "https://i.ibb.co/sbTC69j/Hall-3.jpg",
-      "lookAtPosition": [2000.39, -500.07, -4000.41],
-      "infospots": [
-        {
-          "position": [1500.94, -1000.17, -6000.32],
-          "text": "Снова на кухню?",
-          "panoramaId": "panoramaHall2"
-        },
-        {
-          "position":[4500.94, -700.17, -4000.32],
-          "text": "Переговорная комната",
-          "panoramaId": "panoramaMeetingRoom"
-        },
-        {
-          "position": [3000.94, -1000.17, 6000.32],
-          "text": "Игровая комната",
-          "panoramaId": "panoramaPlayZone"
-        },
-        {
-          "position": [1000.94, -1000.17, 6000.32],
-          "text": "Зона отдыха",
-          "panoramaId": "panoramaRelaxZone"
         }
       ],
       "notes": [
         {
-          "text": "Это пример заметки",
-          "position": [0, -1000, -5000]
+          "text": "Любимое место для восполнения энергии. Здесь обсуждаются последние новости,празднуются дни рождения коллег. Всё необходимое всегда под рукой: кофемашины,микроволновки, шкаф со снэками и постамат «Самоката», где можно купить себе что-то сладкое.",
+          "position": [3000, -200, 5000]
+        }
+      ]
+    },
+   
+    {
+      "id": "panoramaHall3",
+      "image": "https://i.ibb.co/CP64ygQ/Hall3.jpg",
+      "lookAtPosition": [-2000.39, -500.07, -500.41],
+      "infospots": [
+        {
+          "position": [-5000.94, -1000.17, -500.32],
+          "text": "Снова на кухню?",
+          "panoramaId": "panoramaHall2"
         },
         {
-          "text": "Это еще одна заметка",
-          "position": [1000, -1000, -5000]
+          "position":[-5000.94, -1000.17, -6000.32],
+          "text": "Переговорная комната",
+          "panoramaId": "panoramaMeetingRoom"
+        },
+        {
+          "position": [4500.94, -700.17, -4000.32],
+          "text": "Игровая комната",
+          "panoramaId": "panoramaPlayZone"
+        },
+        {
+          "position": [6000.94, -700.17, -2500.32],
+          "text": "Зона отдыха",
+          "panoramaId": "panoramaRelaxZone"
         }
       ]
     },
     {
       "id": "panoramaMeetingRoom",
-      "image": "https://i.ibb.co/sPjTL5D/Meeting-Room.png",
-      "lookAtPosition": [2000.39, -500.07, 1000.41],
+      "image": "https://i.ibb.co/cXVW86n/Meeting-Room.jpg",
+      "lookAtPosition": [-3000.39, -500.07, 6000.41],
       "infospots": [
         {
-          "position": [3000.94, -500.17, 5000.32],
+          "position": [6000.94, -500.17, -3500.32],
           "text": "Вернуться",
           "panoramaId": "panoramaHall3"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Слышите шум моря? Это переговорная. Их у нас 6 и каждая названа в честь моря, омывающего берега России. Здесь созданы все условия для комфортного проведения встреч по ВКС и очно.",
+          "position": [-1000, -500, 4000]
         }
       ]
     },
     {
       "id": "panoramaPlayZone",
-      "image": "https://i.ibb.co/nfcrnj6/Play-zone.jpg",
-      "lookAtPosition": [-1000.39, -500.07, 4000.41],
+      "image": "https://i.ibb.co/QmsKgx5/PlayZone.jpg",
+      "lookAtPosition": [-5000.39, -500.07, 5000.41],
       "infospots": [
         {
-          "position": [1300.94, -1000.17, 6000.32],
+          "position": [-3600.94, -1000.17, -6000.32],
           "text": "Вернуться",
           "panoramaId": "panoramaHall3"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Самое шумное и эмоциональное место офиса. Здесь проходят жаркие баталии в настольный теннис, громкие турниры по кикеру, а также тренировки на балансборде, чтобы уверенно после работы вставать на серф.",
+          "position": [-1900, -300, 4000]
         }
       ]
     },
     {
       "id": "panoramaRelaxZone",
-      "image": "https://i.ibb.co/BfPFXvN/Relax-zone.jpg",
-      "lookAtPosition": [2000.39, -500.07, 4000.41],
+      "image": "https://i.ibb.co/F7kcSGX/Relax-Zone.jpg",
+      "lookAtPosition": [6000.39, -500.07, 1000.41],
       "infospots": [
+
         {
-          "position": [-4000.94, -1000.17, -6000.32],
-          "text": "Можем поговорит?",
-          "panoramaId": "panoramaHall3"
-        },
-        {
-          "position": [-6000.94, -1000.17, -6000.32],
+          "position": [3600.94, -500.17, 6000.32],
           "text": "Офис ЦКР",
           "panoramaId": "panoramaOfficeCKR"
         },
         {
-          "position": [4000.94, -1000.17, -3000.32],
+          "position": [-6000.94, -1000.17, 6000.32],
           "text": "Подышать воздухом",
           "panoramaId": "panoramaTerrace"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Лучший выбор, когда хочется отдохнуть и переключиться от рабочих задач. 2 массажных кресла всегда в доступе у резидентов и гостей офиса, а также СберБиблиотека для развития своих профессиональных качеств.",
+          "position": [3000, -200, 2000]
         }
       ]
     },
     {
       "id": "panoramaTerrace",
-      "image": "https://i.ibb.co/MCNr9Kw/Terrace.jpg",
+      "image": "https://i.ibb.co/4PwxMXD/Terrace.jpg",
       "lookAtPosition": [2000.39, -500.07, -4000.41],
       "infospots": [
         {
@@ -337,42 +290,71 @@
           "text": "Вернуться на отдых",
           "panoramaId": "panoramaRelaxZone"
         }
+      ],
+      "notes": [
+        {
+          "text": "Бесконечно долго можно смотреть на огонь, воду и то, как работают наши резиденты. Ведь они делают это с удовольствием на комфортных креслах и шезлонгах с приятным звуковым бэкграундом моря.",
+          "position": [-3000, 0, -2600]
+        }
       ]
     },
     {
-      "id": "panoramaHall",
-      "image": "https://i.ibb.co/SvCTqqk/Hall.jpg",
-      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "id": "panoramaFloor3",
+      "image": "https://i.ibb.co/cLLMF1R/Floor3.jpg",
+      "lookAtPosition": [-1000.39, -500.07, 4500.41],
       "infospots": [
         {
-          "position": [6000.94, 1000.17,-1000.32],
-          "text": "Офис ДКПП",
-          "panoramaId": "panoramaOfficeDKPP"
+          "position": [-5000.94, -1000.17, 2000.32],
+          "text": "Пройти дальше",
+          "panoramaId": "panoramaHall"
         },
         {
-          "position": [-5000.94, -1000.17, -1000.32],
-          "text": "Офис ДГР",
-          "panoramaId": "panoramaOfficeDGR"
-        },
-        {
-          "position": [-4000.94, -1000.17, 5000.32],
-          "text": "Опять кушать?",
-          "panoramaId": "panoramaKitchen3"
-        },
-        {
-          "position": [1000.94, -1000.17, 6000.32],
-          "text": "На главную палубу",
+          "position": [-3900.94, -3800.17, -6000.32],
+          "text": "Главную палуба",
           "panoramaId": "panoramaFloor2"
         }
       ]
     },
     {
-      "id": "panoramaOfficeDKPP",
-      "image": "https://i.ibb.co/g4QYqkN/Office-DKPP.jpg",
-      "lookAtPosition": [2000.39, -500.07, -4000.41],
+      "id": "panoramaHall",
+      "image": "https://i.ibb.co/3sLnLcN/MainHall.jpg",
+      "lookAtPosition": [-4000.39, -500.07, -2000.41],
       "infospots": [
         {
-          "position": [6000.94, -5000.17, 0.32],
+          "position": [ -4000.94, 600.17, 2400.32],
+          "text": "Офис ДКПП",
+          "panoramaId": "panoramaOfficeDKPP"
+        },
+        {
+          "position": [6000.94, -1000.17, -4000.32],
+          "text": "Офис ДГР",
+          "panoramaId": "panoramaOfficeDGR"
+        },
+        {
+          "position": [-600.94, -500.17, -5000.32],
+          "text": "Опять кушать?",
+          "panoramaId": "panoramaKitchen3"
+        },
+        {
+          "position": [-6000.94, -1000.17, -4000.32],
+          "text": "На солничную палубу",
+          "panoramaId": "panoramaFloor3"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Где лучшие тусовки? У нас в холле! Здесь мы проводим митапы, стратегические сессии и развлекательные мероприятия. На 3 этаже Вы можете увидеть судовой журнал, лодку и даже рынду (колокол на корабле).",
+          "position": [-3000, 300, -2600]
+        }
+      ]
+    },
+    {
+      "id": "panoramaOfficeDKPP",
+      "image": "https://i.ibb.co/rFCZghj/Office-DKPP.jpg",
+      "lookAtPosition": [-2000.39, -500.07, 4000.41],
+      "infospots": [
+        {
+          "position": [1000.94, -5000.17, 6000.32],
           "text": "Вернуться",
           "panoramaId": "panoramaHall"
         }
@@ -380,7 +362,7 @@
     },
     {
       "id": "panoramaOfficeDGR",
-      "image": "https://i.ibb.co/7rZfbW2/Office-DGR.jpg",
+      "image": "https://i.ibb.co/7gk2thy/Office-DGR.jpg",
       "lookAtPosition": [2000.39, -500.07, -4000.41],
       "infospots": [
         {
@@ -392,17 +374,22 @@
     },
     {
       "id": "panoramaKitchen3",
-      "image": "https://i.ibb.co/XVKBYhr/kitchen-3.jpg",
+      "image": "https://i.ibb.co/ZB34mRj/Kitchen3.jpg",
       "lookAtPosition": [2000.39, -500.07, -4000.41],
       "infospots": [
         {
-          "position": [0.94, -1000.17, -4000.32],
+          "position": [-4000.94, -1000.17, -4000.32],
           "text": "Покушали? Вернемся?",
           "panoramaId": "panoramaHall"
         }
+      ],
+      "notes": [
+        {
+          "text": "Любимое место для восполнения энергии. Здесь обсуждаются последние новости,празднуются дни рождения коллег. Всё необходимое всегда под рукой: кофемашины,микроволновки, шкаф со снэками и постамат «Самоката», где можно купить себе что-то сладкое.",
+          "position": [3000, -200, 0]
+        }
       ]
     }
-    
   ]
 }
 
