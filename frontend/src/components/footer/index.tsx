@@ -1,4 +1,4 @@
-import { Button360, HeaderContainer, Logo } from '../../styles/header';
+import { Logo } from '../../styles/header';
 import { FooterContainer } from '../../styles/footer';
 import LogoIcon from '../../assets/logo.svg';
 import { HashLink } from 'react-router-hash-link';
