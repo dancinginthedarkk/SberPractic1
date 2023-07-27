@@ -54,6 +54,13 @@ export const Pano = ({ isMovable, initialPanoramaId }) => {
         });
         panorama.add(infospot);
       });
+      const panoramaDiv = document.querySelector('canvas');
+      panorama.addEventListener('progress', () => {
+        panoramaDiv.style.filter = 'blur(10px)';
+      });
+      panorama.addEventListener('load', () => {
+        panoramaDiv.style.filter = 'blur(0px)';
+      });
 
       if (panoramaConfig.notes) {
         panoramaConfig.notes.forEach(noteConfig => {
