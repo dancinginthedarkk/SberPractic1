@@ -4,6 +4,9 @@ import { DefaultButton, Typography } from './global';
 type PanoramaProps = {
   isActive: boolean;
 };
+type PanoProps = {
+  isLoading: boolean;
+};
 
 export const Container = styled.div`
   align-items: center;
@@ -152,7 +155,8 @@ export const PanoramaContent = styled.div<PanoramaProps>`
   }
 `;
 
-export const PanoContainer = styled.div`
+export const PanoContainer = styled.div<PanoProps>`
+  filter: ${props => (props.isLoading ? 'blur(10px)' : 'blur(0px)')};
   width: 100%;
   height: 100%;
   border-radius: 60px;

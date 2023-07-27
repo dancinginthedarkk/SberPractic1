@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import * as PANOLENS from 'panolens';
 import * as THREE from 'three';
 import { PanoContainer } from '../../styles/panorama';
@@ -19,6 +19,7 @@ line-height: 230px;
 // eslint-disable-next-line react/prop-types
 export const Pano = ({ isMovable, initialPanoramaId }) => {
   const containerRef = useRef();
+  const [isLoading, setLoading] = useState(false);
 
   useEffect(() => {
     const viewer = new PANOLENS.Viewer({
@@ -54,12 +55,11 @@ export const Pano = ({ isMovable, initialPanoramaId }) => {
         });
         panorama.add(infospot);
       });
-      const panoramaDiv = document.querySelector('canvas');
       panorama.addEventListener('progress', () => {
-        panoramaDiv.style.filter = 'blur(10px)';
+        setLoading(true);
       });
       panorama.addEventListener('load', () => {
-        panoramaDiv.style.filter = 'blur(0px)';
+        setLoading(false);
       });
 
       if (panoramaConfig.notes) {
@@ -98,5 +98,5 @@ export const Pano = ({ isMovable, initialPanoramaId }) => {
     }
   }, [isMovable]);
 
-  return <PanoContainer ref={containerRef}></PanoContainer>;
+  return <PanoContainer isLoading={isLoading} ref={containerRef} />;
 };
