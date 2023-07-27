@@ -1,4 +1,4 @@
-name: Excursion check - nmp test
+name: Excursion check - npm test
 on: [push]
 jobs:
   init:
@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }} 
       - name: install modules
-        run : npm install
+        run : cd frontend && npm install
       - name: test project
-        run : npm test
+        run : cd frontend && npm test
