@@ -4,6 +4,7 @@ import { DefaultButton, Typography } from './global';
 type PanoramaProps = {
   isActive: boolean;
 };
+
 type PanoProps = {
   isLoading: boolean;
 };
@@ -113,15 +114,18 @@ export const PanoramaContainer = styled.div`
   display: flex;
   position: relative;
   border-radius: 60px;
+  -webkit-border-radius: 60px;
 
   @media screen and (max-width: 480px) {
     height: 80vw;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
   }
 
   @media screen and (min-width: 481px) and (max-width: 1150px) {
     height: 40vw;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
   }
 `;
 
@@ -135,22 +139,27 @@ export const PanoramaContent = styled.div<PanoramaProps>`
   display: flex;
   position: relative;
   border-radius: 60px;
+  -webkit-border-radius: 60px;
 
   @media screen and (max-width: 480px) {
     height: 80vw;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
 
     & > div {
       border-radius: 20px;
+      -webkit-border-radius: 20px;
     }
   }
 
   @media screen and (min-width: 481px) and (max-width: 1024px) {
     height: 40vw;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
 
     & > div {
       border-radius: 20px;
+      -webkit-border-radius: 20px;
     }
   }
 `;
@@ -160,16 +169,29 @@ export const PanoContainer = styled.div<PanoProps>`
   width: 100%;
   height: 100%;
   border-radius: 60px;
+  -webkit-border-radius: 60px;
 
   @media screen and (max-width: 480px) {
     border-radius: 20px;
+    -webkit-border-radius: 20px;
   }
 
   div ~ div {
     border-radius: 20px;
+    -webkit-border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  canvas {
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+
+    @media screen and (max-width: 1024px) {
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+    }
   }
 `;
 
