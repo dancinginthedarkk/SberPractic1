@@ -23,11 +23,13 @@ export const Locations = () => {
   const handleCardClick = (title: string) => {
     setSelectedCard(title);
     setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
   };
 
   const closeModal = () => {
     setSelectedCard('');
     setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
   };
 
   return (
@@ -37,7 +39,8 @@ export const Locations = () => {
         <AlgaeLongBottom src={AlgaeIcon}></AlgaeLongBottom>
         <TypographyH1>Основные локации</TypographyH1>
         <TypographyDescription>
-          Ниже вы можете вживую погулять по нашему <br /> чудесному офису бла бла
+          Добро пожаловать на борт! <br />
+          Здесь вы можете прогуляться по нашим основным палубам.
         </TypographyDescription>
         <LocationsContainer>
           {cards.map(card => (

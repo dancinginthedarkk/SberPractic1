@@ -8,10 +8,14 @@ import {
   TypographyDescription,
   TypographyH1
 } from '../../styles/panorama';
-import { useState } from 'react';
-import PanoramaImg from '../../assets/test-panorama.svg';
+import React, { useState } from 'react';
+import { Pano } from '../panorama-360';
 
-export const Panorama = () => {
+type PanoramaProps = {
+  initialPanoramaId: string;
+};
+
+export const Panorama: React.FC<PanoramaProps> = ({ initialPanoramaId }) => {
   const [isActive, setIsActive] = useState<boolean>(false);
 
   const handleButtonClick = () => {
@@ -25,11 +29,13 @@ export const Panorama = () => {
         <Icon360>360°</Icon360>
       </HeaderPanorama>
       <TypographyDescription>
-        Ниже вы можете вживую погулять по нашему <br /> чудесному офису бла бла
+        Готовы ли вы отправиться вместе с нами <br /> в уникальную морскую экскурсию по нашему офису?
       </TypographyDescription>
-      <a id="panorama"></a>
       <PanoramaContainer>
-        <PanoramaContent src={PanoramaImg} isActive={isActive}></PanoramaContent>
+        <a id="panorama"></a>
+        <PanoramaContent isActive={isActive}>
+          <Pano isMovable={isActive} initialPanoramaId={initialPanoramaId} />
+        </PanoramaContent>
         {!isActive && <ButtonPanorama onClick={handleButtonClick}>Начать экскурсию</ButtonPanorama>}
       </PanoramaContainer>
     </Container>

@@ -7,7 +7,7 @@ import {
   TypographyDescription,
   TypographyHeader
 } from '../../styles/modal';
-import PanoramaImg from '../../assets/test-panorama.svg';
+import { Pano } from '../../components/panorama-360';
 import CloseModalIcon from '../../assets/close-icon.svg';
 
 type Props = {
@@ -24,7 +24,7 @@ const descriptions: Record<string, string> = {
   'Коворкинг для иногородних сотрудников':
     'Наш коворкинг для иногородних сотрудников - это совмещение комфорта, функциональности и качественной рабочей атмосферы. Разработанный с учетом потребностей наших коллег, приезжающих из других городов. Коворкинг оборудован высокоскоростным Wi-Fi, комфортными рабочими местами со стульями и столами, а также зонами отдыха, где можно расслабиться и взять перерыв.',
   'Переговорные комнаты':
-    'В нашем офисе находятся современные и функциональные переговорные комнаты, созданные для обеспечения эффективной и продуктивной работы наших сотрудников. Каждая переговорная комната названая в честь морей Росси. В них есть всё необходимое для комфортного общения и презентаций: от профессионального оборудования для видеоконференций, проекторов и интерактивных досок до удобных столов и стульев.',
+    'В нашем офисе находятся современные и функциональные переговорные комнаты, созданные для обеспечения эффективной и продуктивной работы наших сотрудников. Каждая переговорная комната названа в честь морей России. В них есть всё необходимое для комфортного общения и презентаций: от профессионального оборудования для видеоконференций, интерактивных досок до удобных столов и стульев.',
   'Игровая комната':
     'Игровая зона в нашем офисе – это идеальное пространство для отдыха и восстановления энергии. Центральными элементами игровой зоны являются теннисный стол и кикер. Теннисный стол, подходящий как для случайных партий, так и для серьезных турниров, помогает сотрудникам оставаться в форме и поддерживает здоровый дух соревнования. Рядом расположен кикер – классическая игра, которая приносит радость и веселье, а также способствует укреплению командного духа.'
 };
@@ -32,12 +32,38 @@ const descriptions: Record<string, string> = {
 export const Modal = ({ title, closeModal }: Props) => {
   const description = descriptions[title] || 'Описание не найдено';
 
+  let initialPanoramaId;
+  switch (title) {
+    case 'Холл':
+      initialPanoramaId = 'panoramaHall';
+      break;
+    case 'Кухня':
+      initialPanoramaId = 'panoramaKitchen2';
+      break;
+    case 'Терасса':
+      initialPanoramaId = 'panoramaTerrace';
+      break;
+    case 'Коворкинг для иногородних сотрудников':
+      initialPanoramaId = 'panoramaCoworking';
+      break;
+    case 'Переговорные комнаты':
+      initialPanoramaId = 'panoramaMeetingRoom';
+      break;
+    case 'Игровая комната':
+      initialPanoramaId = 'panoramaPlayZone';
+      break;
+    default:
+      initialPanoramaId = 1;
+  }
+
   return (
     <>
       <ModalContainer>
         <ModalContainerInside id="modal">
           <TypographyHeader>{title}</TypographyHeader>
-          <ModalPanorama src={PanoramaImg}></ModalPanorama>
+          <ModalPanorama>
+            <Pano initialPanoramaId={initialPanoramaId} isMovable={true} />
+          </ModalPanorama>
           <TypographyDescription>{description}</TypographyDescription>
           <CloseIcon src={CloseModalIcon} onClick={closeModal}></CloseIcon>
         </ModalContainerInside>
